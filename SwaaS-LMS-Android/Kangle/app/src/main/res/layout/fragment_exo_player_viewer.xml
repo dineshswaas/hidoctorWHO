@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.swaas.hari.hidoctor.ExoPlayerView.SimpleExoPlayerView
+        android:layout_width="match_parent"
+        android:id="@+id/simple_exoplayer"
+        android:layout_height="match_parent">
+    </com.swaas.hari.hidoctor.ExoPlayerView.SimpleExoPlayerView>
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/padding_twenty"
+        android:id="@+id/audio_thumnail_image"/>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:background="@color/black_semi_transparent"
+        android:layout_centerInParent="true"
+        android:padding="@dimen/padding_ten"
+        android:visibility="gone"
+        android:id="@+id/volumeholder"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Volume"
+            android:id="@+id/volume_label"
+            android:textColor="@color/white"
+            android:textSize="@dimen/dimen_sp_16"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/volume_label"
+            android:textSize="@dimen/dimen_sp_16"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/volume_text"/>
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:background="@color/black_semi_transparent"
+        android:layout_centerInParent="true"
+        android:padding="@dimen/padding_ten"
+        android:visibility="gone"
+        android:id="@+id/brightnessholder"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Brightness"
+            android:id="@+id/bright_label"
+            android:textColor="@color/white"
+            android:textSize="@dimen/dimen_sp_16"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:textSize="@dimen/dimen_sp_16"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/bright_label"
+            android:layout_height="wrap_content"
+            android:id="@+id/bright_text"/>
+
+    </RelativeLayout>
+
+
+    <com.wang.avi.AVLoadingIndicatorView
+        android:id="@+id/avi"
+        android:layout_centerInParent="true"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        style="@style/AVLoadingIndicatorView"
+        android:visibility="visible"
+        app:indicatorName="LineScalePulseOutRapidIndicator"
+        app:indicatorColor="@color/white"
+        />
+
+
+</RelativeLayout>

@@ -1,0 +1,449 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SwaaS LMS</string>
+    <!--<string name="app_name">HiDoctor \n LMS</string>-->
+
+    <string name="version">v1.0.6(8)</string>
+    <string name="versionCode">8</string>
+    <string name="versionName">1.0.6</string>
+    <string name="versionname">Versie : 1.0.6</string>
+    <string name="poweredbyswaas">\u00a9 Powered By Swaas</string>
+
+    <string-array name="Language">
+        <item>English</item>
+        <item>Español</item>
+        <item>Dutch</item>
+    </string-array>
+
+    <string name="assettitle">Gereedschappen / Video Bibliotheek</string>
+    <string name="coursetitle">CURSUSSEN</string>
+    <string name="assesmenttitle">TAAK</string>
+    <string name="mytrainighistory">MIJN TRAININGSGESCHIEDENIS</string>
+    <string name="learning"></string>
+    <string name="allassets">Alle Assets</string>
+    <string name="back">Terug</string>
+    <string name="category">Categorie</string>
+    <string name="Tags">Labels</string>
+    <string name="loading">Aan het laden...</string>
+    <string name="play">Play</string>
+    <string name="download">Download</string>
+    <string name="showmore">Laat meer zien</string>
+    <string name="Document">Document</string>
+    <string name="Image">Afbeelding</string>
+    <string name="Audio">Audio</string>
+    <string name="Video">Video</string>
+    <string name="Today">Vandaag</string>
+    <string name="thisweek">Deze week</string>
+    <string name="twoweeks">2 weken</string>
+    <string name="allweeks">Alle</string>
+    <string name="Type">Type</string>
+    <string name="Submit">Indienen</string>
+
+    <string name="sortassets">Sorteer Assets</string>
+    <string name="filterass">Filter Assets</string>
+
+    <string name="Readunread">Gelezen/Ongelezen</string>
+    <string name="Read">Gelezen</string>
+    <string name="Unread">Ongelezen</string>
+    <string name="online">Online</string>
+    <string name="Downloaded">Gedownload</string>
+    <string name="downloadedonline">Online/Gedownload</string>
+    <string name="Sort">Sorteren</string>
+    <string name="Alphabetasc">Alfabet - Oplopend</string>
+    <string name="Alphabetdesc">Alfabet - Aflopend</string>
+    <string name="Alphabet">Alfabet</string>
+    <string name="comments">Opmerkingen</string>
+    <string name="post">Plaatsen</string>
+
+    <string name="logout">Uitloggen</string>
+    <string name="changepassword">Wachtwoord veranderen</string>
+    <string name="myprofile">Mijn profiel</string>
+    <string name="gooffline">Ga Offline</string>
+    <string name="goOnline">Ga Online</string>
+    <string name="descriptiontext">Beschrijving</string>
+    <string name="categorytext">Categorie</string>
+
+    <string name="error_message">Controleer uw netwerkverbinding en probeer het opnieuw</string>
+
+    <string name="error_offline">U bent momenteel in de offline modus. Maak verbinding met internet om online te gaan.</string>
+    <string name="downloadmessage">Maak aub verbinding met internet om te bekijken</string>
+    <string name="playMessage">Maak aub verbinding met internet om te bekijken</string>
+    <string name="downloadcomplete">Download voltooid</string>
+    <string name="erroroccured">Er is een fout opgetreden, probeer het opnieuw</string>
+    <string name="locationpermissoinMessage">Gelieve toegang te geven tot uw locatie.</string>
+    <string name="storagepermissoinMessage">Gelieve toegang te geven tot uw bestanden.</string>
+
+    <string name="readmore">Lees meer</string>
+    <string name="readless">Lees minder</string>
+    <string name="showmorediscussions">Lees alle discussies</string>
+    <string name="postsuccess">Succesvol geplaatst</string>
+    <string name="progressdownload">Aan het downloaden. Even wachten aub...</string>
+
+    <string name="LikeRatetitle">Like / beoordelen</string>
+    <string name="Replytext">Antwoord</string>
+    <string name="charactersremainig">overgebleven karakters</string>
+
+    <string name="hateIt">Hated It</string>
+    <string name="dislikeIt">Disliked It</string>
+    <string name="itsok">it\'s ok</string>
+    <string name="likeIt">Liked It</string>
+    <string name="loveIt">Loved It</string>
+
+    <string name="uploadingData">Gegevens uploaden. Even geduld aub...</string>
+    <string name="Discussiontitle">Discussies</string>
+    <string name="subDiscussionstitle">Discussies</string>
+    <string name="likeaction">Like</string>
+
+    <string name="shortReview">Schrijf een korte beoordeling</string>
+
+    <string name="loginusername">Gebruikersnaam of emailadres</string>
+    <string name="logincompanyname">Bedrijfsnaam(Bedrijf.kangle.me)</string>
+    <string name="loginpassword">Wachtwoord</string>
+    <string name="forgotpassword">Wachtwoord vergeten</string>
+
+
+    <string name="loginbutton">Login</string>
+
+    <string name="postingcoments">Opmerkingen plaatsen</string>
+    <string name="likeratingsuccess">Bedankt voor like/beoordeling</string>
+
+    <string name="remainigchartext">100 tekens resterend</string>
+
+    <string name="welcome">Welkom</string>
+    <string name="logoutmessage">U bent succesvol uitgelogd</string>
+    <string name="Reviews">Beoordelingen</string>
+    <string name="Related">Gerelateerd</string>
+
+    <string name="noassetsfound">Geen assets gevonden.</string>
+    <string name="logoufailed">Maak aub verbinding met internet om uit te loggen uit de applicatie.</string>
+
+    //newstrings
+    <string name="Help">Help</string>
+    <string name="helpMessage">Voor hulp en ondersteuning kunt u contact met ons opnemen op support@swaas.net</string>
+    <string name="sendemail">Verstuurd email</string>
+    <string name="cancel">Annuleer</string>
+    <string name="go">Ga</string>
+    <string name="validText">Vul alstublieft geldige tekst in..</string>
+    <string name="loadingpleasewait">Aan het laden, even wachten aub...</string>
+
+    <string name="confirmLogOut">Deze actie zal uitloggen van de applicatie.\n Weet je zeker dat je wilt uitloggen?</string>
+    <string name="ok">Oké</string>
+
+    <string name="oldpass">Oud Wachtwoord</string>
+    <string name="newpass">nieuw paswoord</string>
+    <string name="confirmpass">bevestig wachtwoord</string>
+
+    <string name="emptyDashboard">Oeps! Er zijn nog geen cursussen aan u toegewezen. Neem contact op met uw opleidingsmanager of beheerder voor meer informatie</string>
+
+    <string name="latest_course">Laatste cursus</string>
+    <string name="complet_course">Afgerond cursus</string>
+    <string name="total_course">Totaal cursus</string>
+    <string name="completed_course">Afgerond</string>
+    <string name="assigned_course">toegewezen cursus</string>
+    <string name="yet_to_start">Nog te beginnen</string>
+    <string name="in_progress">In Uitvoering</string>
+    <string name="Overdue_course">Achterstallig</string>
+    <string name="search_courses">Zoek cursussen</string>
+
+    <string name="support">Ondersteuning</string>
+    <string name="close">Sluiten</string>
+    <string name="status">staat :</string>
+
+    <string name="app_version">Bijwerken</string>
+    <string name="newversion">Er is een nieuwe versie beschikbaar in de playstore. Klik op OK om te updaten. Bedankt.</string>
+
+
+    <string name="singlepage">Enkele pagina</string>
+    <string name="continuespage">Continu pagina</string>
+    <string name="brightnessalert">Hi Kangle wil de helderheid van het systeem aanpassen. Wilt u dat toelaten</string>
+    <string name="firstpagealert">Je bent op de eerste</string>
+    <string name="lastpagealert">U bent op het laatste moment.</string>
+    <string name="please_wait_progress">Aan het laden, even wachten aub....</string>
+    <string name="willingtonextasset">Wilt u de volgende stap gaan.</string>
+    <string name="error_network_alert">Internet is niet beschikbaar. Om verder te gaan met het kiezen van een optie</string>
+
+    <string name="coursestatus">Cursus Status</string>
+
+    <string name="take_test">Test nemen</string>
+    <string name="max_attempts_reached_shortened">Max pogingen bereikt</string>
+    <string name="expired_shortened">Cursus verlopen</string>
+
+    <string name="no_of_contents">Aantal inhoud :</string>
+    <string name="complete_percent">% compleet</string>
+    <string name="apply">Van toepassing zijn</string>
+    <string name="clearfilter">Duidelijk</string>
+
+    <string name="question_interception_text">Weet u zeker dat u de test wilt afsluiten</string>
+    <string name="cleared">slagen voor</string>
+    <string name="not_cleared">mislukken</string>
+
+    <string name="course_name">Cursus naam :</string>
+    <string name="section_name">sectie naam :</string>
+    <string name="attempt_date_title">Poging Datum</string>
+
+    <string name="result_title">Resultaat</string>
+    <string name="no_result">geen resultaten gevonden</string>
+    <string name="total_negativeMarks">Totaal aantal negatieve beoordelingen</string>
+    <string name="correct_answer_questions">Totaal van de juist beantwoorde vragen</string>
+    <string name="no_of_questions_attended">Aantal Vragen Bezocht</string>
+    <string name="no_of_questions">Aantal Vragen</string>
+    <string name="Score">partituur</string>
+
+    <string name="partialy_shortened">Gedeeltelijk voltooid</string>
+    <string name="Report">Rapport</string>
+    <string name="content">Inhoud</string>
+    <string name="watch_for">Kijk voor </string>
+    <string name="view">Uitzicht </string>
+    <string name="no_of_contents_hint">Ontworpen om u te helpen oefenen en toe te passen op de vaardigheden die u leert</string>
+    <string name="last_date_text">Laatste datum om deze sectie te voltooien</string>
+    <string name="prerequsitebefore">Vul alstublieft </string>
+    <string name="prerequsiteafter">in voordat u deze cursus selecteert</string>
+    <string name="view_report">Weergeven rapport</string>
+    <string name="validation_msg_question">Kies alstublieft antwoord om verder te gaan.</string>
+    <string name="time_Out">Je bent gelopen!</string>
+    <string name="Congrats">Proficiat</string>
+    <string name="warning">Waarschuwing</string>
+
+    <string name="min">Minuten</string>
+    <string name="sec">Seconden</string>
+    <string name="attended_on">Geprobeerd op</string>
+    <string name="due_on">Verschuldigd op</string>
+    <string name="clickonchart"> *Klik op de grafiek om het rapport te bekijken.</string>
+    <string name="sectionmandatealert"> Voltooi het vorige gedeelte om dit gedeelte in te schakelen.</string>
+    <string name="testsavedoffline">test Fout opgetreden. Probeer het later nogmaals.</string>
+    <string name="noQuestions">Momenteel zijn er geen vragen beschikbaar</string>
+    <string name="finished">Test voltooid succesvol.</string>
+    <string name="Attempt">Poging</string>
+
+    <string name="Contents_to_read">Inhoud om te lezen</string>
+    <string name="Attempts">pogingen : </string>
+    <string name="Attempts_taken">Pogingen genomen : </string>
+
+    <string name="start">BEGIN : </string>
+    <string name="finish">AF HEBBEN :</string>
+    <string name="file_size">BESTANDSGROOTTE :</string>
+    <string name="upload_date">UPLOAD DATUM :</string>
+    <string name="progress">VOORUITGANG</string>
+    <string name="Begin">BEGINNEN</string>
+    <string name="resume_course">Doorgaan met</string>
+    <string name="no_tags_available">Geen TAGS</string>
+
+    <string name="please_enter_username">Voer alstublieft gebruikersnaam in</string>
+    <string name="please_enter_companyname">Voer de bedrijfsnaam in</string>
+    <string name="please_enter_password">Voer wachtwoord in alstublieft</string>
+    <string name="open">Open</string>
+
+    //Checklist Strings
+
+    <string name="checklisttitle">CHECKLIST</string>
+    <string name="mine">De mijne</string>
+    <string name="my_Store">Mijn winkel</string>
+    <string name="Onetime">Een keer</string>
+    <string name="daily">Dagelijks</string>
+    <string name="weekly">Wekelijks</string>
+    <string name="monthly">Maandelijks</string>
+    <string name="no_checklist">Momenteel is er geen Checklist voor u beschikbaar</string>
+    <string name="section_title">Deel :</string>
+    <string name="of">van</string>
+    <string name="more">meer</string>
+    <string name="less">minder</string>
+    <string name="acknowledgement">Erkenning</string>
+    <string name="I">ik</string>
+    <string name="onbehalfof_text">Namens</string>
+    <string name="ackText">Erkent de antwoorden van de controlelijst.</string>
+    <string name="kindlyack">Gelieve Erken de checklist te maken voordat Verzenden.</string>
+
+    <string name="mandatoryMessage">Vragen die zijn gemarkeerd met * moeten worden beantwoord.  Beantwoord deze vragen en probeer het opnieuw.</string>
+    <string name="enter_remarks">Voer opmerkingen hier</string>
+
+    <string name="completed_by">Toegevoegd door :</string>
+    <string name="onbehalfof">Namens :</string>
+    <string name="submitted_date">Datum indiening :</string>
+
+    <string name="question_no">Vraag #</string>
+    <string name="question">Vraag</string>
+    <string name="response">antwoord</string>
+    <string name="remarks">Opmerkingen</string>
+
+    <string name="take_photo">Neem Photo</string>
+    <string name="choose_from_gallery">Kies uit gallerij</string>
+    <string name="document">Kies bestand</string>
+
+    <string name="errorsubmitingchecklist">Fout bij het verzenden Checklist. Probeer het later nogmaals.</string>
+    <string name="imgupload">Uploaden. Even geduld aub...</string>
+    <string name="Answertext">Antwoord :</string>
+    <string name="erroruploadingImage">Fout bij het uploaden attachment. Probeer het opnieuw</string>
+    <string name="answeratleastone">Kindly antwoord op een vraag in de checklist in te dienen.</string>
+
+    <string name="confirmsubmitchecklist">Weet u zeker dat de checklist in te dienen?</string>
+    <string name="ConfirmSubmit">Bevestigen</string>
+    <string name="yestext">Ja</string>
+    <string name="ChecklistSubmittedSuccess">Checklist is ingediend.</string>
+
+    <string name="view_remarks">Bekijk opmerkingen</string>
+    <string name="view_attachment">bijlage bekijken</string>
+    <string name="new_tag_text">NIEUWE</string>
+    <string name="insert_name">neem de naam</string>
+    <string name="insert_trainee_name">invoegen trainee naam</string>
+    <string name="take_assignment">Neem Assignment</string>
+    <string name="attempt_expires_at">Poging Verloopt in</string>
+    <string name="expires_on">Verloopt op</string>
+    <string name="comment">Commentaar</string>
+    <string name="retake_assignment">Retake Assignment</string>
+    <string name="comment_here">Voeg hier je reactie ..</string>
+    <string name="asset_analytics_text">Asset Analytics</string>
+    <string name="related_assets_text">gerelateerde activa</string>
+    <string name="course_checklist">cursus Checklist</string>
+    <string name="yet_to_evaluate">Maar om te evalueren</string>
+    <string name="try_again">Probeer het opnieuw</string>
+    <string name="select_user">selecteer gebruiker</string>
+    <string name="all">Allemaal</string>
+    <string name="selected_user">geselecteerde gebruiker</string>
+    <string name="totl_users">Totaal gebruikers</string>
+    <string name="evaluate_user">Evalueer Gebruiker</string>
+    <string name="draft">Concept opslaan</string>
+    <string name="confirmdraftchecklist">Weet u zeker dat de checklist op te stellen?</string>
+    <string name="pending_for_evaluation">In afwachting van de evaluatie</string>
+    <string name="reassigned_by">Toegewezen door de supervisor</string>
+    <string name="ChecklistdraftededSuccess">Checklist opgesteld.</string>
+    <string name="acquired_course">Acquired</string>
+    <string name="evaluation_report">Evaluatieverslag</string>
+    <string name="view_all_replies">Bekijk alle antwoorden</string>
+    <string name="no_checklist_found">Geen Checklist avilable</string>
+    <string name="related_tags_text">Verwante Tags</string>
+    <string name="assigned_task">Toegewezen taak</string>
+    <string name="completed_task">voltooide taak</string>
+    <string name="in_progress_task">inprogress Task</string>
+    <string name="review_task">beoordeling Task</string>
+    <string name="total_assets">Totale activa</string>
+    <string name="read_assets">Lees Assets</string>
+    <string name="unread_assets">ongelezen Assets</string>
+    <string name="liked_assets">vond Assets</string>
+    <string name="total_checklist">Totaal Checklist</string>
+    <string name="completed_checklist">Voltooid</string>
+    <string name="yettostart_checklist">Nog beginnen</string>
+    <string name="expired_checklist">Verlopen</string>
+    <string name="moremenulabel">Meer</string>
+    <string name="profile">Profiel</string>
+    <string name="my_Team">Mijn team</string>
+    <string name="Task">Taak</string>
+    <string name="notification_title">Kennisgeving</string>
+    <string name="my_team">Mijn team</string>
+    <string name="view_Task_title">Bekijk Task</string>
+    <string name="checklist_name">Checklist Naam:</string>
+    <string name="question_name">Vraag Naam:</string>
+    <string name="viewTasak_list">Bekijk TaskList</string>
+
+    <string-array name="priority_arrays">
+        <item>Laag</item>
+        <item>Medium</item>
+        <item>hoog</item>
+    </string-array>
+    <string name="choose_category">Kies categorie</string>
+    <string name="Self">Zelf</string>
+    <string name="Notify">Hou:</string>
+    <string name="Attachments">Bijlagen :</string>
+    <string name="Assigned">toegewezen:</string>
+    <string name="Priority">prioriteit:</string>
+    <string name="Task_Due_Day">Taak Due Day (s):</string>
+    <string name="Task_Description">Taakomschrijving :</string>
+    <string name="Task_Title">Taak Titel:</string>
+    <string name="Remarks">Opmerkingen:</string>
+    <string name="Employee">werknemer</string>
+    <string name="Trainee">stagiair</string>
+    <string name="Manager">Manager</string>
+    <string name="task_title_val">Vul taak titel</string>
+    <string name="task_description_val">Vul taakbeschrijving</string>
+    <string name="task_due_val">Vul taak als gevolg van dagen</string>
+    <string name="task_assignee_val">Selecteer gevolmachtigde soort</string>
+    <string name="task_user_val">Selecteer tenminste één gebruiker</string>
+    <string name="task_remarks_val">Vul opmerkingen</string>
+    <string name="task_success_msg">Task lat Succesvol</string>
+    <string name="task_failure_msg">Fout bij het verzenden Task</string>
+    <string name="task_no_user_val">Geen gebruikers geselecteerd</string>
+    <string name="users_selected_msg">gebruikers Geselecteerde</string>
+    <string name="no_user_msg">Geen gebruiker gevonden</string>
+    <string name="file_exceeding_msg">bestandsgrootte van meer dan 20 Mb</string>
+    <string name="not_supported_msg">Bestand niet ondersteund</string>
+    <string name="file_exceeding_10mb">bestandsgrootte van meer dan 10 MB</string>
+    <string name="error_file_msg">Fout bij het selecteren file</string>
+    <string name="show_users_msg">Gebruikers tonen</string>
+    <string name="Duration">Looptijd</string>
+    <string name="drafted">Drafted</string>
+    <string-array name="category">
+        <item>General</item>
+    </string-array>
+    <string name="month"></string>
+    <string name="employee_name">Naam werknemer</string>
+    <string name="employee_designation">Aanwijzing</string>
+    <string name="employee_region_name">regio Naam</string>
+    <string name="employee_DOB">Geboortedatum</string>
+    <string name="assignedby">In opdracht van</string>
+    <string name="assignedto">Toegewezen aan</string>
+    <string name="section">Sectie</string>
+    <string name="expires_today">verloopt Vandaag</string>
+    <string name="expires_tomo">verloopt Morgen</string>
+    <string name="expires_in">Verloopt in</string>
+    <string name="days">dagen</string>
+    <string name="section_s">Sectie</string>
+    <string name="asset_s">aanwinst</string>
+    <string name="question_s">Vraag</string>
+    <string name="checklist_s">checklist</string>
+    <string name="thankyou">Bedankt voor de like</string>
+    <string name="assets">aanwinst</string>
+    <string name="clear_all">Wis alles</string>
+    <string name="reset">Reset</string>
+    <string name="filter">Filter</string>
+    <string name="status_history">statusgeschiedenis</string>
+    <string name="acknowledge">erkennen</string>
+    <string name="course_report">Course Report</string>
+    <string name="Asset_report">Asset Report</string>
+    <string name="checklist_report">checklist Report</string>
+    <string name="task_report">Taakrapport</string>
+    <string name="create_task">Maak Task</string>
+    <string name="low">Laag</string>
+    <string name="medium">Medium</string>
+    <string name="high">hoog</string>
+    <string name="are_you_sure_download">Weet je zeker dat je wilt downloaden</string>
+    <string name="filename">Bestandsnaam:</string>
+    <string name="newpasswordcannot">Nieuw wachtwoord kan niet hetzelfde zijn als oude wachtwoord.</string>
+    <string name="passworddoesnot">Nieuw wachtwoord en Bevestig wachtwoord komt niet overeen.</string>
+    <string name="library">Bibliotheek</string>
+    <string name="last1week">Laatste 1 week</string>
+    <string name="last1month">Laatste 1 maand</string>
+    <string name="last3month">Laatste 3 maanden</string>
+    <string name="Yesterday">Gisteren</string>
+    <string name="email_hint">Voer e-mailadres op ID</string>
+    <string name="allfieldsare">alle velden zijn verplicht</string>
+    <string name="view_history">Bekijk geschiedenis</string>
+    <string name="history">Geschiedenis</string>
+    <string name="no_history_available">Geen historie aanwezig</string>
+    <string name="filtered_by">gefilterd op</string>
+    <string name="edit">BEWERK</string>
+    <string name="attachment">gehechtheid</string>
+    <string name="submit_result">Verzend Resultaat</string>
+    <string name="tsk_mark_for_review">Task Mark voor succesvol Beoordeeld</string>
+    <string name="waiting_for_review">Wachten op beoordeling</string>
+    <string name="tsk_acknowledged_succ">Task Erkend succes</string>
+    <string name="revieweed">Beoordeeld</string>
+    <string name="tsk_completed_succesfully">Taak succesvol afgerond</string>
+    <string name="extend_course">Wilt u deze cursus uit te breiden</string>
+    <string name="alert">alarm</string>
+    <string name="extend_attempt">Extend Poging</string>
+    <string name="oops_no_result">Oops !! geen resultaten beschikbaar ..</string>
+    <string name="enable_network">Activeer uw netwerk</string>
+    <string name="clear">Duidelijk</string>
+    <string name="no_attachment_found">Geen Attachment gevonden</string>
+    <string name="evaluate">schatten</string>
+    <string name="mark_complete">Voltooid</string>
+    <string name="chat">Chat</string>
+    <string name="Chat">Chat</string>
+    <string name="update_alert">A new version of Swaas LMS available for download. This update will not affect your app settings.</string>
+    <string name="defaulttext">Type your essay here</string>
+    <string name="Marksheet">Marksheet</string>
+    <string name="course_completed">Course Assignment attempted successfully !</string>
+    <string name="Are_you_sure_back">Are you sure you want to cancel taking the Assesment</string>
+    <string name="your_application_will_force_close_reopen_to_use_application">Your Application will force close.Reopen to use Application.</string>
+
+</resources>

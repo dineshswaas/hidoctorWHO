@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey_background"
+    tools:context="com.swaas.kangle.CompanyEntryActivity">
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="80dp"
+            android:layout_marginRight="120dp"
+            android:layout_marginLeft="120dp">
+
+            <RelativeLayout
+                android:id="@+id/logolayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:layout_marginBottom="40dp">
+
+                <ImageView
+                    android:id="@+id/logo"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@mipmap/ic_launcher"/>
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="70dp"
+                    android:text="beta"
+                    android:textStyle="italic"
+                    android:gravity="center"
+                    android:textColor="@color/white"/>
+
+
+                <ImageView
+                    android:id="@+id/app_name"
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/kangle"
+                    android:layout_below="@+id/logo"/>
+
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/textlayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/logolayout"
+                android:layout_margin="10dp"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/company_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:layout_marginBottom="30dp"
+                    android:background="@drawable/login_rounded_edittext_background"
+                    android:textColor="@color/white"
+                    android:padding="20dp"
+                    android:inputType="textPersonName"
+                    android:ems="5"
+                    android:maxLines="1"
+                    android:hint="@string/logincompanyname"
+                    android:textColorHint="@color/lite_grey"/>
+
+                <Button
+                    android:id="@+id/submit"
+                    android:layout_below="@+id/company_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="next"
+                    android:textColor="@color/edittextblue"
+                    android:background="@drawable/loginbtn_rounded_corners_white"/>
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_alignParentBottom="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            android:text="@string/versionname"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:layout_marginLeft="10dp"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:text="@string/poweredbyswaas"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:layout_marginRight="10dp"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

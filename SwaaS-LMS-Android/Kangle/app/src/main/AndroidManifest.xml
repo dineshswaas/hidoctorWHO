@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.swaas.kangle"
+    android:versionCode="8"
+    android:versionName="1.0.6">
+
+    <uses-feature
+        android:name="android.permission.CALL_PHONE"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+
+    <application
+        android:name=".KangleApplication"
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".CompanyEntryActivity"
+            android:configChanges="orientation|screenSize" />
+        <activity
+            android:name=".LoginActivity"
+            android:configChanges="orientation|screenSize" />
+        <activity
+            android:name=".LandingActivity"
+            android:configChanges="screenSize" />
+        <activity
+            android:name=".AssetListActivity"
+            android:configChanges="orientation|screenSize" />
+        <activity
+            android:name=".AssetListByCategoryActivity"
+            android:configChanges="orientation|screenSize" />
+        <activity android:name=".AssetDetailActivity" />
+        <activity
+            android:name=".GlobalPlayer.GlobalPlayer"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".SearchAssetActivity"
+            android:configChanges="orientation|screenSize" />
+        <activity
+            android:name=".CourseWebView"
+            android:configChanges="orientation|screenSize" />
+        <activity
+            android:name=".NewPlayer.PlayerActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".NewPlayer.PPTAssetImagesActivity"
+            android:configChanges="orientation|screenSize" />
+        <activity
+            android:name=".NewPlayer.ViewpagerPlayerActivity"
+            android:configChanges="orientation|screenSize" />
+        <activity
+            android:name=".NewAssetDetailActivity"
+            android:configChanges="orientation|screenSize" />
+        <activity
+            android:name=".DiscussionsListActivity"
+            android:configChanges="orientation|screenSize" />
+        <activity
+            android:name=".SubDiscussionListActivity"
+            android:configChanges="orientation|screenSize" />
+        <activity
+            android:name=".DashboardActivity"
+            android:configChanges="orientation|screenSize" />
+        <activity
+            android:name=".ChangePasswordActivity"
+            android:configChanges="orientation|screenSize" />
+
+        <!-- Kangle LMS Prod Key
+            <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="6edfb4a3b597ab0aa3820749c686cf21d135e449" />
+-->
+        <!--
+-->
+        HDKangle Prod Key
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="6be5dbea09b39b7a486363a3bf35c9ccd7a66dca"/>
+         <!--QA fabric Key-->
+        <!--<meta-data-->
+            <!--android:name="io.fabric.ApiKey"-->
+            <!--android:value="3dd4b417cf2e1fbff80fa8281eea81a45a4bd1a3" />-->
+        <activity android:name=".WebDashBoardNew" />
+        <activity
+            android:name=".playerPart.AssetPlayerActivity"
+            android:configChanges="orientation|screenSize" />
+        <activity
+            android:name=".LPCourse.CourseListActivity"
+            android:configChanges="orientation|screenSize" />
+        <activity
+            android:name=".LPCourse.SectionActivity"
+            android:configChanges="orientation|screenSize" />
+        <activity
+            android:name=".LPCourse.questionbuilder.QuestionActivity"
+            android:configChanges="orientation|screenSize">
+            <!--
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            -->
+        </activity>
+        <activity android:name=".LPCourse.Report.LPCourseReportActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"/>
+        <activity android:name=".LPCourse.Report.LPCourseReportSummaryActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"/>
+        <activity
+            android:name=".report.ViewReportAsPdfActivity"
+            android:screenOrientation="landscape" />
+        <activity android:name=".DigitalAssetPlayer.DigitalAssetPlayerActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="landscape" />
+
+        <service
+            android:name=".UploadService.DigitalAssetAnalyticsUpSyncService"
+            android:enabled="true"
+            android:exported="false" />
+
+        <activity
+            android:name=".CheckList.CheckListListActivity"
+            android:configChanges="orientation|screenSize" />
+        <activity
+            android:name=".CheckList.CheckListQuestionbuilder.QuestionActivity"
+            android:configChanges="orientation|screenSize" />
+        <activity
+            android:name=".CheckList.SectionsQuestionDetailActivity"
+            android:configChanges="orientation|screenSize" />
+
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+
+        <activity
+            android:name=".CheckList.chklistreport.ViewChecklistReportAsPDF"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".ForgotPasswordActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".userProfile.UserProfileActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"/>
+        <activity android:name=".userProfile.UserRoleChangeActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"/>
+        <activity android:name=".userProfile.EditUserProfile"
+            android:configChanges="keyboardHidden|orientation|screenSize"/>
+        <activity android:name=".CheckList.ChecklistLandingActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"/>
+        <activity android:name=".InternetErrorPageActivity" />
+
+        <!--
+        <receiver android:name=".NetworkChangeReceiver">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+                <action android:name="android.net.wifi.WIFI_STATE_CHANGED" />
+            </intent-filter>
+        </receiver>
+        -->
+
+        <activity android:name=".CheckList.CourseChecklistUsersActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"/>
+        <activity android:name=".CheckList.EvaluateUserforChecklistActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"/>
+        <activity android:name=".CheckList.UserCCHistoryListActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"/>
+        <activity android:name=".Notification.NotificationActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"/>
+        <activity android:name=".Reports.UserReportActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"/>
+        <activity android:name=".LPCourse.SectionChecklistReportActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"/>
+        <activity android:name=".TaskModule.TaskListActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"/>
+        <activity android:name=".MoreMenuActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"/>
+        <activity android:name=".TaskModule.CreateTaskActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"/>
+        <activity android:name=".TaskModule.ViewTaskActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"/>
+        <activity android:name=".CheckList.CourseChecklistListActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"/>
+        <activity android:name=".TaskModule.UserListActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"/>
+        <activity android:name=".TaskModule.ChecklistViewTaskListActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"/>
+        <activity android:name=".LPCourse.Certificatewebview"/>
+        <activity android:name=".ChatWebView"
+            android:configChanges="keyboardHidden|orientation|screenSize"/>
+        <activity android:name=".LPCourse.Report.AnswerPage"
+            android:configChanges="keyboardHidden|orientation|screenSize"/>
+        <activity android:name=".survey.SurveyListActivity" />
+        <activity android:name=".survey.SurveyQuestionDetailsActivity"></activity>
+        <activity android:name=".survey.Ratingactivity"></activity>
+
+    </application>
+
+
+
+</manifest>

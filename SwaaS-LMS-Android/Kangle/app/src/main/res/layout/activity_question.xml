@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.swaas.kangle.LPCourse.questionbuilder.QuestionActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:id="@+id/question_timer_holder"
+        android:layout_height="wrap_content"
+        android:minHeight="50dp"
+        android:background="@color/black_semi_transparent">
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/dimen_sp_14"
+            android:text="Section Name "
+            android:textColor="@color/white"
+            android:id="@+id/section_name_text"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:maxLines="3"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="5dp"/>
+
+        <LinearLayout
+            android:id="@+id/questiontime"
+            android:layout_width="134dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical"
+            android:layout_toRightOf="@id/section_name_text">
+            <!--android:layout_below="@+id/section_name_text"-->
+
+
+            <TextView
+                android:id="@+id/time_expiry_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/attempt_expires_at"
+                android:textColor="@color/white"
+                android:textSize="@dimen/dimen_sp_12" />
+
+            <TextView
+                android:id="@+id/question_time_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="20:00"
+                android:textColor="@color/white"
+                android:textSize="@dimen/dimen_sp_14"
+                android:textStyle="bold"
+                />
+
+
+        </LinearLayout>
+
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@+id/questiontime"
+            android:src="@drawable/ic_question_timer"
+            android:visibility="gone"/>
+
+    </RelativeLayout>
+
+
+<!--    <com.swaas.kangle.LPCourse.questionbuilder.customviews.QuestionViewPager
+        android:layout_width="match_parent"
+        android:id="@+id/pager_questions"
+        android:visibility="gone"
+        android:layout_margin="@dimen/padding_five"
+        android:layout_below="@+id/question_timer_holder"
+        android:layout_height="match_parent">
+    </com.swaas.kangle.LPCourse.questionbuilder.customviews.QuestionViewPager>-->
+
+
+    <com.tmall.ultraviewpager.UltraViewPager
+        android:id="@+id/pager_questions"
+        android:visibility="visible"
+        android:layout_width="match_parent"
+        android:layout_margin="@dimen/padding_five"
+        android:layout_below="@+id/question_timer_holder"
+        android:layout_height="wrap_content"
+
+         />
+
+    <android.support.v4.widget.NestedScrollView
+        android:id="@+id/mainnestedView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="true"
+        android:layout_below="@+id/question_timer_holder"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:id="@+id/multiple_question_holder"
+            android:layout_height="wrap_content">
+
+            <android.support.v7.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:id="@+id/multiple_question_view"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/padding_five">
+            </android.support.v7.widget.RecyclerView>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_submit_mutiple"
+                android:textColor="@color/white"
+                android:layout_marginLeft="@dimen/padding_ten"
+                android:layout_marginRight="@dimen/padding_ten"
+                android:layout_marginBottom="@dimen/padding_twenty"
+                android:background="@color/colorPrimary"
+                android:padding="10dp"
+                android:text="@string/Submit"
+                android:gravity="center"/>
+
+        </LinearLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+
+    <!--<ViewFlipper
+        android:layout_width="match_parent"
+        android:layout_below="@+id/question_timer_holder"
+        android:layout_height="match_parent">
+
+        <include layout="@layout/question_with_more_option" />
+
+        <include layout="@layout/SingleOptionQuestionFragment" />
+
+        <include layout="@layout/question_with_text_option" />
+
+    </ViewFlipper>
+-->
+
+
+
+</RelativeLayout>

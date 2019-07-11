@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal"
+        android:background="@color/topbar">
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_weight="0.30"
+            android:layout_height="match_parent"
+            android:background="@drawable/logo_bg">
+
+            <ImageView
+                android:id="@+id/companylogo"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp"/>
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_weight="0.70"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/settings"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="10dp"
+                android:visibility="visible"
+                android:src="@drawable/ic_mail_outline_white_24dp"/>
+
+            <ImageView
+                android:id="@+id/notification"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_toLeftOf="@+id/settings"
+                android:src="@drawable/ic_help_outline_white_24dp"
+                android:visibility="visible"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="10dp"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textColor="@color/white"
+            android:src="@drawable/learning"
+            android:text=""/>
+
+    </RelativeLayout>
+
+    <android.support.v4.widget.NestedScrollView
+        android:id="@+id/background"
+        android:layout_below="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        android:visibility="gone">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dp">
+
+            <RelativeLayout
+                android:id="@+id/chartsection"
+                android:layout_width="match_parent"
+                android:layout_height="350dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:gravity="center">
+
+                <com.github.mikephil.charting.charts.PieChart
+                    android:id="@+id/piechart"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                </com.github.mikephil.charting.charts.PieChart>
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/clickhinttext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/chartsection"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/label0"
+                    android:visibility="visible"
+                    android:text="@string/clickonchart"
+                    android:textColor="@color/white"
+                    android:layout_margin="5dp"
+                    android:textStyle="bold"/>
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/changeViewparam"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_below="@+id/clickhinttext"
+                android:layout_marginBottom="10dp">
+
+                <RelativeLayout
+                    android:id="@+id/latest_section"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content">
+
+                    <RelativeLayout
+                        android:id="@+id/l1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp">
+
+                        <TextView
+                            android:id="@+id/label1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/latest_course"
+                            android:textColor="@color/white"
+                            android:layout_margin="5dp"
+                            android:textStyle="bold"/>
+
+                    </RelativeLayout>
+
+                    <View
+                        android:id="@+id/view1"
+                        android:layout_below="@+id/l1"
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/white"
+                        android:layout_marginBottom="5dp"/>
+
+                    <com.swaas.kangle.EmptyRecyclerView
+                        android:id="@+id/latest_courses"
+                        android:layout_below="@+id/view1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="2dp"
+                        android:layout_marginRight="2dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp">
+                    </com.swaas.kangle.EmptyRecyclerView>
+
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="5dp"
+                    android:layout_height="match_parent"/>
+
+                <RelativeLayout
+                    android:id="@+id/completed_section"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content">
+
+                    <RelativeLayout
+                        android:id="@+id/l2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp">
+
+                        <TextView
+                            android:id="@+id/label2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/complet_course"
+                            android:layout_margin="5dp"
+                            android:textColor="@color/white"
+                            android:textStyle="bold"/>
+
+                    </RelativeLayout>
+                    <View
+                        android:id="@+id/view2"
+                        android:layout_below="@+id/l2"
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/white"
+                        android:layout_marginBottom="5dp"/>
+
+                    <com.swaas.kangle.EmptyRecyclerView
+                        android:id="@+id/completed_courses"
+                        android:layout_below="@+id/view2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="2dp"
+                        android:layout_marginRight="2dp"
+                        android:layout_marginBottom="5dp">
+                    </com.swaas.kangle.EmptyRecyclerView>
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/empty_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/header"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:id="@+id/user_empty_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:visibility="visible">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_priority_high_white_48dp"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:text="@string/emptyDashboard"
+                android:textColor="@color/white"
+                android:textSize="17sp" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/helplayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/header"
+        android:visibility="gone">
+
+        <RelativeLayout
+            android:id="@+id/closelayout"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/black">
+
+            <TextView
+                android:id="@+id/closehelp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/close"
+                android:textSize="18dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="15dp"
+                android:textStyle="bold"
+
+                android:textColor="@color/white"
+                android:layout_alignParentRight="true"
+                android:gravity="center_horizontal"/>
+
+        </RelativeLayout>
+
+        <WebView
+            android:id="@+id/helpview"
+            android:layout_below="@+id/closelayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </WebView>
+
+    </RelativeLayout>
+
+</RelativeLayout>

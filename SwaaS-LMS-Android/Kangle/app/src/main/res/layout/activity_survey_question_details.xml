@@ -1,0 +1,679 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/overall"
+    android:layout_height="match_parent"
+    tools:context=".survey.SurveyQuestionDetailsActivity">
+
+    <LinearLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:background="@color/topbar"
+        android:visibility="visible">
+
+        <ImageView
+            android:id="@+id/companylogo"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/ic_arrow_back_white_36dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="5dp"/>
+
+        <TextView
+            android:id="@+id/chklisttitle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:maxLines="1"
+            android:layout_gravity="center"
+            android:gravity="center_vertical"
+            android:text="Text"
+            android:textColor="@color/white"
+            android:textSize="18dp"
+            android:layout_marginLeft="10dp"/>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_weight="0.40"
+            android:layout_height="match_parent"
+            android:background="@drawable/logo_bg"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/companylogo1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingRight="10dp"
+                android:src="@drawable/tacobelllogo"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_weight="0.65"
+            android:layout_height="match_parent"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/settings"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentRight="true"
+                android:layout_margin="11dp"
+                android:src="@drawable/ic_settings_white_24dp"/>
+
+            <ImageView
+                android:id="@+id/notification"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_toLeftOf="@+id/settings"
+                android:src="@drawable/ic_notifications_white_24dp"
+                android:layout_marginTop="11dp"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/headersection"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/header">
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/ChkDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            app:cardPreventCornerOverlap="true"
+            app:cardUseCompatPadding="true"
+            app:cardElevation="2dp"
+            app:cardMaxElevation="3dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:id="@+id/chkdescriptiontext"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Description of the section "
+                    android:visibility="visible"
+                    android:maxLines="2"
+                    android:textColor="@color/black"
+                    android:layout_toLeftOf="@+id/chkshowmoredesc"
+                    android:layout_margin="@dimen/padding_eight"/>
+
+                <TextView
+                    android:id="@+id/fullchkdescriptiontext"
+                    android:layout_width="match_parent"
+                    android:layout_height="130dp"
+                    android:text="Description of the section \n holds every thig in \n place and finds all \n the details"
+                    android:visibility="gone"
+                    android:textColor="@color/black"
+                    android:scrollbars="vertical"
+                    android:layout_toLeftOf="@+id/chkshowmoredesc"
+                    android:layout_margin="@dimen/padding_eight"/>
+
+                <TextView
+                    android:id="@+id/chkshowmoredesc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:text="@string/more"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="@dimen/padding_eight"
+                    android:layout_marginRight="@dimen/padding_eight"/>
+
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/section_details"
+            android:layout_below="@+id/ChkDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            app:cardPreventCornerOverlap="true"
+            app:cardUseCompatPadding="true"
+            app:cardElevation="2dp"
+            app:cardMaxElevation="3dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp">
+
+                    <ImageView
+                        android:id="@+id/previous_section"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_alignParentLeft="true"
+                        android:background="@drawable/rounded_taco_button"
+                        android:src="@drawable/ic_navigate_before_white_36dp"/>
+
+                    <TextView
+                        android:id="@+id/selectedsection"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="sectionName \n sectionName"
+                        android:textSize="16dp"
+                        android:maxLines="2"
+                        android:gravity="center"
+                        android:layout_toRightOf="@+id/previous_section"
+                        android:layout_toLeftOf="@+id/next_section"
+                        android:textColor="@color/black"
+                        />
+
+                    <ImageView
+                        android:id="@+id/next_section"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/rounded_taco_button"
+                        android:src="@drawable/ic_navigate_next_white_36dp"
+                        android:layout_alignParentRight="true"/>
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/Description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            app:cardPreventCornerOverlap="true"
+            app:cardUseCompatPadding="true"
+            app:cardElevation="2dp"
+            app:cardMaxElevation="3dp"
+            android:layout_below="@+id/section_details"
+            android:gravity="center">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:id="@+id/descriptiontext"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Description of the section"
+                    android:visibility="visible"
+                    android:maxLines="2"
+                    android:textColor="@color/black"
+                    android:layout_toLeftOf="@+id/showmoredesc"
+                    android:layout_margin="@dimen/padding_eight"/>
+
+                <TextView
+                    android:id="@+id/fulldescriptiontext"
+                    android:layout_width="match_parent"
+                    android:layout_height="130dp"
+                    android:text="Description of the section \n holds every thig in \n place and finds all \n the details"
+                    android:visibility="gone"
+                    android:textColor="@color/black"
+                    android:scrollbars="vertical"
+                    android:layout_toLeftOf="@+id/showmoredesc"
+                    android:layout_margin="@dimen/padding_eight"/>
+
+                <TextView
+                    android:id="@+id/showmoredesc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:text="@string/more"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="@dimen/padding_eight"
+                    android:layout_marginRight="@dimen/padding_eight"/>
+
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+    </RelativeLayout>
+
+    <android.support.v4.widget.NestedScrollView
+        android:id="@+id/mainnestedView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="true"
+        android:layout_below="@+id/headersection"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.swaas.kangle.CheckList.CheckListQuestionbuilder.customviews.QuestionViewPager
+                android:layout_width="match_parent"
+                android:id="@+id/pager_questions"
+                android:visibility="gone"
+                android:layout_margin="@dimen/padding_five"
+                android:layout_below="@+id/question_timer_holder"
+                android:layout_height="match_parent">
+            </com.swaas.kangle.CheckList.CheckListQuestionbuilder.customviews.QuestionViewPager>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:id="@+id/multiple_question_holder"
+                android:layout_height="wrap_content">
+
+                <android.support.v7.widget.RecyclerView
+                    android:layout_width="match_parent"
+                    android:id="@+id/multiple_question_view"
+                    android:layout_height="wrap_content">
+                </android.support.v7.widget.RecyclerView>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/padding_five">
+
+                    <RelativeLayout
+                        android:id="@+id/lowerprevnext"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:visibility="gone"
+                        android:layout_marginBottom="5dp">
+
+                        <ImageView
+                            android:id="@+id/previous1_section"
+                            android:layout_width="40dp"
+                            android:layout_height="match_parent"
+                            android:layout_alignParentLeft="true"
+                            android:background="@drawable/rounded_taco_button"
+                            android:src="@drawable/ic_navigate_before_white_36dp"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:textSize="16dp"
+                            android:maxLines="2"
+                            android:gravity="center"
+                            android:layout_toRightOf="@+id/previous1_section"
+                            android:layout_toLeftOf="@+id/next1_section"/>
+
+                        <ImageView
+                            android:id="@+id/next1_section"
+                            android:layout_width="40dp"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/rounded_taco_button"
+                            android:src="@drawable/ic_navigate_next_white_36dp"
+                            android:layout_alignParentRight="true"/>
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/acknowledgementlayout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#AAAAAA"
+                        android:layout_below="@+id/lowerprevnext">
+
+                        <RelativeLayout
+                            android:id="@+id/acknowledgementtitle"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:background="@color/topbar"
+                            android:gravity="center">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="@string/acknowledgement"
+                                android:textSize="14dp"
+                                android:layout_marginLeft="@dimen/padding_fifteen"
+                                android:textStyle="bold"
+                                android:textColor="@color/white"/>
+
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:id="@+id/footer"
+                            android:layout_below="@+id/acknowledgementtitle"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:focusable="true"
+                            android:layout_margin="5dp"
+                            android:focusableInTouchMode="true">
+
+                            <EditText
+                                android:id="@+id/overallcomment"
+                                android:layout_width="match_parent"
+                                android:layout_height="40dp"
+                                android:hint="@string/enter_remarks"
+                                android:textColor="@color/black"
+                                android:paddingLeft="5dp"
+                                android:inputType="textMultiLine"
+                                android:textSize="@dimen/dimen_sp_16"
+                                android:maxLength="250"
+                                android:background="@drawable/rounded_edittext"
+                                android:layout_toLeftOf="@+id/attachmentlayout"/>
+
+                            <RelativeLayout
+                                android:id="@+id/attachmentlayout"
+                                android:layout_width="40dp"
+                                android:layout_height="match_parent"
+                                android:layout_alignParentRight="true"
+                                android:gravity="center">
+
+                                <ImageView
+                                    android:id="@+id/addattachment"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:src="@drawable/ic_attach_file_black_36dp"
+                                    android:tint="@color/white"
+                                    android:visibility="visible"/>
+
+                                <ImageView
+                                    android:id="@+id/attachmentfile"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:padding="@dimen/padding_four"
+                                    android:visibility="gone"/>
+
+                            </RelativeLayout>
+
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:id="@+id/attachmentfilelayout"
+                            android:layout_below="@+id/footer"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <com.swaas.kangle.EmptyRecyclerView
+                                android:id="@+id/attachmentfilerecycler"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+                            </com.swaas.kangle.EmptyRecyclerView>
+
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:layout_below="@+id/attachmentfilelayout"
+                            android:id="@+id/acknowledgecheckbox"
+                            android:layout_width="match_parent"
+                            android:layout_height="140dp"
+                            android:gravity="center">
+
+                            <CheckBox
+                                android:id="@+id/acknowledgechk"
+                                android:layout_width="wrap_content"
+                                android:layout_height="50dp"/>
+
+                            <RelativeLayout
+                                android:id="@+id/acknowledgeView"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_toRightOf="@+id/acknowledgechk"
+                                android:gravity="center_vertical"
+                                android:textSize="15dp">
+
+                                <TextView
+                                    android:id="@+id/Itext"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="50dp"
+                                    android:text="@string/I"
+                                    android:gravity="center"
+                                    android:textColor="@color/white"/>
+
+                                <EditText
+                                    android:id="@+id/logedinUsername"
+                                    android:layout_toRightOf="@+id/Itext"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="40dp"
+                                    android:textSize="@dimen/dimen_sp_14"
+                                    android:layout_marginLeft="5dp"
+                                    android:layout_marginRight="5dp"
+                                    android:background="@drawable/rounded_edittext"
+                                    android:padding="5dp"
+                                    android:inputType="textPersonName"
+                                    android:hint="@string/insert_name"
+                                    android:textColorHint="@color/grey"
+                                    android:layout_toLeftOf="@+id/text1"
+                                    android:textColor="@color/black"/>
+
+                                <TextView
+                                    android:id="@+id/text1"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="50dp"
+                                    android:layout_marginLeft="5dp"
+                                    android:text="@string/onbehalfof_text"
+                                    android:gravity="center"
+                                    android:layout_alignParentRight="true"
+                                    android:textColor="@color/white"/>
+
+                                <EditText
+                                    android:id="@+id/onbehalfof"
+                                    android:layout_marginTop="5dp"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="40dp"
+                                    android:textSize="@dimen/dimen_sp_14"
+                                    android:layout_marginLeft="5dp"
+                                    android:layout_marginRight="5dp"
+                                    android:layout_below="@+id/text1"
+                                    android:background="@drawable/rounded_edittext"
+                                    android:padding="5dp"
+                                    android:inputType="textPersonName"
+                                    android:hint="@string/insert_trainee_name"
+                                    android:textColorHint="@color/grey"
+                                    android:textColor="@color/black"/>
+
+                                <TextView
+                                    android:id="@+id/acknowledgeText"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_below="@+id/onbehalfof"
+                                    android:text="@string/ackText"
+                                    android:layout_marginTop="10dp"
+                                    android:textColor="@color/white"/>
+
+                            </RelativeLayout>
+
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:id="@+id/overalltaskbuttonsLayout"
+                            android:layout_below="@+id/acknowledgecheckbox"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:visibility="gone"
+                            android:layout_alignParentEnd="true"
+                            android:layout_marginTop="5dp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:text="@string/Task"
+                                android:textSize="16dp"
+                                android:layout_marginLeft="5dp"
+                                android:textColor="@color/black"
+                                android:gravity="center"/>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginBottom="5dp"
+                                android:gravity="right">
+
+                                <ImageView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"
+                                    android:id="@+id/addoveralltask"
+                                    android:src="@drawable/ic_add_white_36dp"
+                                    android:layout_marginRight="10dp"
+                                    android:gravity="center"
+                                    android:tint="@color/white"/>
+
+                                <ImageView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"
+                                    android:id="@+id/viewoveralltask"
+                                    android:src="@drawable/ic_remove_red_eye_black_24dp"
+                                    android:gravity="center"
+                                    android:layout_marginLeft="25dp"
+                                    android:layout_marginRight="10dp"
+                                    android:tint="@color/white"
+                                    android:visibility="gone"/>
+
+                            </LinearLayout>
+                        </RelativeLayout>
+
+                    </RelativeLayout>
+
+                    <LinearLayout
+                        android:id="@+id/buttonsview"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="3"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginTop="@dimen/padding_eight"
+                        android:layout_below="@+id/acknowledgementlayout">
+
+                        <RelativeLayout
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="50dp">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginRight="5dp"
+                                android:id="@+id/btn_submit_mutiple"
+                                android:textColor="@color/white"
+                                android:background="@drawable/rounded_black_button"
+                                android:text="@string/Submit"
+                                android:gravity="center"/>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginRight="5dp"
+                                android:id="@+id/btn_disable_submit_mutiple"
+                                android:textColor="@color/white"
+                                android:background="@color/grey"
+                                android:text="@string/Submit"
+                                android:gravity="center"/>
+
+                        </RelativeLayout>
+
+                        <TextView
+                            android:layout_below="@+id/acknowledgecheckbox"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="50dp"
+                            android:id="@+id/btn_draft"
+                            android:textColor="@color/white"
+                            android:background="@drawable/rounded_black_button"
+                            android:text="@string/draft"
+                            android:gravity="center"/>
+
+                        <TextView
+                            android:layout_below="@+id/acknowledgecheckbox"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="50dp"
+                            android:id="@+id/btn_cancel"
+                            android:textColor="@color/white"
+                            android:background="@drawable/rounded_black_button"
+                            android:text="@string/cancel"
+                            android:gravity="center"/>
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+
+    <RelativeLayout
+        android:id="@+id/imagelayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/header"
+        android:background="@color/white"
+        android:visibility="gone">
+
+        <RelativeLayout
+            android:id="@+id/head"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/black">
+
+            <ImageView
+                android:id="@+id/delete"
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:visibility="gone"
+                android:src="@drawable/delete_white_36dp"/>
+
+            <ImageView
+                android:id="@+id/close"
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_close_white_24dp"
+                android:layout_alignParentRight="true"/>
+
+        </RelativeLayout>
+
+        <WebView
+            android:id="@+id/helpview"
+            android:layout_below="@+id/head"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone">
+
+        </WebView>
+
+        <VideoView
+            android:id="@+id/video_View"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/head"
+            android:visibility="gone"/>
+
+        <com.swaas.hari.hidoctor.ExoPlayerView.SimpleExoPlayerView
+            android:layout_width="match_parent"
+            android:id="@+id/simple_exoplayer"
+            android:layout_marginTop="48dp"
+            android:visibility="gone"
+            android:layout_height="match_parent">
+        </com.swaas.hari.hidoctor.ExoPlayerView.SimpleExoPlayerView>
+
+        <com.swaas.kangle.DigitalAssetPlayer.customviews.pdf.PDFView
+            android:id="@+id/pdf_player"
+            android:visibility="gone"
+            android:layout_marginTop="48dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </com.swaas.kangle.DigitalAssetPlayer.customviews.pdf.PDFView>
+
+        <com.swaas.kangle.utils.TouchImageView
+            android:id="@+id/touchimageView"
+            android:layout_below="@+id/closelayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

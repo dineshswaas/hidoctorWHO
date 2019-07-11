@@ -1,0 +1,444 @@
+<resources>
+    <string name="app_name">SwaaS LMS</string>
+    <!--<string name="app_name">HiDoctor \n LMS</string>-->
+
+    <string name="version">v1.0.6(8)</string>
+    <string name="versionCode">8</string>
+    <string name="versionName">1.0.6</string>
+    <string name="versionname">Versi : 1.0.6</string>
+    <string name="poweredbyswaas">\u00a9 Didukung Oleh Swaas</string>
+
+    <string-array name="Language">
+        <item>Inggris</item>
+        <item>Spanyol</item>
+        <item>Bahasa</item>
+    </string-array>
+
+    <string name="assettitle">ALAT / PERPUSTAKAAN VIDEO</string>
+    <string name="coursetitle">KURSUS</string>
+    <string name="assesmenttitle">TUGAS</string>
+    <string name="mytrainighistory">SEJARAH PELATIHAN SAYA</string>
+    <string name="allassets">Semua Aset</string>
+    <string name="back">Kembali</string>
+    <string name="category">Kategori</string>
+    <string name="Tags">Tag</string>
+    <string name="loading">Pemuatan...</string>
+    <string name="play">Bermain</string>
+    <string name="download">Download</string>
+    <string name="showmore">Menampilkan lebih banyak</string>
+    <string name="Document">Dokumen</string>
+    <string name="Image">Gambar</string>
+    <string name="Audio">Audio</string>
+    <string name="Video">Video</string>
+    <string name="Today">Hari ini</string>
+    <string name="thisweek">Minggu ini</string>
+    <string name="twoweeks">2 minggu</string>
+    <string name="allweeks">Semua</string>
+    <string name="Type">Mengetik</string>
+    <string name="Submit">Menyerahkan</string>
+
+    <string name="sortassets">Urutkan Aset</string>
+    <string name="filterass">Filter Aset</string>
+
+    <string name="Readunread">Baca / Belum dibaca</string>
+    <string name="Read">Baca</string>
+    <string name="Unread">Belum dibaca</string>
+    <string name="online">On line</string>
+    <string name="Downloaded">Diunduh</string>
+    <string name="downloadedonline">On line/Diunduh</string>
+    <string name="Sort">Menyortir</string>
+    <string name="Alphabetasc">Alphabet - Asc</string>
+    <string name="Alphabetdesc">Alphabet - Desc</string>
+    <string name="Alphabet">Alphabet</string>
+    <string name="comments">Komentar</string>
+    <string name="post">Pos</string>
+
+    <string name="logout">Keluar</string>
+    <string name="changepassword">Ganti kata sandi</string>
+    <string name="myprofile">Profil saya</string>
+    <string name="gooffline">Pergi offline</string>
+    <string name="goOnline">Online</string>
+    <string name="descriptiontext">Deskripsi</string>
+    <string name="categorytext">Kategori</string>
+
+    <string name="error_message">Periksa koneksi jaringan Anda dan coba lagi</string>
+    <string name="error_offline">Anda sedang dalam mode Offline. Sambungkan ke internet untuk online.</string>
+    <string name="downloadmessage">Sambungkan ke internet untuk mendownload</string>
+    <string name="playMessage">Sambungkan ke internet untuk melihat</string>
+    <string name="downloadcomplete">Unduh selesai</string>
+    <string name="erroroccured">Terjadi kesalahan coba lagi</string>
+    <string name="locationpermissoinMessage">Izinkan untuk mengakses lokasi Anda.</string>
+    <string name="storagepermissoinMessage">Izinkan akses file Anda.</string>
+
+    <string name="readmore">Baca lebih banyak</string>
+    <string name="readless">Baca Kurang</string>
+    <string name="showmorediscussions">Baca Semua Diskusi</string>
+    <string name="postsuccess">Diposting Berhasil</string>
+    <string name="progressdownload">Mengunduh Harap tunggu...</string>
+
+    <string name="LikeRatetitle">Seperti / Rate</string>
+    <string name="Replytext">Balasan</string>
+    <string name="charactersremainig">karakter tersisa</string>
+
+    <string name="hateIt">Benci itu</string>
+    <string name="dislikeIt">tidak menyukainya</string>
+    <string name="itsok">tidak apa-apa</string>
+    <string name="likeIt">Menyukai ini</string>
+    <string name="loveIt">Menyukainya</string>
+
+    <string name="uploadingData">Mengunggah data Mohon tunggu...</string>
+    <string name="Discussiontitle">Diskusi</string>
+    <string name="subDiscussionstitle">Diskusi</string>
+    <string name="likeaction">Seperti</string>
+
+    <string name="shortReview">Tulis review singkat</string>
+
+    <string name="loginusername">Nama Pengguna atau ID Email</string>
+    <string name="logincompanyname">Nama Perusahaan(Company.kangle.me)</string>
+    <string name="loginpassword">Kata sandi</string>
+    <string name="forgotpassword">Lupa kata sandi</string>
+
+
+    <string name="loginbutton">Masuk</string>
+
+    <string name="postingcoments">Posting komentar</string>
+    <string name="likeratingsuccess">Terima kasih untuk Like / Rating</string>
+
+    <string name="remainigchartext">100 karakter tersisa</string>
+
+    <string name="welcome">SELAMAT DATANG</string>
+    <string name="logoutmessage">Anda telah berhasil keluar dengan sukses</string>
+    <string name="Reviews">Ulasan</string>
+    <string name="Related">Terkait</string>
+
+    <string name="noassetsfound">Tidak ada aset yang ditemukan.</string>
+    <string name="logoufailed">Sambungkan ke internet ke Keluar dari aplikasi.</string>
+
+    //newstrings
+    <string name="Help">Membantu</string>
+    <string name="helpMessage">Untuk bantuan dan dukungan silahkan hubungi kami di support@swaas.net</string>
+    <string name="sendemail">Mengirim email</string>
+    <string name="cancel">Membatalkan</string>
+    <string name="go">Pergi</string>
+    <string name="validText">Harap masukkan teks yang benar.</string>
+    <string name="loadingpleasewait">Memuat harap tunggu ...</string>
+
+    <string name="confirmLogOut">Tindakan ini akan keluar dari aplikasi. \ n Yakin ingin logout.</string>
+    <string name="ok">baik</string>
+
+    <string name="oldpass">password lama</string>
+    <string name="newpass">kata sandi baru</string>
+    <string name="confirmpass">konfirmasi sandi</string>
+
+    <string name="emptyDashboard">Ups! Kursus belum diberikan kepada Anda. Hubungi manajer pelatihan atau administrator Anda untuk informasi lebih lanjut</string>
+    <string name="latest_course">Kursus terakhir</string>
+    <string name="complet_course">Kursus Selesai</string>
+    <string name="total_course">Total Program</string>
+    <string name="completed_course">Lengkap</string>
+    <string name="assigned_course">Ditugaskan</string>
+    <string name="yet_to_start">Namun untuk memulai</string>
+    <string name="in_progress">Sedang berlangsung</string>
+    <string name="Overdue_course">Terlambat</string>
+    <string name="search_courses">Kursus pencarian</string>
+
+    <string name="support">Mendukung</string>
+    <string name="close">Dekat</string>
+    <string name="status">Status</string>
+
+    <string name="app_version">Memperbarui</string>
+    <string name="newversion">Ada versi baru yang tersedia di playstation. Mohon klik OK untuk mengupdate. Terima kasih.</string>
+
+
+    <string name="singlepage">Halaman tunggal</string>
+    <string name="continuespage">Terus menerus</string>
+    <string name="brightnessalert">Hi Kangle ingin menyesuaikan kecerahan sistem. Apakah Anda ingin mengizinkan</string>
+    <string name="firstpagealert">Anda berada pada aset pertama</string>
+    <string name="lastpagealert">Anda berada pada aset terakhir.</string>
+    <string name="please_wait_progress">Loading please wait.....</string>
+    <string name="willingtonextasset">Apakah Anda ingin pergi aset berikutnya.</string>
+    <string name="error_network_alert">Internet tidak tersedia. Untuk terus memilih opsi</string>
+
+    <string name="coursestatus">Status Kursus</string>
+
+    <string name="take_test">Uji</string>
+    <string name="max_attempts_reached_shortened">Upaya maksimal tercapai</string>
+    <string name="expired_shortened">Kursus kadaluarsa</string>
+
+    <string name="no_of_contents">Tidak ada isi :</string>
+    <string name="complete_percent">% Lengkap</string>
+    <string name="apply">Menerapkan</string>
+    <string name="clearfilter">Bersih</string>
+
+    <string name="question_interception_text">Yakin ingin berhenti tes?</string>
+    <string name="cleared">Dibersihkan</string>
+    <string name="not_cleared">Tidak dibersihkan</string>
+
+    <string name="course_name">Nama kursus :</string>
+    <string name="section_name">Nama bagian :</string>
+    <string name="attempt_date_title">Tanggal percobaan</string>
+
+    <string name="result_title">Hasil</string>
+    <string name="no_result">Tidak ada hasil yang ditemukan</string>
+    <string name="total_negativeMarks">Total tanda negatif</string>
+    <string name="correct_answer_questions">Total menjawab pertanyaan dengan benar</string>
+    <string name="no_of_questions_attended">Tidak ada pertanyaan yang dihadiri</string>
+    <string name="no_of_questions">Tidak ada pertanyaan</string>
+    <string name="Score">Skor</string>
+
+    <string name="partialy_shortened">Sebagian selesai</string>
+    <string name="Report">Melaporkan</string>
+    <string name="content">Konten</string>
+    <string name="watch_for">Perhatikan </string>
+    <string name="view">Melihat </string>
+    <string name="no_of_contents_hint">Dirancang untuk membantu Anda berlatih dan menerapkan keterampilan yang Anda pelajari</string>
+    <string name="last_date_text">Tanggal terakhir untuk menyelesaikan bagian ini</string>
+    <string name="prerequsitebefore">Lengkapi saja </string>
+    <string name="prerequsiteafter">sebelum memilih kursus ini</string>
+
+    <string name="view_report">View Report</string>
+    <string name="validation_msg_question">Silakan pilih jawaban untuk melanjutkan.</string>
+
+    <string name="time_Out">Anda kehabisan waktu!</string>
+    <string name="Congrats">Selamat</string>
+    <string name="warning">PERINGATAN</string>
+
+    <string name="min">Min</string>
+    <string name="sec">Detik</string>
+    <string name="attended_on">Mencoba -</string>
+    <string name="due_on">Jatuh tempo pada -</string>
+    <string name="clickonchart"> *Klik pada bagan untuk melihat laporan.</string>
+    <string name="sectionmandatealert"> Silahkan lengkapi bagian sebelumnya untuk mengaktifkan bagian ini.</string>
+    <string name="testsavedoffline">uji kesalahan terjadi Coba lagi nanti.</string>
+    <string name="noQuestions">Saat ini tidak ada pertanyaan yang tersedia</string>
+    <string name="finished">Terima kasih atas tanggapan anda.</string>
+    <string name="Attempt">Mencoba</string>
+
+    <string name="Contents_to_read">Isi untuk dibaca</string>
+    <string name="Attempts">Mencoba : </string>
+    <string name="Attempts_taken">usaha dilakukan : </string>
+
+    <string name="start">MULAI : </string>
+    <string name="finish">SELESAI :</string>
+    <string name="file_size">MENGAJUKAN UKURAN :</string>
+    <string name="upload_date">UPLOAD TANGGAL :</string>
+    <string name="progress">KEMAJUAN</string>
+    <string name="Begin">MULAI</string>
+    <string name="resume_course">terus</string>
+    <string name="no_tags_available">Tidak ada TAGS</string>
+
+    <string name="please_enter_username">Silahkan mengetik nama pengguna</string>
+    <string name="please_enter_companyname">Silahkan mengetik Nama Perusahaan</string>
+    <string name="please_enter_password">Silahkan mengetik kata sandi</string>
+    <string name="open">Buka</string>
+
+    //Checklist String
+
+    <string name="checklisttitle">CHECKLIST</string>
+    <string name="mine">Ranjau</string>
+    <string name="my_Store">Toko saya</string>
+    <string name="Onetime">Satu kali</string>
+    <string name="daily">Harian</string>
+    <string name="weekly">Mingguan</string>
+    <string name="monthly">Bulanan</string>
+    <string name="no_checklist">Saat ini tidak ada Checklist tersedia untuk Anda</string>
+    <string name="section_title">Bagian :</string>
+    <string name="of">dari</string>
+    <string name="more">lebih</string>
+    <string name="less">kurang</string>
+    <string name="acknowledgement">Pengakuan</string>
+    <string name="I">saya</string>
+    <string name="onbehalfof_text">Atas nama</string>
+    <string name="ackText">Mengakui tanggapan untuk daftar.</string>
+    <string name="kindlyack">Mohon Akui Checklist Sebelum Menyerahkan.</string>
+
+    <string name="mandatoryMessage">Pertanyaan yang ditandai * harus dijawab.</string>
+    <string name="enter_remarks">Masukkan komentar disini</string>
+
+    <string name="completed_by">Disampaikan oleh :</string>
+    <string name="onbehalfof">Atas nama :</string>
+    <string name="submitted_date">Dikirim Tanggal :</string>
+
+    <string name="question_no">Pertanyaan #</string>
+    <string name="question">Pertanyaan</string>
+    <string name="response">Tanggapan</string>
+    <string name="remarks">Keterangan</string>
+
+    <string name="take_photo">Memotret</string>
+    <string name="choose_from_gallery">Pilih dari galeri</string>
+    <string name="document">Pilih File</string>
+
+    <string name="errorsubmitingchecklist">Kesalahan mengirimkan Checklist. Coba lagi nanti.</string>
+    <string name="imgupload">Upload. Mohon tunggu...</string>
+    <string name="Answertext">Menjawab :</string>
+    <string name="erroruploadingImage">Kesalahan upload lampiran. Silakan coba lagi</string>
+    <string name="answeratleastone">Mohon menjawab satu pertanyaan dalam daftar periksa untuk menyerahkan.</string>
+
+    <string name="confirmsubmitchecklist">Apakah Anda yakin untuk mengirimkan checklist?</string>
+    <string name="ConfirmSubmit">Memastikan</string>
+    <string name="yestext">iya nih</string>
+    <string name="ChecklistSubmittedSuccess">Checklist telah disampaikan.</string>
+
+    <string name="view_remarks">Lihat komentar</string>
+    <string name="view_attachment">Lihat Lampiran</string>
+    <string name="new_tag_text">BARU</string>
+    <string name="insert_name">masukkan nama</string>
+    <string name="insert_trainee_name">masukkan nama trainee</string>
+    <string name="take_assignment">Ambil Tugas</string>
+    <string name="attempt_expires_at">Upaya Berakhir</string>
+    <string name="expires_on">Kadaluarsa pada</string>
+    <string name="comment">Komentar</string>
+    <string name="retake_assignment">merebut kembali Penugasan</string>
+    <string name="comment_here">Tambahkan komentar Anda di sini ..</string>
+    <string name="asset_analytics_text">aset Analytics</string>
+    <string name="related_assets_text">Aset terkait</string>
+    <string name="course_checklist">Checklist saja</string>
+    <string name="yet_to_evaluate">Namun untuk mengevaluasi</string>
+    <string name="try_again">Coba lagi</string>
+    <string name="select_user">Pilih User</string>
+    <string name="all">Semua</string>
+    <string name="selected_user">dipilih pengguna</string>
+    <string name="totl_users">Jumlah pengguna</string>
+    <string name="evaluate_user">evaluasi Pengguna</string>
+    <string name="draft">Menyimpan konsep</string>
+    <string name="confirmdraftchecklist">Apakah Anda yakin untuk menyusun checklist?</string>
+    <string name="pending_for_evaluation">Tertunda untuk evaluasi</string>
+    <string name="reassigned_by">Ditugaskan kembali oleh pengawas</string>
+    <string name="ChecklistdraftededSuccess">Checklist disusun.</string>
+    <string name="acquired_course">Acquired</string>
+    <string name="evaluation_report">Laporan evaluasi</string>
+    <string name="view_all_replies">Lihat semua balasan</string>
+    <string name="no_checklist_found">Tidak ada Checklist avilable</string>
+    <string name="related_tags_text">Tags terkait</string>
+    <string name="assigned_task">Tugas ditugaskan</string>
+    <string name="completed_task">Tugas selesai</string>
+    <string name="in_progress_task">Inprogress Task</string>
+    <string name="review_task">Ulasan Task</string>
+    <string name="total_assets">Total aset</string>
+    <string name="read_assets">Baca Aset</string>
+    <string name="unread_assets">Aset yang belum dibaca</string>
+    <string name="liked_assets">Aset menyukai</string>
+    <string name="total_checklist">Jumlah Checklist</string>
+    <string name="completed_checklist">Lengkap</string>
+    <string name="yettostart_checklist">Belum Mulai</string>
+    <string name="expired_checklist">berakhir</string>
+    <string name="moremenulabel">Lebih</string>
+    <string name="profile">Profil</string>
+    <string name="my_Team">Kelompok ku</string>
+    <string name="Task">Tugas</string>
+    <string name="notification_title">Pemberitahuan</string>
+    <string name="my_team">Kelompok ku</string>
+    <string name="view_Task_title">Lihat Task</string>
+    <string name="checklist_name">Nama Checklist:</string>
+    <string name="question_name">Pertanyaan Nama:</string>
+    <string name="viewTasak_list">Lihat tasklist</string>
+
+    <string-array name="priority_arrays">
+        <item>Rendah</item>
+        <item>Medium</item>
+        <item>Tinggi</item>
+    </string-array>
+    <string name="choose_category">Pilih Kategori</string>
+    <string name="Self">Diri</string>
+    <string name="Notify">Memberitahukan :</string>
+    <string name="Attachments">lampiran:</string>
+    <string name="Assigned">ditugaskan:</string>
+    <string name="Priority">prioritas:</string>
+    <string name="Task_Due_Day">Tugas Karena Day (s):</string>
+    <string name="Task_Description">Tugas Keterangan:</string>
+    <string name="Task_Title">Tugas Judul:</string>
+    <string name="Remarks">Keterangan:</string>
+    <string name="Employee">Karyawan</string>
+    <string name="Trainee">trainee</string>
+    <string name="Manager">Manajer</string>
+    <string name="task_title_val">Masukkan judul tugas</string>
+    <string name="task_description_val">Masukkan uraian tugas</string>
+    <string name="task_due_val">Masukkan tugas karena hari</string>
+    <string name="task_assignee_val">Silakan pilih jenis penerima hak</string>
+    <string name="task_user_val">Silakan pilih minimal satu pengguna</string>
+    <string name="task_remarks_val">Masukkan komentar</string>
+    <string name="task_success_msg">Tugas Dikirim Berhasil</string>
+    <string name="task_failure_msg">Kesalahan Mengirimkan Tugas</string>
+    <string name="task_no_user_val">Tidak ada pengguna yang dipilih</string>
+    <string name="users_selected_msg">pengguna Dipilih</string>
+    <string name="no_user_msg">Tidak ada pengguna yang ditemukan</string>
+    <string name="file_exceeding_msg">ukuran file melebihi 20MB</string>
+    <string name="not_supported_msg">File tidak didukung</string>
+    <string name="file_exceeding_10mb">ukuran file melebihi 10MB</string>
+    <string name="error_file_msg">Kesalahan memilih berkas</string>
+    <string name="show_users_msg">Tampilkan Pengguna</string>
+    <string name="Duration">Lamanya</string>
+    <string name="drafted">disusun</string>
+    <string-array name="category">
+        <item>General</item>
+    </string-array>
+    <string name="employee_name">nama karyawan</string>
+    <string name="employee_designation">Penunjukan</string>
+    <string name="employee_region_name">Nama wilayah</string>
+    <string name="employee_DOB">Tanggal lahir</string>
+    <string name="assignedby">Ditanda tangani oleh</string>
+    <string name="assignedto">Ditugaskan untuk</string>
+    <string name="section">Bagian</string>
+    <string name="expires_today">berakhir Hari ini</string>
+    <string name="expires_tomo">berakhir Besok</string>
+    <string name="expires_in">Kadaluarsa dalam</string>
+    <string name="days">hari-hari</string>
+    <string name="section_s">Bagian</string>
+    <string name="asset_s">Aset</string>
+    <string name="question_s">Pertanyaan</string>
+    <string name="checklist_s">checklist</string>
+    <string name="thankyou">Terima kasih atas like nya</string>
+    <string name="assets">Aset</string>
+    <string name="clear_all">Bersihkan semua</string>
+    <string name="reset">ulang</string>
+    <string name="filter">Filter</string>
+    <string name="status_history">sejarah Status</string>
+    <string name="acknowledge">mengakui</string>
+    <string name="course_report">tentu saja Laporan</string>
+    <string name="Asset_report">Laporan aset</string>
+    <string name="checklist_report">checklist Laporan</string>
+    <string name="task_report">Laporan tugas</string>
+    <string name="create_task">Buat Task</string>
+    <string name="low">Rendah</string>
+    <string name="medium">Medium</string>
+    <string name="high">Tinggi</string>
+    <string name="are_you_sure_download">Apakah Anda yakin Anda ingin men-download</string>
+    <string name="filename">Nama file:</string>
+    <string name="newpasswordcannot">password baru tidak bisa sama dengan password lama.</string>
+    <string name="passworddoesnot">password baru dan Konfirmasi kata sandi tidak cocok.</string>
+    <string name="library">Perpustakaan</string>
+    <string name="last1week">Terakhir 1 minggu</string>
+    <string name="last1month">1 bulan terakhir</string>
+    <string name="last3month">3 bulan terakhir</string>
+    <string name="Yesterday">Kemarin</string>
+    <string name="email_hint">Masukkan Terdaftar ID Email</string>
+    <string name="allfieldsare">Semua bidang yang diperlukan</string>
+    <string name="view_history">Lihat Sejarah</string>
+    <string name="history">Sejarah</string>
+    <string name="no_history_available">Tidak ada riwayat tersedia</string>
+    <string name="filtered_by">disaring oleh</string>
+    <string name="edit">EDIT</string>
+    <string name="attachment">Lampiran</string>
+    <string name="submit_result">Hasil Kirim</string>
+    <string name="tsk_mark_for_review">Tugas Mark untuk Diulas Berhasil</string>
+    <string name="waiting_for_review">Menunggu tinjauan</string>
+    <string name="tsk_acknowledged_succ">Tugas Diakui Berhasil</string>
+    <string name="revieweed">Ulasan</string>
+    <string name="tsk_completed_succesfully">Tugas Selesai Berhasil</string>
+    <string name="extend_course">Apakah Anda ingin memperpanjang program ini</string>
+    <string name="alert">Waspada</string>
+    <string name="extend_attempt">memperpanjang Mencoba</string>
+    <string name="oops_no_result">Ups !! tidak ada hasil yang tersedia ..</string>
+    <string name="enable_network">Silakan Aktifkan Jaringan Anda</string>
+    <string name="clear">Bersih</string>
+    <string name="no_attachment_found">Tidak ada Lampiran ditemukan</string>
+    <string name="evaluate">Evaluasi</string>
+    <string name="mark_complete">Lengkap</string>
+    <string name="chat">Chat</string>
+    <string name="Chat">Chat</string>
+    <string name="update_alert">A new version of Swaas LMS available for download. This update will not affect your app settings.</string>
+    <string name="defaulttext">Type your essay here</string>
+    <string name="Marksheet">Marksheet</string>
+    <string name="course_completed">Course Assignment attempted successfully !</string>
+    <string name="Are_you_sure_back">Are you sure you want to cancel taking the Assesment</string>
+    <string name="your_application_will_force_close_reopen_to_use_application">Your Application will force close.Reopen to use Application.</string>
+</resources>

@@ -1,0 +1,1080 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.swaas.kangle.Reports.UserReportActivity">
+
+    <LinearLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:background="@color/colorPrimary"
+        android:visibility="visible">
+
+            <ImageView
+                android:id="@+id/companylogo"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_arrow_back_white_36dp"/>
+
+        <TextView
+            android:id="@+id/report_label"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:maxLines="1"
+            android:gravity="center_vertical"
+            android:text="@string/Report"
+            android:textColor="@color/white"
+            android:textSize="18dp"
+            android:layout_marginLeft="10dp"
+            android:visibility="visible"/>
+
+    </LinearLayout>
+
+    <android.support.v4.widget.NestedScrollView
+        android:id="@+id/mainnestedView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:background="@color/tacobellbackground"
+        android:layout_below="@+id/header"
+        android:layout_above="@+id/bottommenusection"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:id="@+id/content_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@color/otherCompanies">
+
+                <RelativeLayout
+                    android:id="@+id/tabsection"
+                    android:layout_width="match_parent"
+                    android:layout_below="@+id/bottomheader"
+                    android:background="@color/black"
+                    android:orientation="horizontal"
+                    android:visibility="visible"
+                    android:layout_height="50dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:id="@+id/my_list"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:gravity="center">
+
+                            <TextView
+                                android:id="@+id/my_list_text"
+                                android:layout_width="wrap_content"
+                                android:layout_height="47dp"
+                                android:gravity="center_vertical"
+                                android:text="@string/mine"
+                                android:textColor="@color/white" />
+
+                            <View
+                                android:id="@+id/my_list_view"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="bottom"
+                                android:background="@color/white"/>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/group_list"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:gravity="center">
+
+                            <TextView
+                                android:id="@+id/my_grplist_text"
+                                android:layout_width="wrap_content"
+                                android:layout_height="47dp"
+                                android:text="@string/my_Team"
+                                android:gravity="center_vertical"
+                                android:textColor="@color/grey"/>
+
+                            <View
+                                android:id="@+id/my_grplist_view"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="bottom"
+                                android:background="@color/colorPrimary"/>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_below="@+id/tabsection">
+
+                    <RelativeLayout
+                        android:id="@+id/course_section"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:visibility="gone">
+
+                        <TextView
+                            android:id="@+id/title_Course"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textSize="16dp"
+                            android:text="@string/course_report"
+                            android:textColor="@color/white"
+                            android:layout_marginBottom="10dp"/>
+
+                        <LinearLayout
+                            android:id="@+id/dashboarddetails"
+                            android:layout_width="match_parent"
+                            android:layout_height="60dp"
+                            android:orientation="horizontal"
+                            android:layout_below="@+id/title_Course"
+                            android:weightSum="4"
+                            android:visibility="visible">
+
+                            <RelativeLayout
+                                android:id="@+id/tot_comptab"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:gravity="center">
+
+                                <TextView
+                                    android:id="@+id/totorcompValue"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="10dp"
+                                    android:gravity="center"
+                                    android:text="0"
+                                    android:textColor="@color/white"
+                                    android:textSize="20dp"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:id="@+id/totorcomptext"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_below="@+id/totorcompValue"
+                                    android:gravity="center"
+                                    android:text="@string/completed_course"
+                                    android:textColor="@color/white"
+                                    android:textSize="10dp" />
+
+                            </RelativeLayout>
+
+                            <View
+                                android:layout_width="1dp"
+                                android:layout_height="wrap_content"
+                                android:background="@color/white" />
+
+                            <RelativeLayout
+                                android:id="@+id/assignedtab"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:gravity="center">
+
+                                <TextView
+                                    android:id="@+id/assignedvalue"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="10dp"
+                                    android:gravity="center"
+                                    android:text="0"
+                                    android:textColor="@color/white"
+                                    android:textSize="20dp"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:id="@+id/assignedtext"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_below="@+id/assignedvalue"
+                                    android:gravity="center"
+                                    android:text="@string/yet_to_start"
+                                    android:textColor="@color/white"
+                                    android:textSize="10dp" />
+
+
+                            </RelativeLayout>
+
+                            <View
+                                android:layout_width="1dp"
+                                android:layout_height="wrap_content"
+                                android:background="@color/white" />
+
+                            <RelativeLayout
+                                android:id="@+id/Inprogresstab"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:visibility="visible">
+
+                                <TextView
+                                    android:id="@+id/Inprogressvalue"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="10dp"
+                                    android:gravity="center"
+                                    android:text="0"
+                                    android:textColor="@color/white"
+                                    android:textSize="20dp"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:id="@+id/Inprogresstext"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_below="@+id/Inprogressvalue"
+                                    android:gravity="center"
+                                    android:text="@string/in_progress"
+                                    android:textColor="@color/white"
+                                    android:textSize="10dp" />
+
+
+                            </RelativeLayout>
+
+                            <View
+                                android:layout_width="1dp"
+                                android:layout_height="wrap_content"
+                                android:background="@color/white" />
+
+                            <RelativeLayout
+                                android:id="@+id/overduetab"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:gravity="center">
+
+                                <TextView
+                                    android:id="@+id/overduevalue"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="10dp"
+                                    android:gravity="center"
+                                    android:text="0"
+                                    android:textColor="@color/white"
+                                    android:textSize="20dp"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:id="@+id/overduetext"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_below="@+id/overduevalue"
+                                    android:gravity="center"
+                                    android:text="@string/Overdue_course"
+                                    android:textColor="@color/white"
+                                    android:textSize="10dp" />
+
+                            </RelativeLayout>
+
+                        </LinearLayout>
+
+                        <RelativeLayout
+                            android:id="@+id/retry"
+                            android:layout_below="@+id/title_Course"
+                            android:layout_width="match_parent"
+                            android:layout_height="80dp"
+                            android:gravity="center"
+                            android:visibility="gone">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_margin="10dp"
+                                android:background="@drawable/rounded_corners_white"
+                                android:gravity="center"
+                                android:text="Retry"
+                                android:textColor="@color/black" />
+
+                        </RelativeLayout>
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/Asset_section"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:visibility="gone">
+
+                        <TextView
+                            android:id="@+id/title_Asset"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textSize="16dp"
+                            android:text="@string/Asset_report"
+                            android:textColor="@color/white"
+                            android:layout_marginBottom="10dp"/>
+
+                        <LinearLayout
+                            android:id="@+id/ass_dashboarddetails"
+                            android:layout_width="match_parent"
+                            android:layout_height="60dp"
+                            android:orientation="horizontal"
+                            android:layout_below="@+id/title_Asset"
+                            android:weightSum="4">
+
+                            <RelativeLayout
+                                android:id="@+id/ass_tot_comptab"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:gravity="center">
+
+                                <TextView
+                                    android:id="@+id/ass_totorcompValue"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="10dp"
+                                    android:gravity="center"
+                                    android:text="0"
+                                    android:textColor="@color/white"
+                                    android:textSize="20dp"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:id="@+id/ass_totorcomptext"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_below="@+id/ass_totorcompValue"
+                                    android:gravity="center"
+                                    android:text="@string/total_assets"
+                                    android:textColor="@color/white"
+                                    android:textSize="10dp" />
+
+                            </RelativeLayout>
+
+                            <View
+                                android:layout_width="1dp"
+                                android:layout_height="wrap_content"
+                                android:background="@color/white" />
+
+                            <RelativeLayout
+                                android:id="@+id/ass_assignedtab"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:gravity="center">
+
+                                <TextView
+                                    android:id="@+id/ass_assignedvalue"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="10dp"
+                                    android:gravity="center"
+                                    android:text="0"
+                                    android:textColor="@color/white"
+                                    android:textSize="20dp"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:id="@+id/ass_assignedtext"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_below="@+id/ass_assignedvalue"
+                                    android:gravity="center"
+                                    android:text="@string/read_assets"
+                                    android:textColor="@color/white"
+                                    android:textSize="10dp" />
+
+
+                            </RelativeLayout>
+
+                            <View
+                                android:layout_width="1dp"
+                                android:layout_height="wrap_content"
+                                android:background="@color/white" />
+
+                            <RelativeLayout
+                                android:id="@+id/ass_Inprogresstab"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:visibility="visible">
+
+                                <TextView
+                                    android:id="@+id/ass_Inprogressvalue"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="10dp"
+                                    android:gravity="center"
+                                    android:text="0"
+                                    android:textColor="@color/white"
+                                    android:textSize="20dp"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:id="@+id/ass_Inprogresstext"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_below="@+id/ass_Inprogressvalue"
+                                    android:gravity="center"
+                                    android:text="@string/unread_assets"
+                                    android:textColor="@color/white"
+                                    android:textSize="10dp" />
+
+
+                            </RelativeLayout>
+
+                            <View
+                                android:layout_width="1dp"
+                                android:layout_height="wrap_content"
+                                android:background="@color/white" />
+
+                            <RelativeLayout
+                                android:id="@+id/ass_overduetab"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:gravity="center">
+
+                                <TextView
+                                    android:id="@+id/ass_overduevalue"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="10dp"
+                                    android:gravity="center"
+                                    android:text="0"
+                                    android:textColor="@color/white"
+                                    android:textSize="20dp"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:id="@+id/ass_overduetext"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_below="@+id/ass_overduevalue"
+                                    android:gravity="center"
+                                    android:text="@string/liked_assets"
+                                    android:textColor="@color/white"
+                                    android:textSize="10dp" />
+
+                            </RelativeLayout>
+
+                        </LinearLayout>
+
+                        <RelativeLayout
+                            android:id="@+id/ass_retry"
+                            android:layout_width="match_parent"
+                            android:layout_below="@+id/title_Asset"
+                            android:layout_height="80dp"
+                            android:gravity="center"
+                            android:visibility="gone">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_margin="10dp"
+                                android:background="@drawable/rounded_corners_white"
+                                android:gravity="center"
+                                android:text="Retry"
+                                android:textColor="@color/black" />
+
+                        </RelativeLayout>
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/checklist_section"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:visibility="gone">
+
+                        <TextView
+                            android:id="@+id/title_checklist"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textSize="16dp"
+                            android:text="@string/checklist_report"
+                            android:textColor="@color/white"
+                            android:layout_marginBottom="10dp"/>
+
+                        <LinearLayout
+                            android:id="@+id/chk_dashboarddetails"
+                            android:layout_width="match_parent"
+                            android:layout_height="60dp"
+                            android:orientation="horizontal"
+                            android:layout_below="@+id/title_checklist"
+                            android:weightSum="4">
+
+                            <RelativeLayout
+                                android:id="@+id/chk_tot_comptab"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:gravity="center">
+
+                                <TextView
+                                    android:id="@+id/chk_totorcompValue"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="10dp"
+                                    android:gravity="center"
+                                    android:text="0"
+                                    android:textColor="@color/white"
+                                    android:textSize="20dp"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:id="@+id/chk_totorcomptext"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_below="@+id/chk_totorcompValue"
+                                    android:gravity="center"
+                                    android:text="@string/total_checklist"
+                                    android:textColor="@color/white"
+                                    android:textSize="10dp" />
+
+                            </RelativeLayout>
+
+                            <View
+                                android:layout_width="1dp"
+                                android:layout_height="wrap_content"
+                                android:background="@color/white" />
+
+                            <RelativeLayout
+                                android:id="@+id/chk_assignedtab"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:gravity="center">
+
+                                <TextView
+                                    android:id="@+id/chk_assignedvalue"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="10dp"
+                                    android:gravity="center"
+                                    android:text="0"
+                                    android:textColor="@color/white"
+                                    android:textSize="20dp"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:id="@+id/chk_assignedtext"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_below="@+id/chk_assignedvalue"
+                                    android:gravity="center"
+                                    android:text="@string/completed_checklist"
+                                    android:textColor="@color/white"
+                                    android:textSize="10dp" />
+
+
+                            </RelativeLayout>
+
+                            <View
+                                android:layout_width="1dp"
+                                android:layout_height="wrap_content"
+                                android:background="@color/white" />
+
+                            <RelativeLayout
+                                android:id="@+id/chk_Inprogresstab"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:visibility="visible">
+
+                                <TextView
+                                    android:id="@+id/chk_Inprogressvalue"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="10dp"
+                                    android:gravity="center"
+                                    android:text="0"
+                                    android:textColor="@color/white"
+                                    android:textSize="20dp"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:id="@+id/chk_Inprogresstext"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_below="@+id/chk_Inprogressvalue"
+                                    android:gravity="center"
+                                    android:text="@string/in_progress"
+                                    android:textColor="@color/white"
+                                    android:textSize="10dp" />
+
+
+                            </RelativeLayout>
+
+                            <View
+                                android:layout_width="1dp"
+                                android:layout_height="wrap_content"
+                                android:background="@color/white" />
+
+                            <RelativeLayout
+                                android:id="@+id/chk_overduetab"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:gravity="center">
+
+                                <TextView
+                                    android:id="@+id/chk_overduevalue"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="10dp"
+                                    android:gravity="center"
+                                    android:text="0"
+                                    android:textColor="@color/white"
+                                    android:textSize="20dp"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:id="@+id/chk_overduetext"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_below="@+id/chk_overduevalue"
+                                    android:gravity="center"
+                                    android:text="@string/Overdue_course"
+                                    android:textColor="@color/white"
+                                    android:textSize="10dp" />
+
+                            </RelativeLayout>
+
+                        </LinearLayout>
+
+                        <RelativeLayout
+                            android:id="@+id/chk_retry"
+                            android:layout_width="match_parent"
+                            android:layout_below="@+id/title_checklist"
+                            android:layout_height="80dp"
+                            android:gravity="center"
+                            android:visibility="gone">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_margin="10dp"
+                                android:background="@drawable/rounded_corners_white"
+                                android:gravity="center"
+                                android:text="Retry"
+                                android:textColor="@color/black" />
+
+                        </RelativeLayout>
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/tasklist_section"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:visibility="gone">
+
+                        <TextView
+                            android:id="@+id/title_tasklist"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textSize="16dp"
+                            android:text="@string/task_report"
+                            android:textColor="@color/white"
+                            android:layout_marginBottom="10dp"/>
+
+                        <LinearLayout
+                            android:id="@+id/tsk_dashboarddetails"
+                            android:layout_width="match_parent"
+                            android:layout_height="60dp"
+                            android:orientation="horizontal"
+                            android:layout_below="@+id/title_tasklist"
+                            android:weightSum="4">
+
+                            <RelativeLayout
+                                android:id="@+id/tsk_tot_comptab"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:gravity="center">
+
+                                <TextView
+                                    android:id="@+id/tsk_totorcompValue"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="10dp"
+                                    android:gravity="center"
+                                    android:text="0"
+                                    android:textColor="@color/white"
+                                    android:textSize="20dp"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:id="@+id/tsk_totorcomptext"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_below="@+id/tsk_totorcompValue"
+                                    android:gravity="center"
+                                    android:text="@string/assigned_task"
+                                    android:textColor="@color/white"
+                                    android:textSize="10dp" />
+
+                            </RelativeLayout>
+
+                            <View
+                                android:layout_width="1dp"
+                                android:layout_height="wrap_content"
+                                android:background="@color/white" />
+
+                            <RelativeLayout
+                                android:id="@+id/tsk_assignedtab"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:gravity="center">
+
+                                <TextView
+                                    android:id="@+id/tsk_assignedvalue"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="10dp"
+                                    android:gravity="center"
+                                    android:text="0"
+                                    android:textColor="@color/white"
+                                    android:textSize="20dp"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:id="@+id/tsk_assignedtext"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_below="@+id/tsk_assignedvalue"
+                                    android:gravity="center"
+                                    android:text="@string/completed_task"
+                                    android:textColor="@color/white"
+                                    android:textSize="10dp" />
+
+
+                            </RelativeLayout>
+
+                            <View
+                                android:layout_width="1dp"
+                                android:layout_height="wrap_content"
+                                android:background="@color/white" />
+
+                            <RelativeLayout
+                                android:id="@+id/tsk_Inprogresstab"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:visibility="visible">
+
+                                <TextView
+                                    android:id="@+id/tsk_Inprogressvalue"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="10dp"
+                                    android:gravity="center"
+                                    android:text="0"
+                                    android:textColor="@color/white"
+                                    android:textSize="20dp"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:id="@+id/tsk_Inprogresstext"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_below="@+id/tsk_Inprogressvalue"
+                                    android:gravity="center"
+                                    android:text="@string/in_progress_task"
+                                    android:textColor="@color/white"
+                                    android:textSize="10dp" />
+
+
+                            </RelativeLayout>
+
+                            <View
+                                android:layout_width="1dp"
+                                android:layout_height="wrap_content"
+                                android:background="@color/white" />
+
+                            <RelativeLayout
+                                android:id="@+id/tsk_overduetab"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:gravity="center">
+
+                                <TextView
+                                    android:id="@+id/tsk_overduevalue"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="10dp"
+                                    android:gravity="center"
+                                    android:text="0"
+                                    android:textColor="@color/white"
+                                    android:textSize="20dp"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:id="@+id/tsk_overduetext"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_below="@+id/tsk_overduevalue"
+                                    android:gravity="center"
+                                    android:text="@string/review_task"
+                                    android:textColor="@color/white"
+                                    android:textSize="10dp" />
+
+                            </RelativeLayout>
+
+                        </LinearLayout>
+
+                        <RelativeLayout
+                            android:id="@+id/tsk_retry"
+                            android:layout_width="match_parent"
+                            android:layout_below="@+id/title_tasklist"
+                            android:layout_height="80dp"
+                            android:gravity="center"
+                            android:visibility="gone">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_margin="10dp"
+                                android:background="@drawable/rounded_corners_white"
+                                android:gravity="center"
+                                android:text="Retry"
+                                android:textColor="@color/black" />
+
+                        </RelativeLayout>
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+        </android.support.v4.widget.NestedScrollView>
+
+    <RelativeLayout
+        android:id="@+id/bottommenusection"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:visibility="gone"
+        android:background="@color/white"
+        android:layout_alignParentBottom="true">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/checklist_darkgrey"/>
+
+        <LinearLayout
+            android:id="@+id/bottommenus"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="5"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:id="@+id/lpcourse"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center">
+
+                <LinearLayout
+                    android:id="@+id/coursesecimage"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:id="@+id/pos0"
+                        android:layout_width="36dp"
+                        android:layout_height="36dp"
+                        android:src="@drawable/courses_icn"
+                        android:tint="@color/checklist_darkgrey" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/coursesecimage"
+                    android:gravity="center"
+                    android:text="@string/coursetitle"
+                    android:visibility="visible"
+                    android:textColor="@color/checklist_darkgrey"
+                    android:textSize="9dp" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/assetpage"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+                <LinearLayout
+                    android:id="@+id/assetsecimage"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:id="@+id/pos1"
+                        android:layout_width="36dp"
+                        android:layout_height="36dp"
+                        android:src="@drawable/ic_assets_icn"
+                        android:tint="@color/checklist_darkgrey"/>
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="LIBRARY"
+                    android:gravity="center"
+                    android:textColor="@color/checklist_darkgrey"
+                    android:textSize="9dp"
+                    android:visibility="visible"
+                    android:layout_below="@+id/assetsecimage"/>
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/chklistpage"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:visibility="visible"
+                android:gravity="center">
+
+                <LinearLayout
+                    android:id="@+id/chklistimage"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:id="@+id/pos2"
+                        android:layout_width="36dp"
+                        android:layout_height="36dp"
+                        android:src="@drawable/ic_checklist_icn"
+                        android:tint="@color/checklist_darkgrey"/>
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/checklisttitle"
+                    android:gravity="center"
+                    android:layout_below="@+id/chklistimage"
+                    android:visibility="visible"
+                    android:textColor="@color/checklist_darkgrey"
+                    android:textSize="9dp"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/reports"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center">
+
+                <LinearLayout
+                    android:id="@+id/reportsecimage"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:id="@+id/pos3"
+                        android:layout_width="36dp"
+                        android:layout_height="36dp"
+                        android:src="@drawable/ic_report_icn"
+                        android:tint="@color/colorPrimary" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/higlighttext"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/reportsecimage"
+                    android:gravity="center"
+                    android:text="@string/Report"
+                    android:visibility="visible"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="9dp" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/profilepage"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+                <LinearLayout
+                    android:id="@+id/profileimage"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:id="@+id/pos4"
+                        android:layout_width="36dp"
+                        android:layout_height="36dp"
+                        android:src="@drawable/ic_profile_icn"
+                        android:tint="@color/checklist_darkgrey"/>
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/myprofile"
+                    android:gravity="center"
+                    android:textAllCaps="true"
+                    android:textColor="@color/checklist_darkgrey"
+                    android:layout_below="@+id/profileimage"
+                    android:visibility="visible"
+                    android:textSize="9dp"/>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

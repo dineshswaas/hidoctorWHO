@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="170dp"
+        android:layout_height="240dp"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        app:cardPreventCornerOverlap="false"
+        android:id="@+id/cardviewLayout"
+        app:cardUseCompatPadding="true"
+        app:cardElevation="3dp"
+        app:cardMaxElevation="4dp"
+        app:cardCornerRadius="8dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+
+
+        <LinearLayout
+            android:id="@+id/asset_item"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:background="@color/topbar"
+            android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/thumbnail"
+                    android:layout_width="match_parent"
+                    android:src="@drawable/icon_doc"
+                    android:layout_height="140dp"
+                    android:background="@color/topbar"/>
+
+        </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/rating_bar"
+                android:layout_below="@+id/asset_download"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/asset_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:text="Name of the asset"
+                    android:layout_gravity="center_horizontal"
+                    android:maxLines="2"
+                    android:layout_marginTop="5dp"
+                    android:textStyle="normal"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:id="@+id/category_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="General"
+                    android:layout_gravity="center_horizontal"
+                    android:maxLines="2"
+                    android:textStyle="normal"
+                    android:textColor="@color/black"
+                    android:visibility="gone"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:visibility="gone">
+
+                        <ImageView
+                            android:id="@+id/icon_rating"
+                            android:layout_width="20dp"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/ic_star_grey_24dp"
+                            android:tint="@color/black"/>
+
+                        <TextView
+                            android:id="@+id/rating_count"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="0"
+                            android:layout_marginLeft="5dp"
+                            android:layout_toRightOf="@+id/icon_rating"
+                            android:textColor="@color/black"
+                            android:layout_marginTop="4dp"/>
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:gravity="center"
+                        android:visibility="visible">
+
+                        <ImageView
+                            android:id="@+id/icon_like"
+                            android:layout_width="15dp"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/ic_thumb_up_black_24dp"
+                            android:tint="@color/black"/>
+
+                        <TextView
+                            android:id="@+id/like_count"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="0"
+                            android:layout_toRightOf="@+id/icon_like"
+                            android:layout_marginLeft="5dp"
+                            android:textColor="@color/black"
+                            android:textSize="10dp"
+                            android:layout_marginTop="6dp"/>
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:gravity="center"
+                        android:visibility="visible"
+                        android:layout_marginLeft="5dp">
+
+                        <ImageView
+                            android:id="@+id/icon_view"
+                            android:layout_width="15dp"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/ic_remove_red_eye_black_24dp"
+                            android:tint="@color/black"/>
+
+                        <TextView
+                            android:id="@+id/view_count"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="0"
+                            android:layout_marginLeft="5dp"
+                            android:layout_toRightOf="@+id/icon_view"
+                            android:textColor="@color/black"
+                            android:textSize="10dp"
+                            android:layout_marginTop="6dp"/>
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+</RelativeLayout>

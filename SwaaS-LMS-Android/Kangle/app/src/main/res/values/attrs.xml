@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="AbsRecyclerViewFastScroller">
+        <attr name="rfs_fast_scroller_layout" format="reference" />
+        <attr name="rfs_barColor" format="color|reference" />
+        <attr name="rfs_barBackground" format="reference" />
+        <attr name="rfs_handleColor" format="color|reference" />
+        <attr name="rfs_handleBackground" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="AbsSectionIndicator">
+        <attr name="rfs_section_indicator_layout" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="SectionTitleIndicator">
+        <attr name="rfs_textColor" format="color|reference" />
+        <attr name="rfs_backgroundColor" format="color|reference" />
+    </declare-styleable>
+
+
+    <declare-styleable name="CustomFontTextView">
+        <attr name="fontName" format="string" />
+    </declare-styleable>
+
+
+    <declare-styleable name="HelpCircleView">
+        <attr format="color" name="circleColor"/>
+        <attr format="dimension" name="circleRadius"/>
+        <attr format="dimension" name="circleStartX"/>
+        <attr format="dimension" name="circleStartY"/>
+        <attr format="boolean" name="circleFilled"/>
+    </declare-styleable>
+
+
+
+</resources>

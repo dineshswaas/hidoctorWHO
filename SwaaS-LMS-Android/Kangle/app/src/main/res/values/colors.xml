@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#26A69A</color>
+    <color name="colorPink">#f40e57</color>
+    <color name="submitbuttoncolor">#f40e57</color>
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="tacobellbackground">#702082</color>
+    <color name="otherCompanies">#039BE5</color>
+    <!--<color name="hyperlink">#039BE5</color>-->
+    <!--<color name="buttoncolor">#007CB1</color>-->
+    <color name="topbar">#303030</color>
+    <color name="viewbar">#303030</color>
+    <color name="grey">#cdcdcd</color>
+    <color name="lightgrey">#dadada</color>
+    <color name="loginbutton">#007CB1</color>
+    <color name="buttoncolor">#0F9D58</color>
+    <color name="hyperlink">#0F9D58</color>
+
+    <color name="backgroundblue">#0F9D58</color>
+    <color name="colorgreenbar">#0F9D58</color>
+    <color name="yellow">#FFDA00</color>
+    <color name="orange">#F3561D</color>
+    <color name="dashboarditem1">#b3dbdb</color>
+
+    <color name="piebrown">#DC3912</color>
+    <color name="pieorange">#FF9900</color>
+    <color name="black_semi_transparent">#99000000</color>
+    <color name="black_tran">#CC696969</color>
+    <color name="red">#FF0000</color>
+
+    <color name="amber">#FFBF00</color>
+    <color name="pdf_heading_bg">#5E87B0</color>
+    <color name="question_background">#edeeef</color>
+
+    <color name="checklist_green">#01b500</color>
+    <color name="checklist_amber">#FFBF00</color>
+    <color name="checklist_red"> #f91b00</color>
+    <color name="checklist_darkgrey">#8f8f8f</color>
+    <color name="checklist_blue">#2a85cd</color>
+
+
+    <color name="grey_background">#272727</color>
+    <color name="lite_grey">#32333A</color>
+    <color name="edittextgrey">#5D5D5D</color>
+    <color name="edittextblue">#009BF0</color>
+    <color name="course_backgroundcolor">#F5F6F6</color>
+    <color name="tinted_grey">#AA32333A</color>
+
+    <color name="loginbackground">#0068A1</color>
+    <color name="login_edittext">#408EB9</color>
+    <color name="shakeyred">#9b0801</color>
+    <color name="shakeyblack">#212123</color>
+
+    <string-array name="colors">
+        <item>#3F51B5</item>
+        <item>#26A69A</item>
+        <item>#f2024e</item>
+        <item>#F3561D</item>
+        <item>#8a0e9b</item>
+        <item>#0000ff</item>
+        <item>#00ff00</item>
+        <item>#e7d82e</item>
+        <item>#033e18</item>
+        <item>#06062b</item>
+        <item>#d64a43</item>
+        <item>#2b2b2d</item>
+        <item>#310c02</item>
+    </string-array>
+</resources>

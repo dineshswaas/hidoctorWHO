@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_load_clicked_asset"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.swaas.kangle.NewPlayer.PPTAssetImagesActivity">
+
+    <RelativeLayout
+        android:id="@+id/topbar"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/colorPrimary">
+
+        <LinearLayout
+            android:id="@+id/header"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal"
+            android:background="@color/colorPrimary"
+            android:visibility="visible">
+
+            <ImageView
+                android:id="@+id/playerbackbutton"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_navigate_before_white_36dp"/>
+
+            <TextView
+                android:id="@+id/slidenumber"
+                android:layout_toRightOf="@+id/playerbackbutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:layout_gravity="center"
+                android:text="1/1"
+                android:padding="5dp"
+                android:textSize="18dp"
+                />
+
+            </LinearLayout>
+    </RelativeLayout>
+
+    <com.swaas.kangle.EmptyRecyclerView
+        android:id="@+id/playerrecyclerLayout"
+        android:layout_below="@+id/topbar"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </com.swaas.kangle.EmptyRecyclerView>
+
+</RelativeLayout>

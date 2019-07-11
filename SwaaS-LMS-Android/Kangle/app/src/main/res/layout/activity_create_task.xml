@@ -1,0 +1,511 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/overall"
+    tools:context="com.swaas.kangle.TaskModule.CreateTaskActivity">
+
+    <android.support.v4.widget.NestedScrollView
+        android:id="@+id/main_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_above="@+id/bottomsection">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:id="@+id/header"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:visibility="visible"
+                android:background="@color/colorPrimary">
+
+                <ImageView
+                    android:id="@+id/backbutton"
+                    android:layout_width="30dp"
+                    android:layout_height="60dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="10dp"
+                    android:src="@drawable/ic_arrow_back_white_36dp"
+                    android:visibility="visible" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:text="@string/create_task"
+                    android:textSize="18dp"
+                    android:layout_toRightOf="@+id/backbutton"
+                    android:textColor="@color/white"/>
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/header"
+                android:orientation="vertical"
+                android:layout_margin="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="2"
+                    android:layout_marginBottom="5dp">
+
+                    <TextView
+                        android:id="@+id/tsk_title_text"
+                        android:layout_width="0dp"
+                        android:layout_weight="0.8"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Task_Title"/>
+
+                    <EditText
+                        android:id="@+id/tsk_title"
+                        android:layout_width="0dp"
+                        android:layout_weight="1.2"
+                        android:layout_height="wrap_content"
+                        android:inputType="text"
+                        android:maxLength="100"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="2"
+                    android:layout_marginBottom="5dp"
+                    android:maxHeight="50dp">
+
+                    <TextView
+                        android:id="@+id/tsk_description_text"
+                        android:layout_width="0dp"
+                        android:layout_weight="0.8"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Task_Description"/>
+
+                    <EditText
+                        android:id="@+id/tsk_description"
+                        android:layout_width="0dp"
+                        android:layout_weight="1.2"
+                        android:layout_height="wrap_content"
+                        android:inputType="text"
+                        android:maxLength="200"
+                        android:maxLines="4"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="2"
+                    android:layout_marginBottom="5dp">
+
+                    <TextView
+                        android:id="@+id/tsk_category"
+                        android:layout_width="0dp"
+                        android:layout_weight="0.8"
+                        android:layout_height="wrap_content"
+                        android:text="@string/category"/>
+
+                    <Spinner
+                        android:id="@+id/cat_spinner"
+                        android:layout_width="0dp"
+                        android:layout_weight="1.2"
+                        android:layout_height="wrap_content"
+                        android:entries="@array/category"
+                        android:prompt="@string/choose_category"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="2"
+                    android:layout_marginBottom="5dp">
+
+                    <TextView
+                        android:id="@+id/tsk_duedays_text"
+                        android:layout_width="0dp"
+                        android:layout_weight="0.8"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Task_Due_Day"/>
+
+                    <EditText
+                        android:id="@+id/tsk_duedays"
+                        android:layout_width="0dp"
+                        android:layout_weight="1.2"
+                        android:layout_height="wrap_content"
+                        android:inputType="number"
+                        android:maxLength="2"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="2"
+                    android:layout_marginBottom="5dp">
+
+                    <TextView
+                        android:id="@+id/tsk_priority_text"
+                        android:layout_width="0dp"
+                        android:layout_weight="0.8"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Priority"/>
+
+                    <Spinner
+                        android:id="@+id/tsk_priority"
+                        android:layout_width="0dp"
+                        android:layout_weight="1.2"
+                        android:layout_height="wrap_content"
+                        android:entries="@array/priority_arrays"
+                        android:prompt="@string/choose_priority"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="2"
+                    android:layout_marginBottom="5dp">
+
+                    <TextView
+                        android:id="@+id/tsk_assignee_text"
+                        android:layout_width="0dp"
+                        android:layout_weight="0.8"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Assigned"/>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_weight="1.2"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <RadioGroup
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <RadioButton
+                                android:id="@+id/trainee_rbt"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/Employee"
+                                android:layout_marginRight="5dp"/>
+
+                            <RadioButton
+                                android:id="@+id/self_rbt"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/Self"/>
+                        </RadioGroup>
+
+                        <com.swaas.kangle.EmptyRecyclerView
+                            android:id="@+id/userlist"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:visibility="gone">
+
+                        </com.swaas.kangle.EmptyRecyclerView>
+                        <TextView
+                            android:id="@+id/show_users_button"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Show Users"
+                            android:layout_marginEnd="20dp"
+                            android:layout_marginRight="20dp"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginStart="20dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginBottom="10dp"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="16sp"
+                            style="@style/AppTheme"
+                            android:visibility="gone"/>
+
+                    </LinearLayout>
+
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="2"
+                    android:layout_marginBottom="5dp">
+
+                    <TextView
+                        android:id="@+id/tsk_attachments_text"
+                        android:layout_width="0dp"
+                        android:layout_weight="1.03"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Attachments"/>
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/r1"
+                        android:layout_marginLeft="0dp">
+
+                        <ImageView
+                            android:id="@+id/add_tsk_attachments"
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:src="@drawable/ic_attach_file_black_36dp"/>
+                    </RelativeLayout>
+                    <RelativeLayout
+                        android:id="@+id/attachmentlayout"
+                        android:layout_width="60dp"
+                        android:layout_height="50dp"
+                        android:layout_alignParentRight="true"
+                        android:gravity="center"
+                        android:layout_toRightOf="@+id/r1">
+
+                        <ImageView
+                            android:id="@+id/addattachment"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:visibility="gone"
+                            android:src="@drawable/ic_attach_file_black_36dp"/>
+
+                        <ImageView
+                            android:id="@+id/attachmentfile"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:padding="@dimen/padding_four"
+                            android:src="@drawable/icon_jpeg"
+                            android:visibility="gone"/>
+
+                        <ImageView
+                            android:id="@+id/remove"
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_alignParentRight="true"
+                            android:background="@color/white"
+                            android:visibility="gone"
+                            android:src="@drawable/nokold"/>
+
+                    </RelativeLayout>
+
+
+                </LinearLayout>
+                <RelativeLayout
+                    android:id="@+id/attachmentfilelayout"
+                    android:layout_below="@+id/attachmentlayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_gravity="right"
+                    android:layout_marginStart="130dp">
+
+                    <com.swaas.kangle.EmptyRecyclerView
+                        android:id="@+id/attachmentfilerecycler"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        >
+                    </com.swaas.kangle.EmptyRecyclerView>
+
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="2"
+                    android:layout_marginBottom="5dp">
+
+                    <TextView
+                        android:id="@+id/tsk_remarks_text"
+                        android:layout_width="0dp"
+                        android:layout_weight="0.8"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Remarks"/>
+
+                    <EditText
+                        android:id="@+id/tsk_remarks"
+                        android:layout_width="0dp"
+                        android:layout_weight="1.2"
+                        android:layout_height="wrap_content"
+                        android:inputType="text"
+                        android:maxLength="200"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="2"
+                    android:layout_marginBottom="5dp">
+
+                    <TextView
+                        android:id="@+id/tsk_notify_text"
+                        android:layout_width="0dp"
+                        android:layout_weight="0.8"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Notify"/>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_weight="1.2"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <CheckBox
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/check_single"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:text="@string/Self"/>
+
+                        <CheckBox
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/check_trainee"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:text="@string/Trainee"/>
+
+                        <CheckBox
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/check_manager"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:text="@string/Manager"/>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+
+    <LinearLayout
+        android:id="@+id/bottomsection"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:background="@color/white">
+
+        <TextView
+            android:id="@+id/close_tsk"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:text="@string/close"
+            android:textSize="15dp"
+            android:gravity="center"/>
+
+
+        <TextView
+            android:id="@+id/submit_tsk"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:text="@string/Submit"
+            android:background="@color/grey"
+            android:visibility="visible"
+            android:textColor="@color/white"
+            android:textSize="15dp"
+            android:gravity="center"/>
+
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/imagelayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:visibility="gone">
+
+        <RelativeLayout
+            android:id="@+id/head"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/black">
+
+            <ImageView
+                android:id="@+id/delete"
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:visibility="gone"
+                android:src="@drawable/delete_white_36dp"/>
+
+            <ImageView
+                android:id="@+id/close"
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_close_white_24dp"
+                android:layout_alignParentRight="true"/>
+
+        </RelativeLayout>
+
+        <WebView
+            android:id="@+id/helpview"
+            android:layout_below="@+id/head"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone">
+
+        </WebView>
+
+        <VideoView
+            android:id="@+id/video_View"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/head"
+            android:visibility="gone"/>
+
+        <com.swaas.hari.hidoctor.ExoPlayerView.SimpleExoPlayerView
+            android:layout_width="match_parent"
+            android:id="@+id/simple_exoplayer"
+            android:layout_marginTop="48dp"
+            android:visibility="visible"
+            android:layout_height="match_parent">
+        </com.swaas.hari.hidoctor.ExoPlayerView.SimpleExoPlayerView>
+
+        <com.swaas.kangle.DigitalAssetPlayer.customviews.pdf.PDFView
+            android:id="@+id/pdf_player"
+            android:visibility="gone"
+            android:layout_marginTop="48dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </com.swaas.kangle.DigitalAssetPlayer.customviews.pdf.PDFView>
+
+        <com.swaas.kangle.utils.TouchImageView
+            android:id="@+id/touchimageView"
+            android:layout_below="@+id/closelayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+    </RelativeLayout>
+
+
+
+
+</RelativeLayout>

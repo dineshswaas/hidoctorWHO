@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:id="@+id/asset_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/thumbnail"
+            android:layout_width="0dp"
+            android:layout_weight="0.30"
+            android:layout_height="match_parent"/>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_weight="0.70"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/asset_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Name of the asset"
+                android:layout_margin="5dp"
+                android:maxLines="2"
+                android:textStyle="normal"
+                android:textColor="@color/black"/>
+
+            <RelativeLayout
+                android:id="@+id/asset_download"
+                android:layout_width="match_parent"
+                android:layout_below="@+id/asset_name"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginBottom="5dp">
+
+                <TextView
+                    android:id="@+id/memory_size"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginTop="4dp"
+                    android:textColor="@color/black"
+                    android:text="1.7 MB"/>
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/rating_bar"
+                android:layout_below="@+id/asset_download"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2">
+
+                    <ImageView
+                        android:id="@+id/icon_rating"
+                        android:layout_width="20dp"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_star_black_24dp"/>
+
+                    <TextView
+                        android:id="@+id/rating_count"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@+id/icon_rating"
+                        android:text="4.5"
+                        android:layout_marginLeft="2dp"
+                        android:textColor="@color/black"
+                        android:layout_marginTop="4dp"/>
+
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2">
+                    <ImageView
+                        android:id="@+id/icon_like"
+                        android:layout_width="20dp"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_favorite_black_24dp"/>
+
+                    <TextView
+                        android:id="@+id/like_count"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@+id/icon_like"
+                        android:text="4.5"
+                        android:layout_marginLeft="2dp"
+                        android:textColor="@color/black"
+                        android:layout_marginTop="4dp"/>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2">
+
+                    <ImageView
+                        android:id="@+id/icon_views"
+                        android:layout_width="20dp"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_remove_red_eye_black_24dp"/>
+
+                    <TextView
+                        android:id="@+id/view_count"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="2dp"
+                        android:layout_marginTop="4dp"
+                        android:textColor="@color/black"
+                        android:layout_toRightOf="@+id/icon_views"
+                        android:text="4.5" />
+                </RelativeLayout>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_below="@+id/asset_item"
+        android:layout_height="1dp"
+        android:background="@color/viewbar"/>
+
+</RelativeLayout>

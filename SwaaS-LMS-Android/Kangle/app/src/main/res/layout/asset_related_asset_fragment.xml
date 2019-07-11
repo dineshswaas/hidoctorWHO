@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:layout_below="@id/bottomheader"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_weight="2"
+                android:id="@+id/category"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:id="@+id/related_assets"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/grey"
+                    android:textColor="@color/black"
+                    android:text="Related Assets"/>
+
+                <TextView
+                    android:id="@+id/categ"
+                    android:layout_below="@+id/related_assets"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/lightgrey"
+                    android:textColor="@color/black"
+                    android:text="Category"/>
+                <com.swaas.kangle.EmptyRecyclerView
+                    android:id="@+id/categories_list"
+                    android:layout_width="match_parent"
+                    android:layout_below="@+id/categ"
+                    android:layout_height="match_parent" />
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/categories_list"
+                    android:background="@color/white">
+                    <TextView
+                        android:id="@+id/showmorecat"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="8dp"
+                        android:textColor="@color/buttoncolor"
+                        android:layout_alignParentEnd="true"
+                        android:text="@string/showmore"/>
+                </RelativeLayout>
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/tags"
+                android:layout_weight="2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/tag"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/lightgrey"
+                    android:textColor="@color/black"
+                    android:text="Tags"/>
+                <com.swaas.kangle.EmptyRecyclerView
+                    android:id="@+id/tags_list"
+                    android:layout_width="match_parent"
+                    android:layout_below="@+id/tag"
+                    android:layout_height="match_parent" />
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tags_list"
+                    android:background="@color/white">
+                    <TextView
+                        android:id="@+id/showmoretags"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/showmore"
+                        android:padding="8dp"
+                        android:textColor="@color/buttoncolor"
+                        android:layout_alignParentEnd="true"/>
+
+                </RelativeLayout>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+</LinearLayout>

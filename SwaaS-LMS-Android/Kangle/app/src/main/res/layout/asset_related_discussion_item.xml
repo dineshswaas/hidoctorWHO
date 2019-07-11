@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:id="@+id/coments_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/user_profileimage"
+                android:layout_width="0dp"
+                android:layout_weight="0.20"
+                android:layout_gravity="top"
+                android:layout_height="match_parent"/>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_weight="0.80"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/posted_user_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="user Name"
+                    android:layout_margin="5dp"
+                    android:maxLines="1"
+                    android:textStyle="normal"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:id="@+id/commentText"
+                    android:layout_width="match_parent"
+                    android:layout_margin="5dp"
+                    android:maxLines="2"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/posted_user_name"/>
+
+                <TextView
+                    android:id="@+id/comment_duration"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/posted_user_name"
+                    android:paddingBottom="5dp"
+                    android:visibility="gone"
+                    android:text="commented 3 hrs ago"/>
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/subThreadParentLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:id="@+id/subThreadChildLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:orientation="vertical">
+
+                    <!--<include layout="@layout/asset_related_sub_thread_list_item"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />-->
+                </LinearLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp">
+
+                <EditText
+                    android:id="@+id/sub_comment"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:background="@drawable/edittextbox_border" />
+
+                <Button
+                    android:id="@+id/postclick"
+                    android:layout_width="50dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_below="@+id/sub_comment"
+                    android:background="@color/buttoncolor"
+                    android:text="@string/post"
+                    android:textColor="@color/white"
+                    android:layout_alignParentRight="true"/>
+            </RelativeLayout>
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_below="@+id/asset_item"
+        android:layout_height="1dp"
+        android:background="@color/viewbar"/>
+
+</RelativeLayout>

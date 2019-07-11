@@ -1,0 +1,447 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SwaaS LMS</string>
+    <!--<string name="app_name">HiDoctor \n LMS</string>-->
+
+    <string name="version">v1.0.6(8)</string>
+    <string name="versionCode">8</string>
+    <string name="versionName">1.0.6</string>
+    <string name="versionname">Versio : 1.0.6</string>
+    <string name="poweredbyswaas">\u00a9 Powered By Swaas</string>
+
+    <string-array name="Language">
+        <item>English</item>
+        <item>Español</item>
+        <item>Finisshe</item>
+    </string-array>
+
+    <string name="assettitle">TYÖKALUT / VIDEO-KIRJASTO</string>
+    <string name="coursetitle">KURSSIT</string>
+    <string name="assesmenttitle">LUOVUTUS</string>
+    <string name="mytrainighistory">KOULUTUSHISTORIANI</string>
+    <string name="learning"></string>
+    <string name="allassets">Kaikki omaisuudet</string>
+    <string name="back">Takaisin</string>
+    <string name="category">Kategoria</string>
+    <string name="Tags">Tunnisteet</string>
+    <string name="loading">Ladataan...</string>
+    <string name="play">Aloita</string>
+    <string name="download">Lataa</string>
+    <string name="showmore">Näytä lisää</string>
+    <string name="Document">Asiakirja</string>
+    <string name="Image">Kuva</string>
+    <string name="Audio">Audio</string>
+    <string name="Video">Video</string>
+    <string name="Today">Tänään</string>
+    <string name="thisweek">Tämä viikko</string>
+    <string name="twoweeks">2 viikkoa</string>
+    <string name="allweeks">Kaikki</string>
+    <string name="Type">Tyyppi</string>
+    <string name="Submit">Lähetä</string>
+
+    <string name="sortassets">Lajittele omaisuudet</string>
+    <string name="filterass">Suodata omonaisuuksia</string>
+
+    <string name="Readunread">Lue / lukematon</string>
+    <string name="Read">Lue</string>
+    <string name="Unread">Lukemattomat</string>
+    <string name="online">Online</string>
+    <string name="Downloaded">ladattu</string>
+    <string name="downloadedonline">Online / Ladatut</string>
+    <string name="Sort">Järjestä</string>
+    <string name="Alphabetasc">Aakkoset - Asc</string>
+    <string name="Alphabetdesc">Aakkoset - Desc</string>
+    <string name="Alphabet">Aakkoset</string>
+    <string name="comments">Kommentit</string>
+    <string name="post">Lähettää</string>
+
+    <string name="logout">Kirjaudu ulos</string>
+    <string name="changepassword">Vaihda salasana</string>
+    <string name="myprofile">Profiilini</string>
+    <string name="gooffline">Siirry Offline-tilaan</string>
+    <string name="goOnline">Siirry Online -tilaan</string>
+    <string name="descriptiontext">Kuvaus</string>
+    <string name="categorytext">Kategoria</string>
+
+    <string name="error_message">Tarkista verkkoyhteys ja yritä uudelleen</string>
+    <string name="error_offline">Olet tällä hetkellä Offline-tilassa. Yhdistä internetiin, jos haluat siirtyä verkkoon.</string>
+    <string name="downloadmessage">Liity internetiin ladataksesi</string>
+    <string name="playMessage">Liitä internetiin nähdäksesi</string>
+    <string name="downloadcomplete">Lataus valmis</string>
+    <string name="erroroccured">Tapahtui virhe, yritä uudelleen</string>
+    <string name="locationpermissoinMessage">Salli sijaintitietosi</string>
+    <string name="storagepermissoinMessage">Salli tiedostojen käyttö.</string>
+
+    <string name="readmore">Lue lisää</string>
+    <string name="readless">Lue vähemmän</string>
+    <string name="showmorediscussions">Lue kaikki keskustelut</string>
+    <string name="postsuccess">Lähetetty onnistuneesti</string>
+    <string name="progressdownload">Lataus Odota hetki ...</string>
+
+    <string name="LikeRatetitle">Tykkää / arvostele</string>
+    <string name="Replytext">Vastaa</string>
+    <string name="charactersremainig">Jäljellä olevat merkit</string>
+
+    <string name="hateIt">En tykännyt</string>
+    <string name="dislikeIt">En pitänyt</string>
+    <string name="itsok">Se on okei</string>
+    <string name="likeIt">Pidin siitä</string>
+    <string name="loveIt">Rakastin sitä</string>
+
+    <string name="uploadingData">Tiedostojen lataaminen. Odota hetki ...</string>
+    <string name="Discussiontitle">Keskustelut</string>
+    <string name="subDiscussionstitle">Keskustelut</string>
+    <string name="likeaction">Tykkää</string>
+
+    <string name="shortReview">Kirjoita lyhyt arvostelu</string>
+
+    <string name="loginusername">Käyttäjänimi tai sähköpostiosoite</string>
+    <string name="logincompanyname">CompanyName(Company.kangle.me)</string>
+    <string name="loginpassword">Salasana</string>
+    <string name="forgotpassword">Unohtuiko salasana</string>
+
+
+    <string name="loginbutton">Kirjaudu sisään</string>
+
+    <string name="postingcoments">Kommenttien lähettäminen</string>
+    <string name="likeratingsuccess">Kiitos tykkäyksestä / arvostelusta</string>
+
+    <string name="remainigchartext">100 merkkiä jäljellä</string>
+
+    <string name="welcome">Tervetuloa</string>
+    <string name="logoutmessage">Olet kirjautunut ulos onnistuneesti</string>
+    <string name="Reviews">Arvostelut</string>
+    <string name="Related">liittyvä</string>
+
+    <string name="noassetsfound">Mitään ominaisuutta ei löytynyt.</string>
+    <string name="logoufailed">Yhdistä internetyhteys kirjautuaksesi ulos sovelluksesta</string>
+
+    //newstrings
+    <string name="Help">Apua</string>
+    <string name="helpMessage">Apua ja tukea saat osoitteesta support@swaas.net</string>
+    <string name="sendemail">Lähettää sähköpostia</string>
+    <string name="cancel">Peruuttaa</string>
+    <string name="go">Siirry</string>
+    <string name="validText">Anna kelvollinen teksti.</string>
+    <string name="loadingpleasewait">Ladataan, odota...</string>
+
+    <string name="confirmLogOut">Tällä toiminnolla kirjaudut ulos sovelluksesta. \ N Oletko varma, että haluat kirjautua ulos.</string>
+    <string name="ok">OK</string>
+
+    <string name="oldpass">Vanha Salasana</string>
+    <string name="newpass">uusi Salasana</string>
+    <string name="confirmpass">Vahvista Salasana</string>
+
+    <string name="emptyDashboard">Kurssia ei ole jaettu vielä sinulle. Ota yhteys koulutusosastoosi</string>
+    <string name="latest_course">Viimeisimmät KURSSIT</string>
+    <string name="complet_course">Valmistuneet KURSSIT</string>
+    <string name="total_course">kurssien kokonaismäärä</string>
+    <string name="completed_course">valmistunut</string>
+    <string name="assigned_course">sidotut</string>
+    <string name="yet_to_start">ei vielä aloitettu</string>
+    <string name="in_progress">kesken</string>
+    <string name="Overdue_course">Myöhässä</string>
+    <string name="search_courses">Etsi kursseja</string>
+
+    <string name="support">Tuki</string>
+    <string name="close">Sulje</string>
+    <string name="status">Status :</string>
+
+    <string name="app_version">Päivittää</string>
+    <string name="newversion">Playstore-ohjelmassa on uusi versio. Ystävällisesti klikkaa OK päivittää. Kiitos.</string>
+
+
+    <string name="singlepage">Yksi sivu</string>
+    <string name="continuespage">Jatkuva sivu</string>
+    <string name="brightnessalert">Hi Kangle haluaa säätää järjestelmän kirkkautta. Haluatko sallia</string>
+    <string name="firstpagealert">Olet ensimmäisellä</string>
+    <string name="lastpagealert">Olet viimeinen.</string>
+    <string name="please_wait_progress">Ladataan, odota....</string>
+    <string name="willingtonextasset">Haluatko mennä seuraavaan.</string>
+    <string name="error_network_alert">Internet ei ole käytettävissä. Jatka valitsemalla vaihtoehto</string>
+
+    <string name="coursestatus">Kurssin tila</string>
+
+    <string name="take_test">suorita koe</string>
+    <string name="max_attempts_reached_shortened">Maksimimäärä yrityksiä saavutettu.</string>
+    <string name="expired_shortened">Kurssi umpeutunut</string>
+
+
+    <string name="no_of_contents">sisällön määrä :</string>
+    <string name="complete_percent">% Saattaa loppuun</string>
+    <string name="apply">Käytä</string>
+    <string name="clearfilter">Asia selvä</string>
+
+    <string name="question_interception_text">Haluatko varmasti lopettaa testin</string>
+    <string name="cleared">kulkea</string>
+    <string name="not_cleared">epäonnistua</string>
+
+    <string name="course_name">Kurssin nimi :</string>
+    <string name="section_name">Osaston nimi :</string>
+    <string name="attempt_date_title">Toteuttamispäivä</string>
+
+    <string name="result_title">Tulos</string>
+    <string name="no_result">Ei tuloksia</string>
+    <string name="total_negativeMarks">Negatiivisten merkintöjen määrä</string>
+    <string name="correct_answer_questions">Oikein vastattujen kysymysten kokonaismäärä</string>
+    <string name="no_of_questions_attended">Vastattujen kysymysten määrä</string>
+    <string name="no_of_questions">Kysymysten kokonaismäärä</string>
+    <string name="Score">Pisteet</string>
+
+    <string name="partialy_shortened">Osittain suoritettu</string>
+    <string name="Report">raportti</string>
+    <string name="content">Aloita</string>
+    <string name="watch_for">Katsella </string>
+    <string name="view">näkymä </string>
+    <string name="no_of_contents_hint">Suunniteltu auttamaan sinua käyttämään ja soveltamaan oppimasi taitoja</string>
+    <string name="last_date_text">Viimeinen päivämäärä loppuun</string>
+    <string name="prerequsitebefore">Lopeta </string>
+    <string name="prerequsiteafter">ennen kurssin valitsemista</string>
+
+    <string name="view_report">Katso raportti</string>
+    <string name="validation_msg_question">Valitse vastaus jatkaaksesi.</string>
+    <string name="time_Out">Olet loppunut Aika!</string>
+    <string name="Congrats">Onnittelut</string>
+    <string name="warning">Varoitus</string>
+
+    <string name="min">minuuttia</string>
+    <string name="sec">sekuntia</string>
+    <string name="attended_on">Yritetään</string>
+    <string name="due_on">Erääntyy</string>
+    <string name="clickonchart"> *Napsauta kaavioita nähdäksesi raportin.</string>
+    <string name="sectionmandatealert"> Täydennä edellinen osa tämän osan ottamiseksi käyttöön.</string>
+    <string name="testsavedoffline">testi Tapahtui virhe. Yritä myöhemmin uudelleen.</string>
+    <string name="noQuestions">Tällä hetkellä ei ole kysymyksiä</string>
+    <string name="finished">Testi on suoritettu onnistuneesti.</string>
+    <string name="Attempt">yrittää</string>
+
+    <string name="Contents_to_read">Lukettava sisältö</string>
+    <string name="Attempts">yrittää : </string>
+    <string name="Attempts_taken">vireillä kokeilla : </string>
+
+    <string name="start">ALKAA : </string>
+    <string name="finish">SUORITTAA LOPPUUN :</string>
+    <string name="file_size">TIEDOSTON KOKO :</string>
+    <string name="upload_date">LATAA PÄIVÄMÄÄRÄ :</string>
+    <string name="progress">PROGRESS</string>
+    <string name="Begin">ALKAA</string>
+    <string name="resume_course">JATKAA</string>
+    <string name="no_tags_available">Ei TAGS</string>
+
+    <string name="please_enter_username">ole kiltti tyyppi käyttäjä nimi</string>
+    <string name="please_enter_companyname">ole kiltti tyyppi yhtiö nimi</string>
+    <string name="please_enter_password">ole kiltti tyyppi Salasana</string>
+    <string name="open">Avata</string>
+
+    //Checklist Strings
+
+    <string name="checklisttitle">Tarkistuslista</string>
+    <string name="mine">Kaivos</string>
+    <string name="my_Store">Minun kauppani</string>
+    <string name="Onetime">Kerran</string>
+    <string name="daily">Päivittäin</string>
+    <string name="weekly">Viikoittain</string>
+    <string name="monthly">Kuukausittain</string>
+    <string name="no_checklist">Tällä hetkellä ei ole muistilista käytettävissä sinulle</string>
+    <string name="section_title">Jakso :</string>
+    <string name="of">of</string>
+    <string name="more">lisää</string>
+    <string name="less">Vähemmän</string>
+    <string name="acknowledgement">tunnustus</string>
+    <string name="I">minä</string>
+    <string name="onbehalfof_text">Puolesta</string>
+    <string name="ackText">Tunnustavat vasteet tarkistuslistan.</string>
+    <string name="kindlyack">Ystävällisesti Tunnusta muistilista Ennen Lähetä.</string>
+
+    <string name="mandatoryMessage">Kysymykset, jotka on merkitty * on vastattava.  Vastatkaa näihin kysymyksiin ja yritä uudelleen.</string>
+    <string name="enter_remarks">Anna huomioita täällä</string>
+
+    <string name="completed_by">esittämät :</string>
+    <string name="onbehalfof">Puolesta :</string>
+    <string name="submitted_date">Lähetyspäivämäärä :</string>
+
+    <string name="question_no">kysymys #</string>
+    <string name="question">kysymys</string>
+    <string name="response">Vastaus</string>
+    <string name="remarks">Huomautukset</string>
+
+    <string name="take_photo">ota kuva</string>
+    <string name="choose_from_gallery">Valitse galleriasta</string>
+    <string name="document">Valitse tiedosto</string>
+
+    <string name="errorsubmitingchecklist">Virheellinen tarkistuslista. Yritä myöhemmin uudelleen.</string>
+    <string name="imgupload">Lataaminen. Odota...</string>
+    <string name="Answertext">Vastaus :</string>
+    <string name="erroruploadingImage">Virhe ladattaessa kiinnitys. Yritä uudelleen</string>
+    <string name="answeratleastone">Ystävällisesti vastata yhteen kysymykseen tarkistuslistan esittämään.</string>
+
+    <string name="confirmsubmitchecklist">Oletko varma toimittaa tarkistuslista?</string>
+    <string name="ConfirmSubmit">Vahvistaa</string>
+    <string name="yestext">Joo</string>
+    <string name="ChecklistSubmittedSuccess">Tarkistuslista on toimitettu.</string>
+
+    <string name="view_remarks">Näytä huomautukset</string>
+    <string name="view_attachment">Näytä liite</string>
+    <string name="new_tag_text">UUSI</string>
+    <string name="insert_name">aseta nimi</string>
+    <string name="insert_trainee_name">aseta harjoittelija nimi</string>
+    <string name="take_assignment">Take Tehtävä</string>
+    <string name="attempt_expires_at">Yritys Vanhenee</string>
+    <string name="expires_on">päättyy</string>
+    <string name="comment">Kommentti</string>
+    <string name="retake_assignment">vallata Tehtävä</string>
+    <string name="comment_here">Lisää kommenttisi tähän ..</string>
+    <string name="asset_analytics_text">Asset Analytics</string>
+    <string name="related_assets_text">siihen liittyvän omaisuuden</string>
+    <string name="course_checklist">tietenkin muistilista</string>
+    <string name="yet_to_evaluate">Vielä arvioida</string>
+    <string name="try_again">Yritä uudelleen</string>
+    <string name="select_user">Valitse Käyttäjä</string>
+    <string name="all">Kaikki</string>
+    <string name="selected_user">valittu käyttäjä</string>
+    <string name="totl_users">Yhteensä käyttäjiä</string>
+    <string name="evaluate_user">arvioi Käyttäjä</string>
+    <string name="draft">Tallenna luonnos</string>
+    <string name="confirmdraftchecklist">Oletko varma laatia tarkistuslista?</string>
+    <string name="pending_for_evaluation">Odottaa arviointia</string>
+    <string name="reassigned_by">Uudelleenosoittaa valvoja</string>
+    <string name="ChecklistdraftededSuccess">Tarkistuslista laadittu.</string>
+    <string name="acquired_course">Acquired</string>
+    <string name="evaluation_report">arviointikertomuksessa</string>
+    <string name="view_all_replies">Näytä kaikki vastaukset</string>
+    <string name="no_checklist_found">Ei tarkistuslista avilable</string>
+    <string name="related_tags_text">Aiheeseen liittyvät</string>
+    <string name="assigned_task">tehtävääsi</string>
+    <string name="completed_task">Valmiit Tehtävä</string>
+    <string name="in_progress_task">Inprogress Tehtävä</string>
+    <string name="review_task">Review Tehtävä</string>
+    <string name="total_assets">Taseen loppusumma</string>
+    <string name="read_assets">Lue Vastaavaa</string>
+    <string name="unread_assets">Lukemattomat Vastaavaa</string>
+    <string name="liked_assets">toivonut Vastaavaa</string>
+    <string name="total_checklist">Yhteensä muistilista</string>
+    <string name="completed_checklist">valmistunut</string>
+    <string name="yettostart_checklist">Vielä aloitettu</string>
+    <string name="expired_checklist">Vanhentunut</string>
+    <string name="moremenulabel">Lisää</string>
+    <string name="profile">Profiili</string>
+    <string name="my_Team">Joukkueeni</string>
+    <string name="Task">Tehtävä</string>
+    <string name="notification_title">ilmoitus</string>
+    <string name="my_team">Joukkueeni</string>
+    <string name="view_Task_title">katso tehtävä</string>
+    <string name="checklist_name">Tarkistuslista Nimi:</string>
+    <string name="question_name">Kysymys Nimi:</string>
+    <string name="viewTasak_list">Näytä Tasklist</string>
+
+    <string-array name="priority_arrays">
+        <item>Low</item>
+        <item>Medium</item>
+        <item>High</item>
+    </string-array>
+    <string name="choose_category">valitse tuoteryhmä</string>
+    <string name="Self">itse</string>
+    <string name="Notify">Ilmoittaa :</string>
+    <string name="Attachments">Liitteet:</string>
+    <string name="Assigned">Toimeksiantaja:</string>
+    <string name="Priority">prioriteetti:</string>
+    <string name="Task_Due_Day">Tehtävä eräpäivänä (t):</string>
+    <string name="Task_Description">Tehtävän kuvaus :</string>
+    <string name="Task_Title">Tehtävä Otsikko:</string>
+    <string name="Remarks">Huomautukset :</string>
+    <string name="Employee">Työntekijä</string>
+    <string name="Trainee">Harjoittelija</string>
+    <string name="Manager">johtaja</string>
+    <string name="task_title_val">Anna tehtävän nimike</string>
+    <string name="task_description_val">Anna tehtävän kuvaus</string>
+    <string name="task_due_val">Anna tehtävä johtuen päivää</string>
+    <string name="task_assignee_val">Valitse siirronsaajalle tyyppi</string>
+    <string name="task_user_val">Valitse atleast yksi käyttäjä</string>
+    <string name="task_remarks_val">Anna huomioita</string>
+    <string name="task_success_msg">Tehtävä Lähettäjä onnistuneesti</string>
+    <string name="task_failure_msg">Virheellinen Tehtävä</string>
+    <string name="task_no_user_val">Ei käyttäjiä valittu</string>
+    <string name="users_selected_msg">käyttäjät Valittu</string>
+    <string name="no_user_msg">Ei löydy käyttäjää</string>
+    <string name="file_exceeding_msg">Tiedoston koko on yli 20Mb</string>
+    <string name="not_supported_msg">Tiedostoa ei tuettu</string>
+    <string name="file_exceeding_10mb">Tiedoston koko on yli 10Mb</string>
+    <string name="error_file_msg">Virhe valitsemalla tiedosto</string>
+    <string name="show_users_msg">Näytä käyttäjät</string>
+    <string name="Duration">Kesto</string>
+    <string name="drafted">laadittiin</string>
+    <string-array name="category">
+        <item>General</item>
+    </string-array>
+    <string name="employee_name">työntekijän nimi</string>
+    <string name="employee_designation">nimitys</string>
+    <string name="employee_region_name">alueen nimi</string>
+    <string name="employee_DOB">Syntymäaika</string>
+    <string name="assignedby">määrittämä</string>
+    <string name="assignedto">Määritetty</string>
+    <string name="section">jakso</string>
+    <string name="expires_today">umpeutuu tänään</string>
+    <string name="expires_tomo">umpeutuu huomenna</string>
+    <string name="expires_in">Vanhenee</string>
+    <string name="days">päivää</string>
+    <string name="section_s">jakso</string>
+    <string name="asset_s">etu</string>
+    <string name="question_s">Kysymys</string>
+    <string name="checklist_s">Tarkistuslista</string>
+    <string name="thankyou">Kiitos samankaltaisesta</string>
+    <string name="assets">etu</string>
+    <string name="clear_all">Tyhjennä</string>
+    <string name="reset">asettaa uudelleen</string>
+    <string name="filter">Suodattaa</string>
+    <string name="status_history">Tilahistoriassa</string>
+    <string name="acknowledge">tunnustaa</string>
+    <string name="course_report">Kurssiraportti</string>
+    <string name="Asset_report">Inventaariraportti</string>
+    <string name="checklist_report">tarkistuslista Raportti</string>
+    <string name="task_report">tehtävä raportti</string>
+    <string name="create_task">Luo tehtävä</string>
+    <string name="low">Matala</string>
+    <string name="medium">keskikokoinen</string>
+    <string name="high">Korkea</string>
+    <string name="are_you_sure_download">Oletko varma, että haluat ladata</string>
+    <string name="filename">Tiedoston nimi:</string>
+    <string name="newpasswordcannot">Uusi salasana ei voi olla sama kuin vanha salasana.</string>
+    <string name="passworddoesnot">Uusi salasana ja Vahvista salasana ei täsmää.</string>
+    <string name="library">Kirjasto</string>
+    <string name="last1week">Viime 1 viikko</string>
+    <string name="last1month">Viime 1 kuukausi</string>
+    <string name="last3month">Viimeiset 3 kuukautta</string>
+    <string name="Yesterday">Eilen</string>
+    <string name="email_hint">Anna rekisteröity sähköpostiosoitteesi tunnus</string>
+    <string name="allfieldsare">Kaikki kentät ovat pakollisia</string>
+    <string name="view_history">Näytä historia</string>
+    <string name="history">Historia</string>
+    <string name="no_history_available">Ei historiaa saatavilla</string>
+    <string name="filtered_by">suodatettu</string>
+    <string name="edit">MUOKATA</string>
+    <string name="attachment">liite</string>
+    <string name="submit_result">ilmoittaa lopputulos</string>
+    <string name="tsk_mark_for_review">Tehtävä Merkitse Arvostellut Onnistuneesti</string>
+    <string name="waiting_for_review">Odottaa tarkastusta</string>
+    <string name="tsk_acknowledged_succ">Tehtävä Kuitatut Onnistuneesti</string>
+    <string name="revieweed">tarkistetaan</string>
+    <string name="tsk_completed_succesfully">Tehtävä suoritettu onnistuneesti</string>
+    <string name="extend_course">Haluatko laajentaa tämän kurssin</string>
+    <string name="alert">hälytys</string>
+    <string name="extend_attempt">ulottuvat Yritä</string>
+    <string name="oops_no_result">Oho!! mitään tuloksia käytettävissä ..</string>
+    <string name="enable_network">Ota Verkon</string>
+    <string name="clear">Asia selvä</string>
+    <string name="no_attachment_found">Ei Liite löytynyt</string>
+    <string name="evaluate">Arvioida</string>
+    <string name="mark_complete">valmistunut</string>
+    <string name="chat">Chat</string>
+    <string name="Chat">Chat</string>
+    <string name="update_alert">A new version of Swaas LMS available for download. This update will not affect your app settings.</string>
+    <string name="defaulttext">Type your essay here</string>
+    <string name="Marksheet">Marksheet</string>
+    <string name="course_completed">Course Assignment attempted successfully !</string>
+    <string name="Are_you_sure_back">Are you sure you want to cancel taking the Assesment</string>
+    <string name="your_application_will_force_close_reopen_to_use_application">Your Application will force close.Reopen to use Application.</string>
+</resources>

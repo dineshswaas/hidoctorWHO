@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item>
+        <shape android:shape="rectangle" >
+            <solid android:color="@color/tacobellbackground" />
+            <corners android:topLeftRadius="80dp"
+                android:bottomLeftRadius="80dp"
+                android:topRightRadius="80dp"
+                android:bottomRightRadius="80dp"/>
+        </shape>
+    </item>
+    <item>
+        <shape xmlns:android="http://schemas.android.com/apk/res/android"
+            android:shape="rectangle">
+            <gradient
+                android:startColor="@color/tacobellbackground"
+                android:endColor="@color/tacobellbackground"
+                android:angle="270"/>
+
+            <corners android:topLeftRadius="80dp"
+                android:bottomLeftRadius="80dp"
+                android:topRightRadius="80dp"
+                android:bottomRightRadius="80dp"/>
+            <!--<padding android:bottom="@dimen/abc_dropdownitem_text_padding_left"
+                android:left="@dimen/abc_dropdownitem_text_padding_left"
+                android:right="@dimen/abc_dropdownitem_text_padding_right"
+                android:top="@dimen/abc_dropdownitem_text_padding_left"/>-->
+            <stroke
+                android:width="1px"
+                android:color="@color/tacobellbackground"/>
+        </shape>
+    </item>
+</layer-list>

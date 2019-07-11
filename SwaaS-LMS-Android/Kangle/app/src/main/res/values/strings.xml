@@ -1,0 +1,475 @@
+<resources>
+    <string name="app_name">SwaaS LMS</string>
+    <!--<string name="app_name">HiDoctor \n LMS</string>-->
+
+    <string name="version">v1.0.6(8)</string>
+    <string name="versionCode">8</string>
+    <string name="versionName">1.0.6</string>
+    <string name="versionname">Version : 1.0.6</string>
+    <string name="poweredbyswaas">\u00a9 Powered By Swaas</string>
+
+    <string-array name="Language">
+        <item>English</item>
+        <item>Spanish</item>
+    </string-array>
+
+    <string name="assettitle">TOOLS / VIDEO LIBRARY</string>
+    <string name="coursetitle">COURSES</string>
+    <string name="assesmenttitle">ASSIGNMENT</string>
+    <string name="mytrainighistory">MY TRAINING HISTORY</string>
+    <string name="learning" translatable="false"></string>
+
+    <string name="allassets">All Assets</string>
+    <string name="back">Back</string>
+    <string name="category">Category</string>
+    <string name="Tags">Tags</string>
+    <string name="loading">Loading...</string>
+    <string name="play">Play</string>
+    <string name="download">Download</string>
+    <string name="showmore">Show More</string>
+    <string name="Document">Document</string>
+    <string name="Image">Image</string>
+    <string name="Audio">Audio</string>
+    <string name="Video">Video</string>
+    <string name="Today">Today</string>
+    <string name="thisweek">This Week</string>
+    <string name="twoweeks">2 Weeks</string>
+    <string name="allweeks">All</string>
+    <string name="Type">Type</string>
+    <string name="Submit">Submit</string>
+
+    <string name="sortassets">Sort Assets</string>
+    <string name="filterass">Filter Assets</string>
+
+    <string name="Readunread">Read/Unread</string>
+    <string name="Read">Read</string>
+    <string name="Unread">Unread</string>
+    <string name="online">Online</string>
+    <string name="Downloaded">Downloaded</string>
+    <string name="downloadedonline">Online/Downloaded</string>
+    <string name="Sort">Sort</string>
+    <string name="Alphabetasc">Alphabet - Asc</string>
+    <string name="Alphabetdesc">Alphabet - Desc</string>
+    <string name="Alphabet">Alphabet</string>
+    <string name="comments">Comment</string>
+    <string name="post">Post</string>
+
+    <string name="logout">Logout</string>
+    <string name="changepassword">Change Password</string>
+    <string name="myprofile">My Profile</string>
+    <string name="gooffline">Go Offline</string>
+    <string name="goOnline">Go Online</string>
+    <string name="descriptiontext">Description</string>
+    <string name="categorytext">Category</string>
+
+    <string name="error_message">Please check your network connection and try again</string>
+    <string name="error_offline">You are currently in Offline mode.Connect to internet to go online.</string>
+    <string name="downloadmessage">Please connect to internet to download</string>
+    <string name="playMessage">Please connect to internet to view</string>
+    <string name="downloadcomplete">Download Complete</string>
+    <string name="erroroccured">Error occured please try again</string>
+    <string name="locationpermissoinMessage">Please allow to access your location.</string>
+    <string name="storagepermissoinMessage">Please allow access your files.</string>
+
+    <string name="readmore">Read More</string>
+    <string name="readless">Read Less</string>
+    <string name="showmorediscussions">Read All Discussions</string>
+    <string name="postsuccess">Posted Successfully</string>
+    <string name="progressdownload">Downloading Please wait...</string>
+
+    <string name="LikeRatetitle">Like / Rate</string>
+    <string name="Replytext">Reply</string>
+    <string name="charactersremainig">characters remainig</string>
+
+    <string name="hateIt">Hated It</string>
+    <string name="dislikeIt">Disliked It</string>
+    <string name="itsok">it\'s ok</string>
+    <string name="likeIt">Liked It</string>
+    <string name="loveIt">Loved It</string>
+
+    <string name="uploadingData">Uploading Data.Please wait...</string>
+    <string name="Discussiontitle">Discussions</string>
+    <string name="subDiscussionstitle">Discussions</string>
+    <string name="likeaction">Like</string>
+
+    <string name="shortReview">Write a short review</string>
+
+    <string name="loginusername">User Name or Email ID</string>
+    <string name="logincompanyname">CompanyName(Company.kangle.me)</string>
+    <string name="loginpassword">Password</string>
+    <string name="forgotpassword">Forgot Password</string>
+
+    <string name="loginbutton">Login</string>
+
+    <string name="postingcoments">Posting comments</string>
+    <string name="likeratingsuccess">Thanks for Like/Rating</string>
+
+    <string name="remainigchartext">100 characters remainig</string>
+
+    <string name="welcome">Welcome</string>
+    <string name="logoutmessage">You have logged out successfully</string>
+    <string name="Reviews">Reviews</string>
+    <string name="Related">Related</string>
+
+    <string name="noassetsfound">No assets found.</string>
+    <string name="logoufailed">Please connect to internet to Logout from the application.</string>
+
+    //newstrings
+    <string name="Help">Help</string>
+    <string name="helpMessage">For help and support please contact us at support@swaas.net</string>
+    <string name="sendemail">Send email</string>
+    <string name="cancel">Cancel</string>
+    <string name="go">Go</string>
+    <string name="validText">Please enter valid text.</string>
+    <string name="loadingpleasewait">Loading please wait...</string>
+
+    <string name="confirmLogOut">This action will logout from the application. \n Are you sure you want to logout.</string>
+    <string name="ok">OK</string>
+
+    <string name="oldpass">Old Password</string>
+    <string name="newpass">New Password</string>
+    <string name="confirmpass">Confirm Password</string>
+
+    <string name="emptyDashboard">Oops!\n Courses have not been assigned to you yet.\n Please contact your training manager or administrator for more information</string>
+    <string name="latest_course">Latest Course</string>
+    <string name="complet_course">Completed Course</string>
+    <string name="total_course">Total Courses</string>
+    <string name="completed_course">Completed</string>
+    <string name="acquired_course">Acquired</string>
+    <string name="assigned_course">Assigned</string>
+    <string name="yet_to_start">Yet to start</string>
+    <string name="in_progress">In progress</string>
+    <string name="Overdue_course">Overdue</string>
+    <string name="search_courses">Search Courses</string>
+
+    <string name="support">Support</string>
+    <string name="close">Close</string>
+    <string name="status">Status</string>
+
+    <string name="app_version">Update</string>
+    <string name="newversion">There is a new version available in the playstore. Kindly click on OK to update.Thank you.</string>
+
+
+    <string name="singlepage">Single Page</string>
+    <string name="continuespage">Countinues Page</string>
+    <string name="brightnessalert">Hi Kangle wants to adjust system brightness. Would you like to allow</string>
+    <string name="firstpagealert">You are at the first asset</string>
+    <string name="lastpagealert">You are at the last asset.</string>
+    <string name="please_wait_progress">Loading please wait.....</string>
+    <string name="willingtonextasset">Would you like to go the next asset.</string>
+    <string name="error_network_alert">Internet is not available.To continue choose an option</string>
+
+    <string name="coursestatus">Course Status</string>
+
+    <string name="take_test">Test</string>
+    <string name="max_attempts_reached_shortened">Max attempts reached</string>
+    <string name="expired_shortened">Expired</string>
+
+    <string name="no_of_contents">No Of Contents :</string>
+    <string name="complete_percent">% Complete</string>
+    <string name="apply">Apply</string>
+    <string name="clearfilter">Clear</string>
+
+    <string name="question_interception_text">Are you sure you want to quit the test</string>
+    <string name="cleared">Cleared</string>
+    <string name="not_cleared">Not Cleared</string>
+
+    <string name="course_name">Course Name :</string>
+    <string name="section_name">Section Name :</string>
+    <string name="attempt_date_title">Attempt Date</string>
+
+    <string name="result_title">Result</string>
+    <string name="no_result">No Results found</string>
+    <string name="total_negativeMarks">Total Negative Marks</string>
+    <string name="correct_answer_questions">Total correctly answered questions</string>
+    <string name="no_of_questions_attended">No of Questions attended</string>
+    <string name="no_of_questions">No of Questions</string>
+    <string name="Score">Score</string>
+
+    <string name="partialy_shortened">Partially completed</string>
+    <string name="Report">Report</string>
+    <string name="content">Content</string>
+    <string name="watch_for">Watch for </string>
+    <string name="view">View</string>
+    <string name="no_of_contents_hint">Designed to help you practice and apply the skills you learn</string>
+    <string name="last_date_text">Last date to complete this section</string>
+    <string name="prerequsitebefore">Please complete </string>
+    <string name="prerequsiteafter">before selecting this course</string>
+
+    <string name="view_report">View Report</string>
+    <string name="validation_msg_question">Please choose answer to proceed.</string>
+
+    <string name="time_Out">You have run out of Time!</string>
+    <string name="Congrats">Congrats</string>
+    <string name="warning">Warning</string>
+
+    <string name="min">Min</string>
+    <string name="sec">Sec</string>
+    <string name="attended_on">Attempt date :</string>
+    <string name="due_on">Due on -</string>
+    <string name="clickonchart"> Click * to view report.</string>
+    <string name="sectionmandatealert"> Please complete previous section to enable this section.</string>
+    <string name="testsavedoffline">test Error occurred. Try again later.</string>
+    <string name="noQuestions">Currently there are no questions available</string>
+    <string name="finished">Thank you for your response(s).</string>
+    <string name="Attempt">Attempt</string>
+
+    <string name="Contents_to_read">Contents to read</string>
+    <string name="Attempts">Attempts : </string>
+    <string name="Attempts_taken">Attempts taken : </string>
+
+
+    <string name="start">START : </string>
+    <string name="finish">FINISH :</string>
+    <string name="file_size">FILE SIZE :</string>
+    <string name="upload_date">Upload date :</string>
+    <string name="progress">PROGRESS</string>
+    <string name="Begin">BEGIN</string>
+    <string name="resume_course">RESUME</string>
+    <string name="no_tags_available">No Tags Available</string>
+
+    <string name="please_enter_username">Please enter your username</string>
+    <string name="please_enter_companyname">Please enter companyname</string>
+    <string name="please_enter_password">Please enter password</string>
+    <string name="open">Open</string>
+
+    //Checklist Strings
+
+    <string name="checklisttitle">CHECKLIST</string>
+    <string name="mine">Mine</string>
+    <string name="my_Store">My Store</string>
+    <string name="Onetime">One Time</string>
+    <string name="daily">Daily</string>
+    <string name="weekly">Weekly</string>
+    <string name="monthly">Monthly</string>
+    <string name="no_checklist">Currently there is no Checklist available for you</string>
+    <string name="section_title">Section :</string>
+    <string name="of">Of</string>
+    <string name="more">more</string>
+    <string name="less">less</string>
+    <string name="acknowledgement">Overall Acknowledgement</string>
+    <string name="I">I</string>
+    <string name="onbehalfof_text">on behalf of</string>
+    <string name="ackText">Acknowledge the responses for the checklist.</string>
+    <string name="kindlyack">Kindly Acknowledge the Checklist Before Submit.</string>
+
+    <string name="mandatoryMessage">Questions that are  marked * need to be answered. Please answer those questions and retry.</string>
+    <string name="enter_remarks">Enter remarks here</string>
+
+    <string name="completed_by">Submitted By :</string>
+    <string name="onbehalfof">On Behalf Of :</string>
+    <string name="submitted_date">Submitted Date :</string>
+
+    <string name="question_no">Question #</string>
+    <string name="question">Question</string>
+    <string name="response">Response</string>
+    <string name="remarks">Remarks</string>
+
+    <string name="take_photo">Take Photo</string>
+    <string name="choose_from_gallery">Choose from gallery</string>
+    <string name="document">Choose File</string>
+
+    <string name="errorsubmitingchecklist">Error submitting Checklist. Try again later.</string>
+    <string name="imgupload">Uploading. Please wait...</string>
+    <string name="Answertext">Answer :</string>
+    <string name="erroruploadingImage">Error uploading. Please try again</string>
+    <string name="answeratleastone">Kindly answer any one question in the checklist to submit.</string>
+
+    <string name="confirmsubmitchecklist">Are you sure to submit the checklist?</string>
+    <string name="ConfirmSubmit">Confirm</string>
+    <string name="yestext">Yes</string>
+    <string name="ChecklistSubmittedSuccess">Checklist has been submitted.</string>
+
+    <string name="view_remarks">View remarks</string>
+    <string name="view_attachment">View Attachment</string>
+    <string name="new_tag_text">NEW</string>
+
+    <string name="employee_name">Employee Name</string>
+    <string name="employee_designation">Designation</string>
+    <string name="employee_region_name">Region Name</string>
+    <string name="employee_DOB">Date of Birth</string>
+    <string name="about_me" translatable="false">ABOUT ME</string>
+    <string name="emp_start_date" translatable="false">Employment \n Start Date : </string>
+    <string name="work_details" translatable="false">WORK DETAILS</string>
+    <string name="education" translatable="false">EDUCATION</string>
+    <string name="interests" translatable="false">INTERESTS</string>
+    <string name="events" translatable="false">EVENTS</string>
+    <string name="present_text" translatable="false">Present</string>
+
+    <string name="event_name" translatable="false">Event Name</string>
+    <string name="date_text" translatable="false">Date</string>
+    <string name="save_text" translatable="false">Save</string>
+    <string name="interest_name" translatable="false">Interest Name</string>
+    <string name="college_name" translatable="false">Please enter college name</string>
+    <string name="degree_name" translatable="false">Degree Name</string>
+    <string name="from" translatable="false">From</string>
+    <string name="Present" translatable="false">Present :</string>
+    <string name="education_city" translatable="false">Education City :</string>
+    <string name="company_name" translatable="false">Company Name</string>
+    <string name="position" translatable="false">Position</string>
+    <string name="city_text" translatable="false">City</string>
+    <string name="to" translatable="false">To</string>
+    <string name="year" translatable="false">Year</string>
+    <string name="month" translatable="false">Month</string>
+    <string name="date" translatable="false">Date</string>
+    <string name="insert_name">insert name</string>
+    <string name="insert_trainee_name">insert trainee name</string>
+    <string name="take_assignment">Take Assignment</string>
+    <string name="attempt_expires_at">Attempt Expires in</string>
+    <string name="expires_on">Expires on</string>
+    <string name="comment">Comment</string>
+    <string name="retake_assignment">Retake Assignment</string>
+    <string name="comment_here">Write something here..</string>
+    <string name="asset_analytics_text">Asset Analytics</string>
+    <string name="related_assets_text">Related Category</string>
+    <string name="course_checklist">Course Checklist</string>
+    <string name="yet_to_evaluate">Yet to evaluate</string>
+    <string name="try_again">Try again</string>
+    <string name="select_user">Select User</string>
+    <string name="all">All</string>
+    <string name="selected_user">Selected user</string>
+    <string name="totl_users">Total users</string>
+    <string name="evaluate_user">Evaluate User</string>
+    <string name="draft">Save Draft</string>
+    <string name="confirmdraftchecklist">Are you sure to draft the checklist?</string>
+    <string name="pending_for_evaluation">Pending external evaluation</string>
+    <string name="reassigned_by">Reassigned by supervisor</string>
+    <string name="ChecklistdraftededSuccess">Checklist drafted.</string>
+    <string name="evaluation_report">Evaluation Report</string>
+    <string name="view_all_replies">View all replies</string>
+    <string name="no_checklist_found">No Checklist avilable</string>
+    <string name="related_tags_text">Related Tags</string>
+    <string name="assigned_task">Assigned Task</string>
+    <string name="completed_task">Completed Task</string>
+    <string name="in_progress_task">Inprogress Task</string>
+    <string name="review_task">Review Task</string>
+    <string name="total_assets">Total Assets</string>
+    <string name="read_assets">Read Assets</string>
+    <string name="unread_assets">Unread Assets</string>
+    <string name="liked_assets">Liked Assets</string>
+    <string name="total_checklist">Total Checklist</string>
+    <string name="completed_checklist">Completed</string>
+    <string name="yettostart_checklist">Yet to Start</string>
+    <string name="expired_checklist">Expired</string>
+    <string name="moremenulabel">More</string>
+    <string name="profile">Profile</string>
+    <string name="my_Team">My Team</string>
+
+    <string name="choose_priority" translatable="false">Choose priority</string>
+    <string name="Task">Task</string>
+    <string name="notification_title">Notification</string>
+    <string name="my_team">My Team</string>
+    <string name="view_Task_title">View Task</string>
+    <string name="checklist_name">Checklist Name :</string>
+    <string name="question_name">Question Name :</string>
+    <string name="viewTasak_list">View TaskList</string>
+
+    <string-array name="priority_arrays">
+        <item>Low</item>
+        <item>Medium</item>
+        <item>High</item>
+    </string-array>
+    <string name="choose_category">Choose category</string>
+    <string name="Self">Self</string>
+    <string name="Notify">Notify :</string>
+    <string name="Attachments">Attachments :</string>
+    <string name="Assigned">Assigned :</string>
+    <string name="Priority">Priority :</string>
+    <string name="Task_Due_Day">Task Due Day(s) :</string>
+    <string name="Task_Description">Task Description :</string>
+    <string name="Task_Title">Task Title :</string>
+    <string name="Remarks">Remarks :</string>
+    <string name="Employee">Employee</string>
+    <string name="Trainee">Trainee</string>
+    <string name="Manager">Manager</string>
+    <string name="task_title_val">Please enter task title</string>
+    <string name="task_description_val">Please enter task description</string>
+    <string name="task_due_val">Please enter task due days</string>
+    <string name="task_assignee_val">Please select assignee type</string>
+    <string name="task_user_val">Please select atleast one user</string>
+    <string name="task_remarks_val">Please enter remarks</string>
+    <string name="task_success_msg">Task Submitted Succesfully</string>
+    <string name="task_failure_msg">Error Submitting Task</string>
+    <string name="task_no_user_val">No users selected</string>
+    <string name="users_selected_msg">Users Selected</string>
+    <string name="no_user_msg">No user found</string>
+    <string name="file_exceeding_msg">File size exceeding 20Mb</string>
+    <string name="not_supported_msg">File not Supported</string>
+    <string name="file_exceeding_10mb">File size exceeding 10Mb</string>
+    <string name="error_file_msg">Error selecting file</string>
+    <string name="show_users_msg">Show Users</string>
+    <string name="Duration">Duration</string>
+    <string name="drafted">Drafted</string>
+    <string name="assignedby">Assigned By -</string>
+    <string name="assignedto">Assigned To -</string>
+    <string-array name="category">
+        <item>General</item>
+    </string-array>
+
+    //missing strings
+
+    <string name="section">Section(s)</string>
+    <string name="expires_today">Expires Today</string>
+    <string name="expires_tomo">Expires Tomorrow</string>
+    <string name="expires_in">Expires In</string>
+    <string name="days">Days</string>
+    <string name="section_s">Section(s)</string>
+    <string name="asset_s">Asset(s)</string>
+    <string name="question_s">Question(s)</string>
+    <string name="checklist_s">Checklist(s)</string>
+    <string name="thankyou">Thank you for the like</string>
+    <string name="assets">Assets</string>
+    <string name="clear_all">Clear all</string>
+    <string name="reset">Reset</string>
+    <string name="filter">Filter</string>
+    <string name="status_history">status history</string>
+    <string name="acknowledge">Acknowledge</string>
+    <string name="course_report">Course Report</string>
+    <string name="Asset_report">Asset Report</string>
+    <string name="checklist_report">Checklist Report</string>
+    <string name="task_report">Task Report</string>
+    <string name="create_task">Create Task</string>
+    <string name="low">Low</string>
+    <string name="medium">Medium</string>
+    <string name="high">High</string>
+    <string name="are_you_sure_download">Are you sure you want to download</string>
+    <string name="filename">File Name:</string>
+    <string name="newpasswordcannot">New password cannot be same as old password</string>
+    <string name="passworddoesnot">New password and Confirm password does not match.</string>
+    <string name="library">Library</string>
+    <string name="last1week">Last 1 week</string>
+    <string name="last1month">Last 1 month</string>
+    <string name="last3month">Last 3 months</string>
+    <string name="Yesterday">Yesterday</string>
+    <string name="email_hint">Enter Email ID</string>
+    <string name="allfieldsare">All fields are required</string>
+    <string name="view_history">View History</string>
+    <string name="history">History</string>
+    <string name="no_history_available">No history available</string>
+    <string name="filtered_by">Filtered by</string>
+    <string name="edit">EDIT</string>
+    <string name="attachment">Attachment</string>
+    <string name="submit_result">Submit Result</string>
+    <string name="tsk_mark_for_review">Task Mark for Reviewed Successfully</string>
+    <string name="waiting_for_review">Waiting for review</string>
+    <string name="tsk_acknowledged_succ">Task Acknowledged Successfully</string>
+    <string name="revieweed">Reviewed</string>
+    <string name="tsk_completed_succesfully">Task Completed Successfully</string>
+    <string name="extend_course">Would you like to extend this course</string>
+    <string name="alert">Alert</string>
+    <string name="extend_attempt">Extend Attempt</string>
+    <string name="oops_no_result">Oops!! no results available..</string>
+    <string name="enable_network">Please Enable Your Network</string>
+    <string name="clear">Clear</string>
+    <string name="no_attachment_found">No Attachments found</string>
+    <string name="evaluate">EVALUATE</string>
+    <string name="mark_complete">Mark Complete</string>
+    <string name="chat">Chat</string>
+    <string name="Chat">Chat</string>
+    <string name="update_alert">A new version of Swaas LMS available for download. This update will not affect your app settings.</string>
+    <string name="defaulttext">Type your essay here</string>
+    <string name="Marksheet">Marksheet</string>
+    <string name="course_completed">Course Assignment attempted successfully !</string>
+    <string name="Are_you_sure_back">Are you sure you want to cancel taking the Assesment</string>
+    <string name="your_application_will_force_close_reopen_to_use_application">Your Application will force close.Reopen to use Application.</string>
+</resources>

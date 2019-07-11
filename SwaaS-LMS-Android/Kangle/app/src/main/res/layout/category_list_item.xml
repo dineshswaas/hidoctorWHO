@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/category_item"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/tacobellbackground">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="70dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:background="@color/white">
+
+        <RelativeLayout
+            android:layout_width="160dp"
+            android:layout_height="150dp">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/yellow_folder"/>
+
+            <TextView
+                android:id="@+id/categorey_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="22"
+                android:padding="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_alignParentRight="true"
+                android:textColor="@color/white"
+                android:background="@drawable/circular_pink_color"/>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="70dp"
+        android:background="@color/black"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/categorey_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="General"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:gravity="center"/>
+    </RelativeLayout>
+
+</LinearLayout>

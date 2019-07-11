@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.swaas.kangle.report.ViewReportAsPdfActivity">
+
+
+    <RelativeLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/pdf_heading_bg">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_back"
+            android:src="@drawable/ic_arrow_back_white_36dp"
+            android:padding="@dimen/padding_ten"/>
+
+    </RelativeLayout>
+
+
+
+     <ImageView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:id="@+id/action_share"
+         android:visibility="gone"
+         android:padding="@dimen/padding_ten"
+         android:layout_alignParentRight="true"
+         android:src="@drawable/ic_action_share"
+         android:background="@color/pdf_heading_bg"/>
+
+    <com.swaas.kangle.playerPart.customviews.pdf.PDFView
+        android:id="@+id/mReportPdfView"
+        android:layout_below="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </com.swaas.kangle.playerPart.customviews.pdf.PDFView>
+
+
+</RelativeLayout>

@@ -1,0 +1,447 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SwaaS LMS</string>
+    <!--<string name="app_name">HiDoctor \n LMS</string>-->
+
+    <string name="version">v1.0.6(8)</string>
+    <string name="versionCode">8</string>
+    <string name="versionName">1.0.6</string>
+    <string name="versionname">版 : 1.0.6</string>
+    <string name="poweredbyswaas">\u00a9 由swaas提供支持</string>
+
+    <string-array name="Language">
+        <item>English</item>
+        <item>chinese</item>
+    </string-array>
+
+    <string name="assettitle">工具/视频库</string>
+    <string name="coursetitle">培训班</string>
+    <string name="assesmenttitle">分配</string>
+    <string name="mytrainighistory">我的训练历史</string>
+    <string name="learning">Colaboración empresarial</string>
+    <string name="allassets">所有资产</string>
+    <string name="back">背部</string>
+    <string name="category">类别</string>
+    <string name="Tags">标签</string>
+    <string name="loading">载入中...</string>
+    <string name="play">玩</string>
+    <string name="download">下载</string>
+    <string name="showmore">展示更多</string>
+    <string name="Document">文件</string>
+    <string name="Image">图片</string>
+    <string name="Audio">音频</string>
+    <string name="Video">视频</string>
+    <string name="Today">今天</string>
+    <string name="thisweek">本星期</string>
+    <string name="twoweeks">2周</string>
+    <string name="allweeks">所有</string>
+    <string name="Type">类型</string>
+    <string name="Submit">提交</string>
+
+    <string name="sortassets">对资源排序</string>
+    <string name="filterass">过滤资产</string>
+
+    <string name="Readunread">读/未读</string>
+    <string name="Read">读</string>
+    <string name="Unread">未读</string>
+    <string name="online">线上</string>
+    <string name="Downloaded">下载</string>
+    <string name="downloadedonline">在线/下载</string>
+    <string name="Sort">分类</string>
+    <string name="Alphabetasc">字母 -  ASC</string>
+    <string name="Alphabetdesc">字母 - 说明</string>
+    <string name="Alphabet">字母</string>
+    <string name="comments">注释</string>
+    <string name="post">岗位</string>
+
+    <string name="logout">登出</string>
+    <string name="changepassword">更改密码</string>
+    <string name="myprofile">我的简历</string>
+    <string name="gooffline">下线</string>
+    <string name="goOnline">上网</string>
+    <string name="descriptiontext">描述</string>
+    <string name="categorytext">类别</string>
+
+    <string name="error_message">请检查您的网络连接，然后再试一次</string>
+    <string name="error_offline">您目前处于离线模式。连接到互联网以联机。</string>
+    <string name="downloadmessage">请连接到互联网下载</string>
+    <string name="playMessage">请连接到互联网，查看</string>
+    <string name="downloadcomplete">下载完成</string>
+    <string name="erroroccured">出现错误，请重试</string>
+    <string name="locationpermissoinMessage">请允许访问您的位置。</string>
+    <string name="storagepermissoinMessage">请允许访问您的文件。</string>
+
+    <string name="readmore">阅读更多</string>
+    <string name="readless">阅读较少</string>
+    <string name="showmorediscussions">阅读所有讨论</string>
+    <string name="postsuccess">发布成功</string>
+    <string name="progressdownload">下载请稍候...</string>
+
+    <string name="LikeRatetitle">像/速率</string>
+    <string name="Replytext">回复</string>
+    <string name="charactersremainig">字符保持不变</string>
+
+    <string name="hateIt">恨它</string>
+    <string name="dislikeIt">不喜欢这</string>
+    <string name="itsok">没关系</string>
+    <string name="likeIt">喜欢它</string>
+    <string name="loveIt">爱它</string>
+
+    <string name="uploadingData">上传Data.Please稍候...</string>
+    <string name="Discussiontitle">讨论</string>
+    <string name="subDiscussionstitle">讨论</string>
+    <string name="likeaction">喜欢</string>
+
+    <string name="shortReview">写一个简短的回顾</string>
+
+    <string name="loginusername">用户名或电子邮件ID</string>
+    <string name="logincompanyname">公司名称（Company.kangle.me）</string>
+    <string name="loginpassword">密码</string>
+    <string name="forgotpassword">忘记密码</string>
+
+
+    <string name="loginbutton">登录</string>
+
+    <string name="postingcoments">发表留言</string>
+    <string name="likeratingsuccess">感谢像/评级</string>
+
+    <string name="remainigchartext">剩余100个字符</string>
+
+    <string name="welcome">欢迎 </string>
+    <string name="logoutmessage">您已成功退出</string>
+    <string name="Reviews">评测</string>
+    <string name="Related">有关</string>
+
+    <string name="noassetsfound">找不到任何资产。</string>
+    <string name="logoufailed">请连接到互联网从应用程序注销。</string>
+
+    //newstrings
+    <string name="Help">帮帮我</string>
+    <string name="helpMessage">如需帮助和支持，请在support@swaas.net与我们联系</string>
+    <string name="sendemail">发电子邮件</string>
+    <string name="cancel">取消</string>
+    <string name="go">走</string>
+    <string name="validText">请输入有效的文本。</string>
+    <string name="loadingpleasewait">加载请稍候...</string>
+
+    <string name="confirmLogOut">此操作将注销从应用程序。 \ n您确定要退出。</string>
+    <string name="ok">好</string>
+
+    <string name="oldpass">旧密码</string>
+    <string name="newpass">新密码</string>
+    <string name="confirmpass">确认密码</string>
+
+    <string name="emptyDashboard">糟糕！\ n课程尚未分配给你呢。\ n请联系您的培训经理或管理员以获取更多信息</string>
+    <string name="latest_course">最新课程</string>
+    <string name="complet_course">完成课程</string>
+    <string name="total_course">总课程</string>
+    <string name="completed_course">已完成</string>
+    <string name="assigned_course">分配</string>
+    <string name="yet_to_start">尚未开始</string>
+    <string name="in_progress">进行中</string>
+    <string name="Overdue_course">逾期</string>
+    <string name="search_courses">搜索课程</string>
+
+    <string name="support">支持</string>
+    <string name="close">关</string>
+    <string name="status">状态 :</string>
+
+    <string name="app_version">更新</string>
+    <string name="newversion">Playstore中有新版本可用。请点击确定更新。谢谢。</string>
+
+
+    <string name="singlepage">单页</string>
+    <string name="continuespage">连续页面</string>
+    <string name="brightnessalert">喜康乐要调整系统的亮度。你想允许</string>
+    <string name="firstpagealert">您是在第一资产</string>
+    <string name="lastpagealert">你是在最后的资产。</string>
+    <string name="please_wait_progress">加载请稍候.....</string>
+    <string name="willingtonextasset">你愿意去下一个资产。</string>
+    <string name="error_network_alert">互联网不可用。要继续选择一个选项</string>
+
+    <string name="coursestatus">球场状况</string>
+
+    <string name="take_test">测试</string>
+    <string name="max_attempts_reached_shortened">所有尝试都使用了</string>
+    <string name="expired_shortened">课程过期</string>
+
+    <string name="no_of_contents">无内容：</string>
+    <string name="complete_percent">％完成</string>
+    <string name="apply">应用</string>
+    <string name="clearfilter">明确</string>
+
+    <string name="question_interception_text">您确定要退出测试</string>
+    <string name="cleared">清</string>
+    <string name="not_cleared">未清除</string>
+
+    <string name="course_name">课程名 ：</string>
+    <string name="section_name">章节名称：</string>
+    <string name="attempt_date_title">尝试日期</string>
+
+    <string name="result_title">结果</string>
+    <string name="no_result">未找到结果</string>
+    <string name="total_negativeMarks">总负分</string>
+    <string name="correct_answer_questions">总正确回答问题</string>
+    <string name="no_of_questions_attended">没有问题的出席</string>
+    <string name="no_of_questions">没有问题的</string>
+    <string name="Score">得分了</string>
+
+    <string name="partialy_shortened">部分完成</string>
+    <string name="Report">报告</string>
+    <string name="content">内容</string>
+    <string name="watch_for">觑 </string>
+    <!--<string name="view">Ver </string>-->
+    <string name="view">视图</string>
+    <string name="no_of_contents_hint">旨在帮助你练习和运用你学到的技能</string>
+    <string name="last_date_text">最后日期完成这一节</string>
+    <string name="prerequsitebefore">请完成</string>
+    <string name="prerequsiteafter">选择这门课程之前</string>
+
+    <string name="view_report">查看报告</string>
+    <string name="validation_msg_question">请选择答案进行。</string>
+    <string name="time_Out">你已经用完了时间的！</string>
+    <string name="Congrats">恭喜</string>
+    <string name="warning">警告</string>
+
+    <string name="min">敏</string>
+    <string name="sec">二段</string>
+    <string name="attended_on">试图在 -</string>
+    <string name="due_on">由于上 -</string>
+    <string name="clickonchart">*点击图表来查看报告。</string>
+    <string name="sectionmandatealert">请填写前面部分，使这一部分。</string>
+    <string name="testsavedoffline">测试时发生错误。稍后再试。</string>
+    <string name="noQuestions">目前没有可用的问题</string>
+    <string name="finished">谢谢你的回复。</string>
+    <string name="Attempt">尝试</string>
+
+    <string name="Contents_to_read">内容阅读</string>
+    <string name="Attempts">尝试：</string>
+    <string name="Attempts_taken">采取的尝试：</string>
+
+    <string name="start">开始 : </string>
+    <string name="finish">表面处理：</string>
+    <string name="file_size">文件大小 ：</string>
+    <string name="upload_date">上传日期 ：</string>
+    <string name="progress">进展</string>
+    <string name="Begin">开始</string>
+    <string name="resume_course">恢复</string>
+    <string name="no_tags_available">没有标签</string>
+
+    <string name="please_enter_username">请输入用户名</string>
+    <string name="please_enter_companyname">请输入公司名称</string>
+    <string name="please_enter_password">请输入密码</string>
+    <string name="open">打开</string>
+
+    //Checklist Strings
+
+    <string name="checklisttitle">清单</string>
+    <string name="mine">矿</string>
+    <string name="my_Store">我的商店</string>
+    <string name="Onetime">一次</string>
+    <string name="daily">日常</string>
+    <string name="weekly">每周</string>
+    <string name="monthly">每月一次</string>
+    <string name="no_checklist">目前还没有为您提供清单</string>
+    <string name="section_title">节</string>
+    <string name="of">第</string>
+    <string name="more">更多</string>
+    <string name="less">减</string>
+    <string name="acknowledgement">承认</string>
+    <string name="I">一世</string>
+    <string name="onbehalfof_text">代表</string>
+    <string name="ackText">为确认清单的答复。</string>
+    <string name="kindlyack">请确认该清单之前提交。</string>
+
+    <string name="mandatoryMessage">被标记为*问题需要回答。</string>
+    <string name="enter_remarks">在此输入评论</string>
+
+    <string name="completed_by">由...所提交 :</string>
+    <string name="onbehalfof">代表 :</string>
+    <string name="submitted_date">提交日期 :</string>
+
+    <string name="question_no">题 ＃</string>
+    <string name="question">题</string>
+    <string name="response">响应</string>
+    <string name="remarks">备注</string>
+
+    <string name="take_photo">拍照</string>
+    <string name="choose_from_gallery">从图库中选择</string>
+    <string name="document">选择文件</string>
+
+    <string name="errorsubmitingchecklist">错误提交清单。稍后再试。</string>
+    <string name="imgupload">上传。请稍候...</string>
+    <string name="Answertext">回答 :</string>
+    <string name="erroruploadingImage">错误上传附件。请再试一次</string>
+    <string name="answeratleastone">请回答清单提交任何一个问题。</string>
+
+    <string name="confirmsubmitchecklist">您确定要提交的清单？</string>
+    <string name="ConfirmSubmit">确认</string>
+    <string name="yestext">是</string>
+    <string name="ChecklistSubmittedSuccess">清单已提交。</string>
+
+    <string name="view_remarks">查看评论</string>
+    <string name="view_attachment">查看附件</string>
+    <string name="new_tag_text">新</string>
+    <string name="insert_name">输入名字</string>
+    <string name="insert_trainee_name">插入实习生名</string>
+    <string name="take_assignment">就拿分配</string>
+    <string name="attempt_expires_at">尝试在到期</string>
+    <string name="expires_on">到期</string>
+    <string name="comment">评论</string>
+    <string name="retake_assignment">重拍分配</string>
+    <string name="comment_here">添加您的评论在这里..</string>
+    <string name="asset_analytics_text">资产分析</string>
+    <string name="related_assets_text">相关资产</string>
+    <string name="course_checklist">课程清单</string>
+    <string name="yet_to_evaluate">然而，评估</string>
+    <string name="try_again">再试一次</string>
+    <string name="select_user">选择用户</string>
+    <string name="all">所有</string>
+    <string name="selected_user">用户选择</string>
+    <string name="totl_users">总用户</string>
+    <string name="evaluate_user">评估用户</string>
+    <string name="draft">保存草稿</string>
+    <string name="confirmdraftchecklist">你一定要草拟清单？</string>
+    <string name="pending_for_evaluation">待评估</string>
+    <string name="reassigned_by">由主管再分配</string>
+    <string name="ChecklistdraftededSuccess">清单起草。</string>
+    <string name="acquired_course">Acquired</string>
+    <string name="evaluation_report">评估报告</string>
+    <string name="view_all_replies">查看全部回复</string>
+    <string name="no_checklist_found">没有清单即时拍摄</string>
+    <string name="related_tags_text">相关标签</string>
+    <string name="assigned_task">分配的任务</string>
+    <string name="completed_task">已完成任务</string>
+    <string name="in_progress_task">INPROGRESS任务</string>
+    <string name="review_task">审查工作</string>
+    <string name="total_assets">总资产</string>
+    <string name="read_assets">阅读资产</string>
+    <string name="unread_assets">未读资产</string>
+    <string name="liked_assets">喜欢资产</string>
+    <string name="total_checklist">总清单</string>
+    <string name="completed_checklist">已完成</string>
+    <string name="yettostart_checklist">尚未开始</string>
+    <string name="expired_checklist">过期</string>
+    <string name="moremenulabel">更多</string>
+    <string name="profile">轮廓</string>
+    <string name="my_Team">我的团队</string>
+    <string name="Task">任务</string>
+    <string name="notification_title">通知</string>
+    <string name="my_team">我的团队</string>
+    <string name="view_Task_title">查看任务</string>
+    <string name="checklist_name">核对表姓名：</string>
+    <string name="question_name">问题名称：</string>
+    <string name="viewTasak_list">查看任务列表</string>
+
+    <string-array name="priority_arrays">
+        <item>低</item>
+        <item>介质</item>
+        <item>高</item>
+    </string-array>
+    <string name="choose_category">选择种类</string>
+    <string name="Self">自</string>
+    <string name="Notify">通知：</string>
+    <string name="Attachments">附件：</string>
+    <string name="Assigned">分配：</string>
+    <string name="Priority">优先 ：</string>
+    <string name="Task_Due_Day">任务到期日（或多个）：</string>
+    <string name="Task_Description">任务描述 ：</string>
+    <string name="Task_Title">任务名称：</string>
+    <string name="Remarks">备注：</string>
+    <string name="Employee">雇员</string>
+    <string name="Trainee">实习生</string>
+    <string name="Manager">经理</string>
+    <string name="task_title_val">请输入任务标题</string>
+    <string name="task_description_val">请输入任务描述</string>
+    <string name="task_due_val">请输入的任务，由于天</string>
+    <string name="task_assignee_val">请选择受让人型</string>
+    <string name="task_user_val">请至少选择一个用户</string>
+    <string name="task_remarks_val">请输入备注</string>
+    <string name="task_success_msg">任务成功与提交</string>
+    <string name="task_failure_msg">错误提交任务</string>
+    <string name="task_no_user_val">没有用户选择</string>
+    <string name="users_selected_msg">用户选择</string>
+    <string name="no_user_msg">找不到用户</string>
+    <string name="file_exceeding_msg">文件大小超过20MB的</string>
+    <string name="not_supported_msg">文件不支持</string>
+    <string name="file_exceeding_10mb">文件大小超过10Mb以下</string>
+    <string name="error_file_msg">错误选择文件</string>
+    <string name="show_users_msg">显示用户</string>
+    <string name="Duration">持续时间</string>
+    <string name="drafted">起草</string>
+    <string-array name="category">
+        <item>General</item>
+    </string-array>
+    <string name="employee_name">员工姓名</string>
+    <string name="employee_designation">指定</string>
+    <string name="employee_region_name">区域名称</string>
+    <string name="employee_DOB">出生日期</string>
+    <string name="assignedby">分配者</string>
+    <string name="assignedto">分配给</string>
+    <string name="section">部分</string>
+    <string name="expires_today">今天截止</string>
+    <string name="expires_tomo">将于明天到期</string>
+    <string name="expires_in">过期日期在</string>
+    <string name="days">天</string>
+    <string name="section_s">部分</string>
+    <string name="asset_s">财富</string>
+    <string name="question_s">题</string>
+    <string name="checklist_s">清单</string>
+    <string name="thankyou">谢谢你的喜欢</string>
+    <string name="assets">财富</string>
+    <string name="clear_all">清除所有</string>
+    <string name="reset">重启</string>
+    <string name="filter">过滤</string>
+    <string name="status_history">状态历史记录</string>
+    <string name="acknowledge">确认</string>
+    <string name="course_report">课程报告</string>
+    <string name="Asset_report">资产报告</string>
+    <string name="checklist_report">清单报告</string>
+    <string name="task_report">任务报告</string>
+    <string name="create_task">创建任务</string>
+    <string name="low">低</string>
+    <string name="medium">介质</string>
+    <string name="high">高</string>
+    <string name="are_you_sure_download">你确定你要下载</string>
+    <string name="filename">文件名：</string>
+    <string name="newpasswordcannot">新密码不能与旧密码相同。</string>
+    <string name="passworddoesnot">新密码和确认密码不匹配。</string>
+    <string name="library">图书馆</string>
+    <string name="last1week">最近1周</string>
+    <string name="last1month">最近1个月</string>
+    <string name="last3month">最近3个月</string>
+    <string name="Yesterday">昨天</string>
+    <string name="email_hint">输入注册的电子邮件ID</string>
+    <string name="allfieldsare">各个领域都需要</string>
+    <string name="view_history">查看历史</string>
+    <string name="history">历史</string>
+    <string name="no_history_available">没有可用的历史</string>
+    <string name="filtered_by">通过过滤</string>
+    <string name="edit">编辑</string>
+    <string name="attachment">附件</string>
+    <string name="submit_result">提交结果</string>
+    <string name="tsk_mark_for_review">任务标记为成功评论</string>
+    <string name="waiting_for_review">等待审核</string>
+    <string name="tsk_acknowledged_succ">任务已确认成功</string>
+    <string name="revieweed">来自</string>
+    <string name="tsk_completed_succesfully">任务成功完成</string>
+    <string name="extend_course">你想延长这种课程</string>
+    <string name="alert">警报</string>
+    <string name="extend_attempt">扩展尝试</string>
+    <string name="oops_no_result">哎呀！没有结果可利用的。</string>
+    <string name="enable_network">请您的网络启用</string>
+    <string name="clear">明确</string>
+    <string name="no_attachment_found">没有找到附件</string>
+    <string name="evaluate">评估</string>
+    <string name="mark_complete">已完成</string>
+    <string name="chat">Chat</string>
+    <string name="Chat">Chat</string>
+    <string name="update_alert">A new version of Swaas LMS available for download. This update will not affect your app settings.</string>
+    <string name="defaulttext">Type your essay here</string>
+    <string name="Marksheet">Marksheet</string>
+    <string name="course_completed">Course Assignment attempted successfully !</string>
+    <string name="Are_you_sure_back">Are you sure you want to cancel taking the Assesment</string>
+    <string name="your_application_will_force_close_reopen_to_use_application">Your Application will force close.Reopen to use Application.</string>
+
+</resources>

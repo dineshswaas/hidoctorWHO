@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/cardViewLayout"
+    app:cardElevation="2dp"
+    app:cardMaxElevation="3dp"
+    app:cardCornerRadius="4dp"
+    app:cardUseCompatPadding="true"
+    app:cardPreventCornerOverlap="@bool/portrait_only">
+
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:padding="@dimen/padding_ten"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/questiontitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/question_background"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Who is the godfather of technology? "
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:id="@+id/question_text"
+                    android:textSize="@dimen/dimen_sp_16"
+                    android:padding="@dimen/padding_ten"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_margin="5dp"
+                android:id="@+id/hint_layout_holder"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="@dimen/dimen_30"
+                    android:layout_height="@dimen/dimen_30"
+                    android:id="@+id/btn_hint"
+                    android:layout_gravity="right|bottom"
+                    android:src="@drawable/ic_info_black_24dp"
+                    android:tint="@color/colorPrimary"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="What is your pet name ?"
+                android:visibility="gone"
+                android:id="@+id/question_description_text"
+                android:padding="@dimen/padding_ten"
+                android:textSize="@dimen/dimen_sp_12"
+                android:textColor="@color/black"/>
+
+            <ImageView
+                android:layout_width="@dimen/dimen_150"
+                android:layout_gravity="left"
+                android:scaleType="fitXY"
+                android:layout_marginLeft="@dimen/padding_ten"
+                android:visibility="gone"
+                android:layout_height="@dimen/dimen_120"
+                android:id="@+id/question_image"/>
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/min_max_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:layout_below="@+id/questiontitle">
+
+            <TextView
+                android:id="@+id/min_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:visibility="gone"
+                android:layout_marginLeft="4dp"/>
+
+            <TextView
+                android:id="@+id/max_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:textColor="@color/black"
+                android:visibility="gone"
+                android:layout_marginRight="4dp"/>
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/mutilple_question_option_holder"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="@dimen/padding_ten"
+            android:layout_marginLeft="@dimen/padding_ten"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/min_max_text">
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/footer"
+            android:layout_below="@+id/mutilple_question_option_holder"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:focusable="true"
+            android:layout_marginTop="@dimen/padding_ten"
+            android:focusableInTouchMode="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:id="@+id/attachmentallowedview"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone">
+
+                    <EditText
+                        android:id="@+id/comment"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:hint="@string/remarks"
+                        android:inputType="textMultiLine"
+                        android:paddingLeft="5dp"
+                        android:textSize="@dimen/dimen_sp_16"
+                        android:maxLength="250"
+                        android:visibility="gone"
+                        android:background="@drawable/rounded_edittext"
+                        android:layout_toLeftOf="@+id/attachmentlayout"/>
+
+                    <RelativeLayout
+                        android:id="@+id/attachmentlayout"
+                        android:layout_width="60dp"
+                        android:layout_height="50dp"
+                        android:layout_alignParentRight="true"
+                        android:gravity="center">
+
+                        <ImageView
+                            android:id="@+id/addattachment"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:visibility="gone"
+                            android:src="@drawable/ic_attach_file_black_36dp"/>
+
+                        <ImageView
+                            android:id="@+id/attachmentfile"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:padding="@dimen/padding_four"
+                            android:src="@drawable/icon_jpeg"
+                            android:visibility="gone"/>
+
+                        <ImageView
+                            android:id="@+id/remove"
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_alignParentRight="true"
+                            android:background="@color/white"
+                            android:visibility="gone"
+                            android:src="@drawable/nokold"/>
+
+                    </RelativeLayout>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/taskbuttonsLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginTop="5dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="@string/Task"
+                        android:textSize="16dp"
+                        android:layout_marginLeft="5dp"
+                        android:textColor="@color/black"
+                        android:gravity="center"/>
+
+                    <LinearLayout
+                        android:id="@+id/buttonsview"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="5dp"
+                        android:gravity="right">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:id="@+id/addtask"
+                            android:src="@drawable/ic_add_white_36dp"
+                            android:gravity="center"
+                            android:tint="@color/black"/>
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:id="@+id/view_task_link"
+                            android:src="@drawable/ic_remove_red_eye_black_24dp"
+                            android:gravity="center"
+                            android:layout_marginLeft="25dp"
+                            android:layout_marginRight="10dp"/>
+
+                    </LinearLayout>
+                </RelativeLayout>
+
+            </LinearLayout>
+
+
+
+
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+
+</android.support.v7.widget.CardView>

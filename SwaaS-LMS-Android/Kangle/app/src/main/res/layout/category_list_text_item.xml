@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:id="@+id/category_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/white">
+
+        <TextView
+            android:id="@+id/categorey_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:layout_toLeftOf="@+id/checkboxselected"
+            android:text="CategoreyName"
+            android:layout_alignParentLeft="true"
+            android:textColor="@color/black"
+            android:padding="10dp"/>
+
+        <TextView
+            android:id="@+id/categorey_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:textSize="15dp"
+            android:textColor="@color/black"
+            android:text="5"
+            android:padding="10dp"
+            android:visibility="gone"/>
+
+        <CheckBox
+            android:id="@+id/checkboxselected"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"/>
+
+        <View
+            android:id="@+id/view"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/categorey_name"
+            android:background="@color/grey"/>
+    </RelativeLayout>
+
+</RelativeLayout>

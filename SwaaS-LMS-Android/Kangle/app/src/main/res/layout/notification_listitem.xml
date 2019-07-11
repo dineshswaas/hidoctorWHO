@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:id="@+id/headercontent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="visible">
+
+            <TextView
+                android:id="@+id/headerdatestring"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Today"
+                android:layout_margin="5dp"/>
+
+            <TextView
+                android:id="@+id/clearall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/clear_all"
+                android:layout_alignParentRight="true"
+                android:layout_margin="5dp"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/headercontent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                app:cardPreventCornerOverlap="true"
+                app:cardUseCompatPadding="true"
+                android:id="@+id/cardviewLayout"
+                app:cardElevation="0dp"
+                app:cardMaxElevation="0dp"
+                app:cardCornerRadius="10dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <RelativeLayout
+                        android:id="@+id/namesection"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/dimen_50"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentStart="true">
+
+                        <ImageView
+                            android:id="@+id/typeimg"
+                            android:layout_width="@dimen/dimen_50"
+                            android:layout_height="@dimen/dimen_50"
+                            android:padding="10dp"
+                            android:src="@drawable/ic_notifications_white_24dp"/>
+
+                        <TextView
+                            android:id="@+id/titlestring"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_toRightOf="@+id/typeimg"
+                            android:layout_toLeftOf="@+id/datestring"
+                            android:text="Today\n today program"
+                            android:layout_margin="5dp"
+                            android:maxLines="2"
+                            android:ellipsize="end"
+                            android:gravity="center_vertical"/>
+
+                        <TextView
+                            android:id="@+id/datestring"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="10-Aug-2018"
+                            android:layout_alignParentRight="true"
+                            android:layout_margin="5dp"
+                            android:gravity="center_vertical"/>
+
+
+                    </RelativeLayout>
+
+                    <TextView
+                        android:id="@+id/messageString"
+                        android:layout_below="@+id/namesection"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Today"
+                        android:layout_margin="5dp"/>
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

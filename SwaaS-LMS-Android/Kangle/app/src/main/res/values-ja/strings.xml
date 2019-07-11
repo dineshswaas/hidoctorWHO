@@ -1,0 +1,449 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SwaaS LMS</string>
+    <!--<string name="app_name">HiDoctor \n LMS</string>-->
+
+    <string name="version">v1.0.6(8)</string>
+    <string name="versionCode">8</string>
+    <string name="versionName">1.0.6</string>
+    <string name="versionname">バージョン : 1.0.6</string>
+    <string name="poweredbyswaas">\u00a9 SwaaSによってサポートされる</string>
+
+    <string-array name="Language">
+        <item>English</item>
+        <item>japanese</item>
+    </string-array>
+
+    <string name="assettitle">ツール /ビデオライブラリ</string>
+    <string name="coursetitle">コース</string>
+    <string name="assesmenttitle">割り当て</string>
+    <string name="mytrainighistory">マイトレーニングの歴史</string>
+    <string name="learning">ラーニング</string>
+    <string name="allassets">すべての資産</string>
+    <string name="back">バック</string>
+    <string name="category">カテゴリー</string>
+    <string name="Tags">タグ</string>
+    <string name="loading">読み込んでいます...</string>
+    <string name="play">遊びます</string>
+    <string name="download">ダウンロード</string>
+    <string name="showmore">もっと見せる</string>
+    <string name="Document">資料</string>
+    <string name="Image">画像</string>
+    <string name="Audio">オーディオ</string>
+    <string name="Video">ビデオ</string>
+    <string name="Today">今日</string>
+    <string name="thisweek">今週</string>
+    <string name="twoweeks">2週間</string>
+    <string name="allweeks">すべて</string>
+    <string name="Type">タイプ</string>
+    <string name="Submit">提出します</string>
+
+    <string name="sortassets">ソート資産</string>
+    <string name="filterass">フィルタの資産</string>
+
+    <string name="Readunread">/未読を読みます</string>
+    <string name="Read">読む</string>
+    <string name="Unread">未読</string>
+    <string name="online">オンライン</string>
+    <string name="Downloaded">ダウンロード</string>
+    <string name="downloadedonline">オンライン/ダウンロード</string>
+    <string name="Sort">ソート</string>
+    <string name="Alphabetasc">アルファベット - 昇順</string>
+    <string name="Alphabetdesc">アルファベット -  DESC</string>
+    <string name="Alphabet">アルファベット</string>
+    <string name="comments">注釈</string>
+    <string name="post">役職</string>
+
+    <string name="logout">ログアウト</string>
+    <string name="changepassword">パスワードを変更する</string>
+    <string name="myprofile">私のプロフィール</string>
+    <string name="gooffline">[オフライン</string>
+    <string name="goOnline">オンライン化する</string>
+    <string name="descriptiontext">説明</string>
+    <string name="categorytext">カテゴリー</string>
+
+    <string name="error_message">ネットワーク接続を確認して、もう一度お試しください</string>
+    <string name="error_offline">あなたは、オンラインにするには、インターネットにオフラインmode.Connectに現在あります。</string>
+    <string name="downloadmessage">ダウンロードするにはインターネットに接続してください</string>
+    <string name="playMessage">表示するには、インターネットに接続してください</string>
+    <string name="downloadcomplete">ダウンロード完了</string>
+    <string name="erroroccured">エラーが発生した再試行してください</string>
+    <string name="locationpermissoinMessage">あなたの場所にアクセスすることを可能にしてください。</string>
+    <string name="storagepermissoinMessage">あなたのファイルにアクセスできるようにしてください。</string>
+
+    <string name="readmore">続きを読む</string>
+    <string name="readless">レスを読みます</string>
+    <string name="showmorediscussions">すべてのディスカッションを読みます</string>
+    <string name="postsuccess">成功しました投稿</string>
+    <string name="progressdownload">しばらくお待ちくださいダウンロード中...</string>
+
+    <string name="LikeRatetitle">同様に/レート</string>
+    <string name="Replytext">応答</string>
+    <string name="charactersremainig">文字は残っている</string>
+
+    <string name="hateIt">それを嫌っ</string>
+    <string name="dislikeIt">それを気に入らなかった点</string>
+    <string name="itsok">大丈夫です</string>
+    <string name="likeIt">好きでした</string>
+    <string name="loveIt">楽しかった</string>
+
+    <string name="uploadingData">データをアップロードしています。お待ちください...</string>
+    <string name="Discussiontitle">議論</string>
+    <string name="subDiscussionstitle">議論</string>
+    <string name="likeaction">以下のような</string>
+
+    <string name="shortReview">ショートレビューを書きます</string>
+
+    <string name="loginusername">ユーザー名または電子メールID</string>
+    <string name="logincompanyname">会社名（Company.kangle.me）</string>
+    <string name="loginpassword">パスワード</string>
+    <string name="forgotpassword">パスワードをお忘れですか</string>
+
+
+    <string name="loginbutton">ログイン</string>
+
+    <string name="postingcoments">コメントを投稿</string>
+    <string name="likeratingsuccess">同様に/評価してくれてありがとう</string>
+
+    <string name="remainigchartext">100文字が残っています</string>
+
+    <string name="welcome">ようこそ</string>
+    <string name="logoutmessage">あなたは成功しログアウトしています</string>
+    <string name="Reviews">レビュー</string>
+    <string name="Related">関連</string>
+
+    <string name="noassetsfound">見つかりませんでした資産。</string>
+    <string name="logoufailed">アプリケーションからログアウトするには、インターネットに接続してください。</string>
+
+    //newstrings
+    <string name="Help">助けて</string>
+    <string name="helpMessage">ヘルプとサポートについてはsupport@swaas.netまでお問い合わせください</string>
+    <string name="sendemail">メールを送る</string>
+    <string name="cancel">キャンセル</string>
+    <string name="go">行きます</string>
+    <string name="validText">有効なテキストを入力してください。</string>
+    <string name="loadingpleasewait">読み込み中。。。待って下さい...</string>
+
+    <string name="confirmLogOut">このアクションは、アプリケーションからログアウトします。 \ nはあなたがログアウトしてもよろしいです。</string>
+    <string name="ok">OK</string>
+
+    <string name="oldpass">以前のパスワード</string>
+    <string name="newpass">新しいパスワード</string>
+    <string name="confirmpass">パスワードを認証する</string>
+
+    <string name="emptyDashboard">おっと！\ n個のコースは、まだあなたに割り当てられていない。\ nはあなたのトレーニングマネージャーまたは管理者は、より多くの情報についてはお問い合わせください</string>
+    <string name="latest_course">最新のコース</string>
+    <string name="complet_course">完成したコース</string>
+    <string name="total_course">トータルコース</string>
+    <string name="completed_course">完了しました</string>
+    <string name="assigned_course">割り当て済み</string>
+    <string name="yet_to_start">YET開始するには</string>
+    <string name="in_progress">進行中</string>
+    <string name="Overdue_course">過大</string>
+    <string name="search_courses">コースの検索</string>
+
+    <string name="support">サポート</string>
+    <string name="close">閉じる</string>
+    <string name="status">状態 :</string>
+
+    <string name="app_version">更新</string>
+    <string name="newversion">playstoreで利用可能な新しいバージョンがあります。親切にあなたをupdate.Thankするには、[OK]をクリックしてください。</string>
+
+
+    <string name="singlepage">単一ページ</string>
+    <string name="continuespage">連続ページ</string>
+    <string name="brightnessalert">こんにちはKangleは、システムの明るさを調整したいです。あなたが許可したいと思います</string>
+    <string name="firstpagealert">あなたは最初の資産であります</string>
+    <string name="lastpagealert">あなたは、最後の資産です。</string>
+    <string name="please_wait_progress">読み込み中。。。待って下さい.....</string>
+    <string name="willingtonextasset">あなたは次の資産を行きたいと思います。</string>
+    <string name="error_network_alert">インターネットは利用できません。引き続きオプションを選択する</string>
+
+    <string name="coursestatus">コース状況</string>
+
+    <string name="take_test">テスト</string>
+    <string name="max_attempts_reached_shortened">最大試行回数</string>
+    <string name="expired_shortened">コースの有効期限が切れ</string>
+
+    <string name="no_of_contents">内容のありません：</string>
+    <string name="complete_percent">コンプリート％</string>
+    <string name="apply">適用します</string>
+    <string name="clearfilter">明確な</string>
+
+    <string name="question_interception_text">あなたがテストを終了してよろしいです</string>
+    <string name="cleared">クリア</string>
+    <string name="not_cleared">クリアされていません</string>
+
+    <string name="course_name">コース名 ：</string>
+    <string name="section_name">セクション名：</string>
+    <string name="attempt_date_title">試み日</string>
+
+    <string name="result_title">結果</string>
+    <string name="no_result">結果が見つかりません</string>
+    <string name="total_negativeMarks">総ネガティブマーク</string>
+    <string name="correct_answer_questions">合計は正しく質問に答え</string>
+    <string name="no_of_questions_attended">出席した質問なし</string>
+    <string name="no_of_questions">質問なし</string>
+    <string name="Score">スコア</string>
+
+    <string name="partialy_shortened">部分的に完了</string>
+    <string name="Report">報告する</string>
+    <string name="content">コンテンツ</string>
+    <string name="watch_for">気をつける</string>
+    <!--<string name="view">Ver </string>-->
+    <string name="view">ビュー</string>
+    <string name="no_of_contents_hint">あなたが学ぶスキルを練習し、適用を支援するために設計さ</string>
+    <string name="last_date_text">このセクションを完了するための最終日</string>
+    <string name="prerequsitebefore">完了してください</string>
+    <string name="prerequsiteafter">このコースを選択する前に</string>
+
+    <string name="view_report">レポートを見ます</string>
+    <string name="validation_msg_question">続行する答えを選択してください。</string>
+    <string name="time_Out">あなたは時間が不足しています！</string>
+    <string name="Congrats">おめでとう</string>
+    <string name="warning">警告</string>
+
+    <string name="min">分</string>
+    <string name="sec">秒</string>
+    <string name="attended_on">しようとしました -</string>
+    <string name="due_on">起因します - </string>
+    <string name="clickonchart">*ビューレポートへのチャートをクリックします。</string>
+    <string name="sectionmandatealert">このセクションを有効にするには、前のセクションを完了してください。</string>
+    <string name="testsavedoffline">テストにエラーが発生しました。あとでもう一度試してみてください。</string>
+    <string name="noQuestions">現在利用可能な質問はありません</string>
+    <string name="finished">ご回答のためにありがとう。</string>
+    <string name="Attempt">試み</string>
+
+    <string name="Contents_to_read">読むために内容</string>
+    <string name="Attempts">試み : </string>
+    <string name="Attempts_taken">撮影した試み：</string>
+
+    <string name="start">開始 : </string>
+    <string name="finish">フィニッシュ :</string>
+    <string name="file_size">ファイルサイズ ：</string>
+    <string name="upload_date">アップロード日 :</string>
+    <string name="progress">進捗</string>
+    <string name="Begin">ベギン</string>
+    <string name="resume_course">履歴書</string>
+    <string name="no_tags_available">タグは使用不可</string>
+
+    <string name="please_enter_username">ユーザ名を入力してください</string>
+    <string name="please_enter_companyname">会社名を入力してください。</string>
+    <string name="please_enter_password">パスワードを入力してください</string>
+    <string name="open">開いた</string>
+
+    //Checklist Strings
+
+    <string name="checklisttitle">チェックリスト</string>
+    <string name="mine">鉱山</string>
+    <string name="my_Store">私の店</string>
+    <string name="Onetime">一度</string>
+    <string name="daily">日々</string>
+    <string name="weekly">ウィークリー</string>
+    <string name="monthly">毎月</string>
+    <string name="no_checklist">現在、あなたのために利用可能なチェックリストはありません</string>
+    <string name="section_title">節 :</string>
+    <string name="of">の第</string>
+    <string name="more">もっと</string>
+    <string name="less">もっと少なく</string>
+    <string name="acknowledgement">了承</string>
+    <string name="I">私</string>
+    <string name="onbehalfof_text">代表して</string>
+    <string name="ackText">チェックリストのための応答を認めます。</string>
+    <string name="kindlyack">親切に送信する前にチェックリストを認めます。</string>
+
+    <string name="mandatoryMessage">*マークされている質問が回答する必要があります。</string>
+    <string name="enter_remarks">ここでの発言を入力します。</string>
+
+    <string name="completed_by">から提出された :</string>
+    <string name="onbehalfof">代表して :</string>
+    <string name="submitted_date">掲載日 :</string>
+
+    <string name="question_no">質問 ＃</string>
+    <string name="question">質問</string>
+    <string name="response">応答</string>
+    <string name="remarks">備考</string>
+
+    <string name="take_photo">写真を撮る</string>
+    <string name="choose_from_gallery">ギャラリーから選択します。</string>
+    <string name="document">ファイルを選ぶ</string>
+
+    <string name="errorsubmitingchecklist">チェックリストを提出するエラー。あとでもう一度試してみてください。</string>
+    <string name="imgupload">アップロード。お待ちください</string>
+    <string name="Answertext">回答 </string>
+    <string name="erroruploadingImage">エラーアップロード添付。もう一度やり直してください</string>
+    <string name="answeratleastone">親切に提出するチェックリストのいずれかの質問に答えます。</string>
+
+    <string name="confirmsubmitchecklist">あなたは、チェックリストを提出してよろしいですか？</string>
+    <string name="ConfirmSubmit">確かめます</string>
+    <string name="yestext">はい</string>
+    <string name="ChecklistSubmittedSuccess">チェックリストが送信されました。</string>
+
+    <string name="view_remarks">ビューの発言</string>
+    <string name="view_attachment">添付ファイルを表示</string>
+    <string name="new_tag_text">新しい</string>
+    <string name="insert_name">名前を挿入</string>
+    <string name="insert_trainee_name">研修生の名前を挿入</string>
+    <string name="take_assignment">割り当てを取ります</string>
+    <string name="attempt_expires_at">試みは、有効期限</string>
+    <string name="expires_on">有効期限</string>
+    <string name="comment">コメント</string>
+    <string name="retake_assignment">割り当てを奪還</string>
+    <string name="comment_here">ここにあなたのコメントを追加。..</string>
+    <string name="asset_analytics_text">資産解析</string>
+    <string name="related_assets_text">関連資産</string>
+    <string name="course_checklist">コースのチェックリスト</string>
+    <string name="yet_to_evaluate">まだ評価します</string>
+    <string name="try_again">再試行する</string>
+    <string name="select_user">ユーザーの選択</string>
+    <string name="all">すべて</string>
+    <string name="selected_user">選択したユーザー</string>
+    <string name="totl_users">総ユーザー</string>
+    <string name="evaluate_user">ユーザーの評価</string>
+    <string name="draft">下書きを保存</string>
+    <string name="confirmdraftchecklist">あなたは、チェックリストを起草してよろしいですか？</string>
+    <string name="pending_for_evaluation">評価のために保留中</string>
+    <string name="reassigned_by">監督者が再割り当て</string>
+    <string name="ChecklistdraftededSuccess">チェックリストを起草します。</string>
+    <string name="acquired_course">獲得しました</string>
+    <string name="evaluation_report">評価報告書</string>
+    <string name="view_all_replies">すべての返信を表示</string>
+    <string name="no_checklist_found">avilableませんチェックリスト</string>
+    <string name="related_tags_text">関連するタグ</string>
+    <string name="assigned_task">割り当てられたタスク</string>
+    <string name="completed_task">完了したタスク</string>
+    <string name="in_progress_task">INPROGRESSタスク</string>
+    <string name="review_task">レビュータスク</string>
+    <string name="total_assets">総資産</string>
+    <string name="read_assets">資産を読みます</string>
+    <string name="unread_assets">未読資産</string>
+    <string name="liked_assets">気に入った資産</string>
+    <string name="total_checklist">総チェックリスト</string>
+    <string name="completed_checklist">完成しました</string>
+    <string name="yettostart_checklist">しかし、起動します</string>
+    <string name="expired_checklist">期限切れ</string>
+    <string name="moremenulabel">もっと</string>
+    <string name="profile">プロフィール</string>
+    <string name="my_Team">私のチーム</string>
+    <string name="Task">仕事</string>
+    <string name="notification_title">お知らせ</string>
+    <string name="my_team">私のチーム</string>
+    <string name="view_Task_title">[タスク</string>
+    <string name="checklist_name">チェックリスト名前：</string>
+    <string name="question_name">質問名：</string>
+    <string name="viewTasak_list">ビューのタスクリスト</string>
+
+    <string-array name="priority_arrays">
+        <item>低いです</item>
+        <item>中</item>
+        <item>高い</item>
+    </string-array>
+    <string name="choose_category">カテゴリを選択</string>
+    <string name="Self">自己</string>
+    <string name="Notify">通知：</string>
+    <string name="Attachments">添付ファイル：</string>
+    <string name="Assigned">割り当てられました：</string>
+    <string name="Priority">優先度 ：</string>
+    <string name="Task_Due_Day">タスクにより日（秒）：</string>
+    <string name="Task_Description">タスクの説明：</string>
+    <string name="Task_Title">タスクのタイトル：</string>
+    <string name="Remarks">備考 ：</string>
+    <string name="Employee">従業員</string>
+    <string name="Trainee">研修生</string>
+    <string name="Manager">マネージャー</string>
+    <string name="task_title_val">タスクのタイトルを入力してください</string>
+    <string name="task_description_val">タスクの説明を入力してください</string>
+    <string name="task_due_val">日によってタスクを入力してください。</string>
+    <string name="task_assignee_val">譲受人の種類を選択してください</string>
+    <string name="task_user_val">少なくとも1人のユーザーを選択してください</string>
+    <string name="task_remarks_val">発言を入力してください。</string>
+    <string name="task_success_msg">タスクが正常に提出しました</string>
+    <string name="task_failure_msg">エラー提出タスク</string>
+    <string name="task_no_user_val">いいえ、ユーザーが選択されていません</string>
+    <string name="users_selected_msg">ユーザー選択</string>
+    <string name="no_user_msg">どのユーザーが見つかりませんでした</string>
+    <string name="file_exceeding_msg">20Mバイトを超えるファイルサイズ</string>
+    <string name="not_supported_msg">ファイルはサポートされません</string>
+    <string name="file_exceeding_10mb">ファイルサイズ超過の10Mb</string>
+    <string name="error_file_msg">エラー選択ファイル</string>
+    <string name="show_users_msg">ユーザーの表示</string>
+    <string name="Duration">期間</string>
+    <string name="drafted">起草</string>
+    <string-array name="category">
+        <item>General</item>
+    </string-array>
+    <string name="assignedby">によって割り当て</string>
+    <string name="assignedto">に割り当てられた</string>
+    <string name="month"></string>
+//missing strings
+
+    <string name="section">セクション</string>
+    <string name="expires_today">今日、有効期限</string>
+    <string name="expires_tomo">明日は有効期限</string>
+    <string name="expires_in">有効期限</string>
+    <string name="days">日々</string>
+    <string name="section_s">セクション</string>
+    <string name="asset_s">資産</string>
+    <string name="question_s">質問</string>
+    <string name="checklist_s">チェックリスト</string>
+    <string name="thankyou">以下のようないただきありがとうございます</string>
+    <string name="assets">資産</string>
+    <string name="clear_all">すべてクリア</string>
+    <string name="reset">リセット</string>
+    <string name="filter">フィルタ</string>
+    <string name="status_history">ステータス履歴</string>
+    <string name="acknowledge">認める</string>
+    <string name="course_report">コースレポート</string>
+    <string name="Asset_report">資産レポート</string>
+    <string name="checklist_report">チェックリストレポート</string>
+    <string name="task_report">タスクレポート</string>
+    <string name="create_task">タスクの作成</string>
+    <string name="low">低いです</string>
+    <string name="medium">中</string>
+    <string name="high">高い</string>
+    <string name="are_you_sure_download">あなたがダウンロードしてもよろしいです</string>
+    <string name="filename">ファイル名：</string>
+    <string name="newpasswordcannot">新しいパスワードは古いパスワードと同じにすることはできません。</string>
+    <string name="passworddoesnot">新しいパスワードと一致していないパスワードを確認します。</string>
+    <string name="library">としょうかん</string>
+    <string name="last1week">最後の1週間</string>
+    <string name="last1month">最後の1ヶ月</string>
+    <string name="last3month">最後の3ヶ月</string>
+    <string name="Yesterday">昨日</string>
+    <string name="employee_name">従業員名</string>
+    <string name="employee_designation">指定</string>
+    <string name="employee_DOB">生年月日</string>
+    <string name="employee_region_name">地域名</string>
+    <string name="email_hint">登録メールIDを入力します。</string>
+    <string name="allfieldsare">全て必須項目です</string>
+    <string name="view_history">履歴の表示</string>
+    <string name="history">歴史</string>
+    <string name="no_history_available">利用できませんの歴史</string>
+    <string name="filtered_by">によってフィルタリング</string>
+    <string name="edit">EDIT</string>
+    <string name="attachment">アタッチメント</string>
+    <string name="submit_result">検索結果を提出</string>
+    <string name="tsk_mark_for_review">成功しましたレビューのためのタスクマーク</string>
+    <string name="waiting_for_review">レビュー待ち</string>
+    <string name="tsk_acknowledged_succ">タスクが正常にADIは、</string>
+    <string name="revieweed">審査</string>
+    <string name="tsk_completed_succesfully">タスクが正常に完了しました</string>
+    <string name="extend_course">あなたはこのコースを拡張したいと思います</string>
+    <string name="alert">警報</string>
+    <string name="extend_attempt">試みを拡張</string>
+    <string name="oops_no_result">おっとっと！！何もありませんが利用可能。..</string>
+    <string name="enable_network">あなたのネットワークを有効にしてください</string>
+    <string name="clear">明確な</string>
+    <string name="no_attachment_found">添付ファイル見つかりません</string>
+    <string name="evaluate">評価します</string>
+    <string name="mark_complete">完成しました</string>
+    <string name="chat">Chat</string>
+    <string name="Chat">Chat</string>
+    <string name="update_alert">A new version of Swaas LMS available for download. This update will not affect your app settings.</string>
+    <string name="defaulttext">Type your essay here</string>
+    <string name="Marksheet">Marksheet</string>
+    <string name="course_completed">Course Assignment attempted successfully !</string>
+    <string name="Are_you_sure_back">Are you sure you want to cancel taking the Assesment</string>
+    <string name="your_application_will_force_close_reopen_to_use_application">Your Application will force close.Reopen to use Application.</string>
+</resources>

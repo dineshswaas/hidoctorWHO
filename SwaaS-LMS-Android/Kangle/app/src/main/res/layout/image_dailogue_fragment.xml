@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black_semi_transparent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/close"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:id="@+id/btn_close"
+        android:textStyle="bold"
+        android:textSize="@dimen/dimen_sp_16"
+        android:background="@color/colorPrimary"
+        android:layout_alignParentBottom="true"
+        android:padding="@dimen/padding_ten"/>
+
+    <com.swaas.kangle.playerPart.customviews.image.TouchImageView
+        android:layout_width="match_parent"
+        android:layout_above="@+id/btn_close"
+        android:layout_height="match_parent"
+        android:id="@+id/question_image"
+        />
+
+
+</RelativeLayout>

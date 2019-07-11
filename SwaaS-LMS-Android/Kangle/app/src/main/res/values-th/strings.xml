@@ -1,0 +1,444 @@
+<resources>
+    <string name="app_name">SwaaS LMS</string>
+    <!--<string name="app_name">HiDoctor \n LMS</string>-->
+    <string name="version">v1.0.6(8)</string>
+    <string name="versionCode">8</string>
+    <string name="versionName">1.0.6</string>
+    <string name="versionname">รุ่น : 1.0.6</string>
+    <string name="poweredbyswaas">\u00a9 ขับเคลื่อนโดย Swaas</string>
+
+    <string-array name="Language">
+        <item>อังกฤษ</item>
+        <item>สเปน</item>
+        <item>thai</item>
+    </string-array>
+
+    <string name="assettitle">เครื่องมือ/ห้องสมุดวิดีโอ</string>
+    <string name="coursetitle">หลักสูตร</string>
+    <string name="assesmenttitle">การมอบหมาย</string>
+    <string name="mytrainighistory">ประวัติการฝึกอบรมของฉัน</string>
+
+    <string name="allassets">เนื้อหาทั้งหมด</string>
+    <string name="back">กลับ</string>
+    <string name="category">ประเภท</string>
+    <string name="Tags">แท็ก</string>
+    <string name="loading">กำลังโหลด...</string>
+    <string name="play">เล่น</string>
+    <string name="download">ดาวน์โหลด</string>
+    <string name="showmore">แสดงมากขึ้น</string>
+    <string name="Document">เอกสาร</string>
+    <string name="Image">ภาพ</string>
+    <string name="Audio">เสียง</string>
+    <string name="Video">วีดีโอ</string>
+    <string name="Today">ในวันนี้</string>
+    <string name="thisweek">ในสัปดาห์นี้</string>
+    <string name="twoweeks">2 สัปดาห์</string>
+    <string name="allweeks">ทั้งหมด</string>
+    <string name="Type">ชนิด</string>
+    <string name="Submit">เสนอ</string>
+
+    <string name="sortassets">จัดเรียงเนื้อหา</string>
+    <string name="filterass">กรองเนื้อหา</string>
+
+    <string name="Readunread">อ่าน / ยังไม่ได้อ่าน</string>
+    <string name="Read">อ่าน</string>
+    <string name="Unread">ยังไม่ได้อ่าน</string>
+    <string name="online">ออนไลน์</string>
+    <string name="Downloaded">ดาวน์โหลด</string>
+    <string name="downloadedonline">ออนไลน์/ดาวน์โหลด</string>
+    <string name="Sort">ประเภท</string>
+    <string name="Alphabetasc">ตัวอักษร - asc</string>
+    <string name="Alphabetdesc">ตัวอักษร - Desc</string>
+    <string name="Alphabet">ตัวอักษร</string>
+    <string name="comments">ความคิดเห็น</string>
+    <string name="post">เสา</string>
+
+    <string name="logout">ออกจากระบบ</string>
+    <string name="changepassword">เปลี่ยนรหัสผ่าน</string>
+    <string name="myprofile">ประวัติของฉัน</string>
+    <string name="gooffline">ไปออฟไลน์</string>
+    <string name="goOnline">ไปออนไลน์</string>
+    <string name="descriptiontext">ลักษณะ</string>
+    <string name="categorytext">ประเภท</string>
+
+    <string name="error_message">โปรดตรวจสอบการเชื่อมต่อเครือข่ายของคุณและลองอีกครั้ง</string>
+    <string name="error_offline">ขณะนี้คุณอยู่ในโหมดออฟไลน์เชื่อมต่ออินเทอร์เน็ตเพื่อออนไลน์.</string>
+    <string name="downloadmessage">โปรดเชื่อมต่ออินเทอร์เน็ตเพื่อดาวน์โหลด</string>
+    <string name="playMessage">โปรดเชื่อมต่ออินเทอร์เน็ตเพื่อดู</string>
+    <string name="downloadcomplete">ดาวน์โหลดเสร็จสิ้น</string>
+    <string name="erroroccured">เกิดข้อผิดพลาดโปรดลองอีกครั้ง</string>
+    <string name="locationpermissoinMessage">โปรดอนุญาตให้เข้าถึงตำแหน่งของคุณ.</string>
+    <string name="storagepermissoinMessage">โปรดอนุญาตให้เข้าถึงไฟล์ของคุณ.</string>
+
+    <string name="readmore">อ่านเพิ่มเติม</string>
+    <string name="readless">อ่านน้อยลง</string>
+    <string name="showmorediscussions">อ่านการสนทนาทั้งหมด</string>
+    <string name="postsuccess">โพสต์สำเร็จแล้ว</string>
+    <string name="progressdownload">กำลังดาวน์โหลดโปรดรอสักครู่...</string>
+
+    <string name="LikeRatetitle">ชอบ / อัตรา</string>
+    <string name="Replytext">ตอบ</string>
+    <string name="charactersremainig">เหลืออักขระ</string>
+
+    <string name="hateIt">เกลียดมัน</string>
+    <string name="dislikeIt">ไม่ชอบมัน</string>
+    <string name="itsok">ไม่เป็นไร</string>
+    <string name="likeIt">ชอบมัน</string>
+    <string name="loveIt">รักมัน</string>
+
+    <string name="uploadingData">กำลังอัปโหลดข้อมูลโปรดรอสักครู่...</string>
+    <string name="Discussiontitle">การสนทนา</string>
+    <string name="subDiscussionstitle">การสนทนา</string>
+    <string name="likeaction">ชอบ</string>
+
+    <string name="shortReview">เขียนบทวิจารณ์สั้น ๆ</string>
+
+    <string name="loginusername">ชื่อผู้ใช้หรือรหัสอีเมล์</string>
+    <string name="logincompanyname">ชื่อ บริษัท(Company.kangle.me)</string>
+    <string name="loginpassword">รหัสผ่าน</string>
+    <string name="forgotpassword">ลืมรหัสผ่าน</string>
+
+    <string name="loginbutton">เข้าสู่ระบบ</string>
+
+    <string name="postingcoments">กำลังโพสต์ความคิดเห็น</string>
+    <string name="likeratingsuccess">ขอบคุณสำหรับการจัดอันดับ Like / Rating</string>
+
+    <string name="remainigchartext">เหลืออีก 100 อักขระ</string>
+
+    <string name="welcome">ยินดีต้อนรับ</string>
+    <string name="logoutmessage">คุณออกจากระบบเรียบร้อยแล้ว</string>
+    <string name="Reviews">ความคิดเห็น</string>
+    <string name="Related">ที่เกี่ยวข้อง</string>
+
+    <string name="noassetsfound">ไม่พบเนื้อหา.</string>
+    <string name="logoufailed">โปรดเชื่อมต่ออินเทอร์เน็ตเพื่อออกจากโปรแกรม.</string>
+
+    //newstrings
+    <string name="Help">ช่วยด้วย</string>
+    <string name="helpMessage">สำหรับความช่วยเหลือและการสนับสนุนโปรดติดต่อเราที่ support@swaas.net</string>
+    <string name="sendemail">ส่งอีเมล</string>
+    <string name="cancel">ยกเลิก</string>
+    <string name="go">ไป</string>
+    <string name="validText">โปรดป้อนข้อความที่ถูกต้อง.</string>
+    <string name="loadingpleasewait">กำลังโหลดโปรดรอ...</string>
+
+    <string name="confirmLogOut">การดำเนินการนี้จะออกจากแอปพลิเคชัน คุณแน่ใจว่าคุณต้องการที่จะออกจากระบบ.</string>
+    <string name="ok">OK</string>
+
+    <string name="oldpass">รหัสผ่านเก่า</string>
+    <string name="newpass">รหัสผ่านใหม่</string>
+    <string name="confirmpass">ยืนยันรหัสผ่าน</string>
+
+    <string name="emptyDashboard">อ๊ะ! \ n ยังไม่ได้มอบหมายหลักสูตรให้กับคุณ \ n กรุณาติดต่อผู้จัดการฝ่ายการฝึกอบรมหรือผู้ดูแลระบบเพื่อขอข้อมูลเพิ่มเติม</string>
+    <string name="latest_course">หลักสูตรล่าสุด</string>
+    <string name="complet_course">หลักสูตรที่เสร็จสมบูรณ์</string>
+    <string name="total_course">รวมหลักสูตร</string>
+    <string name="completed_course">เสร็จ</string>
+    <string name="assigned_course">ที่ได้รับมอบหมาย</string>
+    <string name="yet_to_start">ยังจะเริ่มต้น</string>
+    <string name="in_progress">กำลังดำเนินการ</string>
+    <string name="Overdue_course">ค้างชำระ</string>
+    <string name="search_courses">ค้นหาหลักสูตร</string>
+
+    <string name="support">สนับสนุน</string>
+    <string name="close">ปิด</string>
+    <string name="status">สถานะ</string>
+
+    <string name="app_version">ปรับปรุง</string>
+    <string name="newversion">มีเวอร์ชันใหม่ที่พร้อมใช้งานใน playstore คลิกที่ตกลงเพื่ออัปเดตขอบคุณที่คุณ.</string>
+
+
+    <string name="singlepage">หน้าเดี่ยว</string>
+    <string name="continuespage">หน้าต่อเนื่อง</string>
+    <string name="brightnessalert">สวัสดี Kangle ต้องการปรับความสว่างของระบบ คุณต้องการอนุญาตหรือไม่</string>
+    <string name="firstpagealert">คุณอยู่ที่สินทรัพย์แรก</string>
+    <string name="lastpagealert">คุณอยู่ที่เนื้อหาสุดท้าย.</string>
+    <string name="please_wait_progress">กำลังโหลดโปรดรอ.....</string>
+    <string name="willingtonextasset">คุณต้องการไปที่เนื้อหาถัดไปหรือไม่.</string>
+    <string name="error_network_alert">ไม่สามารถใช้อินเทอร์เน็ตได้หากต้องการเลือกตัวเลือกต่อ</string>
+
+    <string name="coursestatus">สถานะของหลักสูตร</string>
+
+    <string name="take_test">ทดสอบ</string>
+    <string name="max_attempts_reached_shortened">ความพยายามสูงสุดถึง</string>
+    <string name="expired_shortened">หลักสูตรหมดอายุแล้ว</string>
+
+    <string name="no_of_contents">ไม่มีเนื้อหา :</string>
+    <string name="complete_percent">% สมบูรณ์</string>
+    <string name="apply">ใช้</string>
+    <string name="clearfilter">ชัดเจน</string>
+
+    <string name="question_interception_text">คุณแน่ใจหรือไม่ว่าต้องการออกจากการทดสอบ</string>
+    <string name="cleared">เคลียร์</string>
+    <string name="not_cleared">ไม่ถูกล้าง</string>
+
+    <string name="course_name">หลักสูตร :</string>
+    <string name="section_name">ชื่อส่วน :</string>
+    <string name="attempt_date_title">วันที่ลอง</string>
+
+    <string name="result_title">ผล</string>
+    <string name="no_result">ไม่พบผลลัพธ์</string>
+    <string name="total_negativeMarks">เครื่องหมายลบทั้งหมด</string>
+    <string name="correct_answer_questions">รวมคำถามที่ตอบอย่างถูกต้อง</string>
+    <string name="no_of_questions_attended">ไม่มีคำถามที่เข้าร่วม</string>
+    <string name="no_of_questions">ไม่มีคำถาม</string>
+    <string name="Score">คะแนน</string>
+
+    <string name="partialy_shortened">เสร็จสิ้นบางส่วน</string>
+    <string name="Report">รายงาน</string>
+    <string name="content">เนื้อหา</string>
+    <string name="watch_for">เฝ้าระวัง </string>
+    <string name="view">ดู </string>
+    <string name="no_of_contents_hint">ออกแบบมาเพื่อช่วยให้คุณฝึกฝนและใช้ทักษะที่คุณเรียนรู้</string>
+    <string name="last_date_text">วันที่ล่าสุดเพื่อดำเนินการในส่วนนี้</string>
+    <string name="prerequsitebefore">กรุณากรอกข้อมูลให้ครบถ้วน </string>
+    <string name="prerequsiteafter">ก่อนที่จะเลือกหลักสูตรนี้</string>
+
+    <string name="view_report">ดูรายงาน</string>
+    <string name="validation_msg_question">โปรดเลือกคำตอบเพื่อดำเนินการต่อ.</string>
+
+    <string name="time_Out">คุณหมดเวลาแล้ว!</string>
+    <string name="Congrats">ยินดีด้วย</string>
+    <string name="warning">การเตือน</string>
+
+    <string name="min">นาที</string>
+    <string name="sec">วินาที</string>
+    <string name="attended_on">พยายามเมื่อ -</string>
+    <string name="due_on">ครบกำหนด -</string>
+    <string name="clickonchart"> *คลิกที่กราฟเพื่อดูรายงาน.</string>
+    <string name="sectionmandatealert"> โปรดกรอกข้อมูลในส่วนก่อนหน้าเพื่อเปิดใช้งานส่วนนี้.</string>
+    <string name="testsavedoffline">เกิดข้อผิดพลาดในการทดสอบ ลองอีกครั้งในภายหลัง.</string>
+    <string name="noQuestions">ขณะนี้ไม่มีคำถามใด ๆ</string>
+    <string name="finished">ขอบคุณสำหรับคำตอบของคุณ.</string>
+    <string name="Attempt">พยายาม</string>
+
+    <string name="Contents_to_read">เนื้อหาในการอ่าน</string>
+    <string name="Attempts">พยายาม : </string>
+    <string name="Attempts_taken">พยายาม ที่เหลืออยู่ : </string>
+
+    <string name="start">เริ่มต้น : </string>
+    <string name="finish">เสร็จสิ้น :</string>
+    <string name="file_size">ไฟล์ ขนาด :</string>
+    <string name="upload_date">อัพโหลด วันที่ :</string>
+    <string name="progress">ความคืบหน้า</string>
+    <string name="Begin">เริ่ม</string>
+    <string name="resume_course">ต่อ</string>
+    <string name="no_tags_available">ไม่มีแท็กให้บริการ</string>
+
+    <string name="please_enter_username">โปรดป้อนชื่อผู้ใช้</string>
+    <string name="please_enter_companyname">กรุณาใส่ชื่อ บริษัท</string>
+    <string name="please_enter_password">โปรดป้อนรหัสผ่าน</string>
+    <string name="open">เปิด</string>
+
+    //Checklist String
+
+    <string name="checklisttitle">รายการตรวจสอบ</string>
+    <string name="mine">เหมือง</string>
+    <string name="my_Store">ร้านค้าของฉัน</string>
+    <string name="Onetime">ครั้งหนึ่ง</string>
+    <string name="daily">ประจำวัน</string>
+    <string name="weekly">รายสัปดาห์</string>
+    <string name="monthly">รายเดือน</string>
+    <string name="no_checklist">ขณะนี้มีรายการตรวจสอบไม่สามารถใช้ได้สำหรับคุณ</string>
+    <string name="section_title">มาตรา :</string>
+    <string name="of">ใน</string>
+    <string name="more">มากกว่า</string>
+    <string name="less">น้อยกว่า</string>
+    <string name="acknowledgement">การรับทราบ</string>
+    <string name="I">ผม</string>
+    <string name="onbehalfof_text">ในนามของ</string>
+    <string name="ackText">รับทราบการตอบสนองสำหรับรายการตรวจสอบ</string>
+    <string name="kindlyack">กรุณารับทราบรายการตรวจสอบก่อนที่จะส่ง</string>
+
+    <string name="mandatoryMessage">คำถามที่ถูกทำเครื่องหมาย * ต้องตอบ</string>
+    <string name="enter_remarks">ใส่คำพูดที่นี่</string>
+
+    <string name="completed_by">ส่งมาโดย :</string>
+    <string name="onbehalfof">ในนามของ :</string>
+    <string name="submitted_date">วันที่ส่ง :</string>
+
+    <string name="question_no">คำถาม #</string>
+    <string name="question">คำถาม</string>
+    <string name="response">คำตอบ</string>
+    <string name="remarks">หมายเหตุ</string>
+
+    <string name="take_photo">ถ่ายภาพ</string>
+    <string name="choose_from_gallery">เลือกจากแกลเลอรี่</string>
+    <string name="document">เลือกไฟล์</string>
+
+    <string name="errorsubmitingchecklist">รายการตรวจสอบข้อผิดพลาดในการส่ง ลองอีกครั้งในภายหลัง</string>
+    <string name="imgupload">อัปโหลด โปรดรอ...</string>
+    <string name="Answertext">ตอบ :</string>
+    <string name="erroruploadingImage">ข้อผิดพลาดในการอัปโหลดไฟล์ที่แนบมา กรุณาลองอีกครั้ง</string>
+    <string name="answeratleastone">กรุณาตอบทุกคำถามหนึ่งในรายการตรวจสอบที่จะส่ง</string>
+
+    <string name="confirmsubmitchecklist">คุณแน่ใจว่าจะส่งรายการตรวจสอบหรือไม่</string>
+    <string name="ConfirmSubmit">ยืนยัน</string>
+    <string name="yestext">ใช่</string>
+    <string name="ChecklistSubmittedSuccess">รายการตรวจสอบได้รับการส่ง</string>
+
+    <string name="view_remarks">ดูหมายเหตุ</string>
+    <string name="view_attachment">ดูสิ่งที่แนบมา</string>
+    <string name="new_tag_text">ใหม่</string>
+    <string name="insert_name">ใส่ชื่อ</string>
+    <string name="insert_trainee_name">ใส่ชื่อฝึกงาน</string>
+    <string name="take_assignment">รับการมอบหมาย</string>
+    <string name="attempt_expires_at">พยายามที่จะหมดอายุใน</string>
+    <string name="expires_on">หมดอายุในวันที่</string>
+    <string name="comment">คิดเห็น</string>
+    <string name="retake_assignment">เอาของ USPTO</string>
+    <string name="comment_here">เพิ่มความคิดเห็นของคุณที่นี่ ..</string>
+    <string name="asset_analytics_text">Analytics สินทรัพย์</string>
+    <string name="related_assets_text">เนื้อหาที่เกี่ยวข้อง</string>
+    <string name="course_checklist">รายการตรวจสอบหลักสูตร</string>
+    <string name="yet_to_evaluate">ยังไม่ได้ประเมิน</string>
+    <string name="try_again">ลองอีกครั้ง</string>
+    <string name="select_user">เลือกผู้ใช้</string>
+    <string name="all">ทั้งหมด</string>
+    <string name="selected_user">ผู้ใช้ที่เลือก</string>
+    <string name="totl_users">รวมจำนวนผู้ใช้</string>
+    <string name="evaluate_user">ประเมินผู้ใช้</string>
+    <string name="draft">บันทึกร่าง</string>
+    <string name="confirmdraftchecklist">คุณแน่ใจว่าจะร่างรายการตรวจสอบหรือไม่</string>
+    <string name="pending_for_evaluation">รอดำเนินการสำหรับการประเมินผล</string>
+    <string name="reassigned_by">พระราชเสาวนีย์จากผู้บังคับบัญชา</string>
+    <string name="ChecklistdraftededSuccess">รายการตรวจสอบร่าง</string>
+    <string name="acquired_course">Acquired</string>
+    <string name="evaluation_report">รายงานการประเมินผล</string>
+    <string name="view_all_replies">ดูการตอบกลับทั้งหมด</string>
+    <string name="no_checklist_found">ไม่มีรายการตรวจสอบ avilable</string>
+    <string name="related_tags_text">Tags: ที่เกี่ยวข้อง</string>
+    <string name="assigned_task">งานที่ได้รับมอบหมาย</string>
+    <string name="completed_task">งานที่เสร็จสมบูรณ์</string>
+    <string name="in_progress_task">Inprogress งาน</string>
+    <string name="review_task">รีวิวงาน</string>
+    <string name="total_assets">สินทรัพย์รวม</string>
+    <string name="read_assets">อ่านสินทรัพย์</string>
+    <string name="unread_assets">สินทรัพย์ที่ยังไม่ได้อ่าน</string>
+    <string name="liked_assets">สินทรัพย์ชอบ</string>
+    <string name="total_checklist">รายการตรวจสอบรวม</string>
+    <string name="completed_checklist">เสร็จ</string>
+    <string name="yettostart_checklist">ยังไม่ได้เริ่ม</string>
+    <string name="expired_checklist">หมดอายุ</string>
+    <string name="moremenulabel">มากกว่า</string>
+    <string name="profile">ข้อมูลส่วนตัว</string>
+    <string name="my_Team">ทีมของฉัน</string>
+    <string name="Task">งาน</string>
+    <string name="notification_title">การแจ้งเตือน</string>
+    <string name="my_team">ทีมของฉัน</string>
+    <string name="view_Task_title">ดูงาน</string>
+    <string name="checklist_name">ชื่อรายการตรวจสอบ:</string>
+    <string name="question_name">ชื่อคำถาม:</string>
+    <string name="viewTasak_list">ดู Tasklist</string>
+
+    <string-array name="priority_arrays">
+        <item>ต่ำ</item>
+        <item>กลาง</item>
+        <item>สูง</item>
+    </string-array>
+    <string name="choose_category">เลือกหมวดหมู่</string>
+    <string name="Self">ตนเอง</string>
+    <string name="Notify">แจ้ง:</string>
+    <string name="Attachments">สิ่งที่แนบมา:</string>
+    <string name="Assigned">ที่ได้รับมอบหมาย :</string>
+    <string name="Priority">ลำดับความสำคัญ:</string>
+    <string name="Task_Due_Day">งานเนื่องจากวัน (s):</string>
+    <string name="Task_Description">รายละเอียดงาน:</string>
+    <string name="Task_Title">งานชื่อเรื่อง:</string>
+    <string name="Remarks">หมายเหตุ :</string>
+    <string name="Employee">ลูกจ้าง</string>
+    <string name="Trainee">ผู้ฝึกงาน</string>
+    <string name="Manager">ผู้จัดการ</string>
+    <string name="task_title_val">กรุณากรอกชื่องาน</string>
+    <string name="task_description_val">กรุณากรอกรายละเอียดงาน</string>
+    <string name="task_due_val">โปรดป้อนงานเนื่องจากวัน</string>
+    <string name="task_assignee_val">โปรดเลือกประเภทผู้รับโอน</string>
+    <string name="task_user_val">กรุณาเลือกอย่างน้อยหนึ่งของผู้ใช้</string>
+    <string name="task_remarks_val">กรุณาใส่หมายเหตุ</string>
+    <string name="task_success_msg">งานส่งเรียบร้อยแล้ว</string>
+    <string name="task_failure_msg">ข้อผิดพลาดในการส่งงาน</string>
+    <string name="task_no_user_val">ไม่มีผู้ใช้ที่เลือก</string>
+    <string name="users_selected_msg">ผู้ใช้ที่เลือก</string>
+    <string name="no_user_msg">ไม่พบผู้ใช้</string>
+    <string name="file_exceeding_msg">ขนาดไฟล์เกิน 20Mb</string>
+    <string name="not_supported_msg">ไฟล์ไม่ได้รับการสนับสนุน</string>
+    <string name="file_exceeding_10mb">ขนาดไฟล์เกิน 10Mb</string>
+    <string name="error_file_msg">ไฟล์เลือกข้อผิดพลาด</string>
+    <string name="show_users_msg">แสดงผู้ใช้</string>
+    <string name="Duration">ระยะเวลา</string>
+    <string name="drafted">ร่าง</string>
+    <string-array name="category">
+        <item>General</item>
+    </string-array>
+    <string name="employee_name">ชื่อพนักงาน</string>
+    <string name="employee_designation">การแต่งตั้ง</string>
+    <string name="employee_region_name">ชื่อภาค</string>
+    <string name="employee_DOB">วันเกิด</string>
+    <string name="assignedby">ได้รับมอบหมายจาก</string>
+    <string name="assignedto">ได้รับมอบหมายให้</string>
+    <string name="section">มาตรา</string>
+    <string name="expires_today">หมดอายุวันนี้</string>
+    <string name="expires_tomo">หมดอายุในวันพรุ่งนี้</string>
+    <string name="expires_in">หมดอายุใน</string>
+    <string name="days">วัน</string>
+    <string name="section_s">มาตรา</string>
+    <string name="asset_s">สินทรัพย์</string>
+    <string name="question_s">คำถาม</string>
+    <string name="checklist_s">รายการตรวจสอบ</string>
+    <string name="thankyou">ขอขอบคุณสำหรับการเช่น</string>
+    <string name="assets">สินทรัพย์</string>
+    <string name="clear_all">ลบทั้งหมด</string>
+    <string name="reset">รีเซ็ต</string>
+    <string name="filter">กรอง</string>
+    <string name="status_history">ประวัติสถานะ</string>
+    <string name="acknowledge">รับทราบ</string>
+    <string name="course_report">รายงานหลักสูตร</string>
+    <string name="Asset_report">รายงานสินทรัพย์</string>
+    <string name="checklist_report">รายงานรายการตรวจสอบ</string>
+    <string name="task_report">รายงานงาน</string>
+    <string name="create_task">สร้างงาน</string>
+    <string name="low">ต่ำ</string>
+    <string name="medium">กลาง</string>
+    <string name="high">สูง</string>
+    <string name="are_you_sure_download">คุณแน่ใจหรือไม่ว่าคุณต้องการดาวน์โหลด</string>
+    <string name="filename">ชื่อไฟล์:</string>
+    <string name="newpasswordcannot">รหัสผ่านใหม่ไม่สามารถเช่นเดียวกับรหัสผ่านเดิม</string>
+    <string name="passworddoesnot">รหัสผ่านใหม่และยืนยันรหัสผ่านไม่ตรงกับ</string>
+    <string name="library">ห้องสมุด</string>
+    <string name="last1week">ล่าสุด 1 สัปดาห์ที่</string>
+    <string name="last1month">ล่าสุด 1 เดือน</string>
+    <string name="last3month">ล่าสุด 3 เดือน</string>
+    <string name="Yesterday">เมื่อวาน</string>
+    <string name="email_hint">ป้อน ID อีเมล์ที่ลงทะเบียน</string>
+    <string name="allfieldsare">ต้องระบุทุกช่อง</string>
+    <string name="view_history">ดูประวัติ</string>
+    <string name="history">ประวัติศาสตร์</string>
+    <string name="no_history_available">ไม่มีประวัติที่มีอยู่</string>
+    <string name="filtered_by">กรองตาม</string>
+    <string name="edit">แก้ไข</string>
+    <string name="attachment">ความผูกพัน</string>
+    <string name="submit_result">ส่งผล</string>
+    <string name="tsk_mark_for_review">งานมาร์คสำหรับทานเรียบร้อยแล้ว</string>
+    <string name="waiting_for_review">รอการตรวจสอบ</string>
+    <string name="tsk_acknowledged_succ">งานรับทราบเรียบร้อยแล้ว</string>
+    <string name="revieweed">สอบทาน</string>
+    <string name="tsk_completed_succesfully">งานเสร็จเรียบร้อยแล้ว</string>
+    <string name="extend_course">คุณต้องการที่จะขยายหลักสูตรนี้</string>
+    <string name="alert">เตือนภัย</string>
+    <string name="extend_attempt">ขยายความพยายาม</string>
+    <string name="oops_no_result">โอ๊ะ !! ไม่มีผลลัพธ์ที่มีอยู่ ..</string>
+    <string name="enable_network">กรุณาเปิดการใช้งานเครือข่ายของคุณ</string>
+    <string name="clear">ชัดเจน</string>
+    <string name="no_attachment_found">ไม่พบสิ่งที่แนบมา</string>
+    <string name="evaluate">ประเมินผล</string>
+    <string name="mark_complete">เสร็จ</string>
+    <string name="chat">Chat</string>
+    <string name="Chat">Chat</string>
+    <string name="update_alert">A new version of Swaas LMS available for download. This update will not affect your app settings.</string>
+    <string name="defaulttext">Type your essay here</string>
+    <string name="Marksheet">Marksheet</string>
+    <string name="course_completed">Course Assignment attempted successfully !</string>
+    <string name="Are_you_sure_back">Are you sure you want to cancel taking the Assesment</string>
+    <string name="your_application_will_force_close_reopen_to_use_application">Your Application will force close.Reopen to use Application.</string>
+
+</resources>

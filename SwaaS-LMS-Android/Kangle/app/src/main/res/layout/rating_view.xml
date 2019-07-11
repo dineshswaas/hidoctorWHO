@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/main">
+
+        <RelativeLayout
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/left"
+            android:padding="10dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="How satisfied or dissatisfied are you with each of the following ?"
+                android:textSize="15sp"
+                android:textStyle="bold"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/right"
+            android:padding="10dp"
+            android:layout_toRightOf="@+id/left">
+            <RelativeLayout
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/one">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:maxLines="3"
+                    android:id="@+id/textone"
+                    android:textSize="10dp"
+                    android:text="Very satisfied"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/two"
+                android:layout_toRightOf="@+id/one">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:maxLines="3"
+                    android:id="@+id/texttwo"
+                    android:textSize="10dp"
+                    android:text="Somewhat satisfied"/>
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/three"
+                android:layout_toRightOf="@+id/two">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:maxLines="3"
+                    android:id="@+id/textthree"
+                    android:textSize="10dp"
+                    android:text="Neither satisfied nor dissatisfied"/>
+
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/four"
+                android:layout_toRightOf="@+id/three">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:maxLines="3"
+                    android:id="@+id/textfour"
+                    android:textSize="10dp"
+                    android:text="Somewhat dissatisfied"/>
+
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/five"
+                android:layout_toRightOf="@+id/four">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:maxLines="3"
+                    android:id="@+id/textfive"
+                    android:textSize="10dp"
+                    android:text="very dissatisfied"/>
+
+
+            </RelativeLayout>
+        </RelativeLayout>
+
+    </RelativeLayout>
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/listview"
+        android:padding="10dp"
+        android:scrollbars="vertical"
+        android:layout_marginBottom="40dp"
+        android:layout_below="@+id/main">
+    </android.support.v7.widget.RecyclerView>
+
+    <Button
+        android:id="@+id/ok"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_below="@+id/listview"
+        android:layout_marginTop="-40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:text="ok" />
+
+</RelativeLayout>

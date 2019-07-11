@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.swaas.kangle.DiscussionsListActivity">
+
+    <RelativeLayout
+        android:id="@+id/totalview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/header"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal"
+            android:background="@color/colorPrimary">
+
+            <ImageView
+                android:id="@+id/companylogo"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/ic_arrow_back_white_36dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="5dp"/>
+
+            <TextView
+                android:id="@+id/assettitle"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:maxLines="1"
+                android:layout_gravity="center"
+                android:gravity="center_vertical"
+                android:text="@string/Discussiontitle"
+                android:textColor="@color/white"
+                android:textSize="18dp"
+                android:layout_marginLeft="10dp"/>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_weight="0.40"
+                android:layout_height="match_parent"
+                android:background="@drawable/logo_bg"
+                android:visibility="gone">
+
+                <ImageView
+                    android:id="@+id/companylogo1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingRight="10dp"
+                    android:src="@drawable/tacobelllogo"/>
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_weight="0.65"
+                android:layout_height="match_parent"
+                android:visibility="gone">
+
+                <ImageView
+                    android:id="@+id/settings"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_margin="11dp"
+                    android:src="@drawable/ic_settings_white_24dp"/>
+
+                <ImageView
+                    android:id="@+id/notification"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_toLeftOf="@+id/settings"
+                    android:src="@drawable/ic_notifications_white_24dp"
+                    android:layout_marginTop="11dp"/>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <android.support.v4.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true"
+            android:layout_below="@id/header"
+            android:layout_above="@+id/commentlayout"
+            android:layout_margin="10dp"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+            <com.swaas.kangle.EmptyRecyclerView
+                android:id="@+id/discussionList"
+                android:layout_width="match_parent"
+                android:visibility="visible"
+                android:layout_height="wrap_content">
+            </com.swaas.kangle.EmptyRecyclerView>
+
+        </android.support.v4.widget.NestedScrollView>
+
+        <LinearLayout
+            android:id="@+id/commentlayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/commens_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:text="@string/comments"/>
+
+                <TextView
+                    android:id="@+id/pendingcharectors"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:text="@string/remainigchartext" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/actionsection"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/commenttext"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:maxLength="100"
+                    android:layout_toLeftOf="@+id/sendpost"
+                    android:layout_alignParentLeft="true"/>
+
+                <RelativeLayout
+                    android:id="@+id/buttonlayoutpannel"
+                    android:layout_width="70dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone">
+
+                    <Button
+                        android:id="@+id/postsubmit"
+                        android:layout_width="70dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:text="@string/post"
+                        android:visibility="gone"
+                        android:background="@color/buttoncolor"
+                        android:textColor="@color/white"/>
+
+                    <Button
+                        android:id="@+id/disablesubmit"
+                        android:layout_width="70dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/post"
+                        android:visibility="gone"
+                        android:background="@color/buttoncolor"
+                        android:alpha="0.30"
+                        android:textColor="@color/white"/>
+
+                </RelativeLayout>
+
+                <ImageView
+                    android:id="@+id/sendpost"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:visibility="gone"
+                    android:src="@drawable/baseline_send_black_48"
+                    android:layout_alignParentRight="true"/>
+
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</android.support.design.widget.CoordinatorLayout>

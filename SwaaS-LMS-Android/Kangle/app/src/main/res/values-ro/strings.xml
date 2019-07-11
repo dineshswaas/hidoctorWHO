@@ -1,0 +1,447 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SwaaS LMS</string>
+    <!--<string name="app_name">HiDoctor \n LMS</string>-->
+
+    <string name="version">v1.0.6(8)</string>
+    <string name="versionCode">8</string>
+    <string name="versionName">1.0.6</string>
+    <string name="versionname">Versiune : 1.0.6</string>
+    <string name="poweredbyswaas">\u00a9 Powered By Swaas</string>
+
+    <string-array name="Language">
+        <item>English</item>
+        <item>Español</item>
+        <item>Romanian</item>
+    </string-array>
+
+    <string name="assettitle">Instrumente/Librărie video</string>
+    <string name="coursetitle">Cursuri</string>
+    <string name="assesmenttitle">Sarcină</string>
+    <string name="mytrainighistory">Istoria training-ului meu</string>
+    <string name="learning"></string>
+    <string name="allassets">Toate activele</string>
+    <string name="back">Înapoi</string>
+    <string name="category">Categorie</string>
+    <string name="Tags">Etichete</string>
+    <string name="loading">Încărcare...</string>
+    <string name="play">Play</string>
+    <string name="download">Descărcare</string>
+    <string name="showmore">Arată mai mult</string>
+    <string name="Document">Document</string>
+    <string name="Image">Imagine</string>
+    <string name="Audio">Audio</string>
+    <string name="Video">Video</string>
+    <string name="Today">Azi</string>
+    <string name="thisweek">Săptămâna aceasta</string>
+    <string name="twoweeks">2 săptămâni</string>
+    <string name="allweeks">tot</string>
+    <string name="Type">Tip</string>
+    <string name="Submit">Înainta</string>
+
+    <string name="sortassets">Sortarea atribuirilor</string>
+    <string name="filterass">Filtrarea atribuirilor</string>
+
+    <string name="Readunread">Citit/necitit</string>
+    <string name="Read">Citit</string>
+    <string name="Unread">Necitit</string>
+    <string name="online">Online</string>
+    <string name="Downloaded">Descărcat</string>
+    <string name="downloadedonline">Online/Descărcat</string>
+    <string name="Sort">Sortează</string>
+    <string name="Alphabetasc">Alfabet - Asc</string>
+    <string name="Alphabetdesc">Alfabet - Desc</string>
+    <string name="Alphabet">Alfabet</string>
+    <string name="comments">Comentarii</string>
+    <string name="post">Postare</string>
+
+    <string name="logout">Logout</string>
+    <string name="changepassword">Schimbare parolă</string>
+    <string name="myprofile">Profilul meu</string>
+    <string name="gooffline">Mergi Offline</string>
+    <string name="goOnline">Mergi Online</string>
+    <string name="descriptiontext">Descrierea</string>
+    <string name="categorytext">Categorie</string>
+
+    <string name="error_message">Te rog verifică conexiunea și mai îincearcă</string>
+    <string name="error_offline">Acum esti în modul offline.Conecteaqză-te la internet pentru a fim online</string>
+    <string name="downloadmessage">Te rog conectează-te la internet pentrun descărcare</string>
+    <string name="playMessage">Te rog conectează-te la internet pentru a vedea</string>
+    <string name="downloadcomplete">Descărcare finalizată</string>
+    <string name="erroroccured">Eroare apărută te rog mai incearcă</string>
+    <string name="locationpermissoinMessage">Te rog permite pentru accesul la locație.</string>
+    <string name="storagepermissoinMessage">Te rof permite accesul la fișierele tale.</string>
+
+    <string name="readmore">Citește mai multe</string>
+    <string name="readless">Citește mai puțin</string>
+    <string name="showmorediscussions">Citește toată discuția</string>
+    <string name="postsuccess">Postat cu succes</string>
+    <string name="progressdownload">Descărcare te rog așteaptă...</string>
+
+    <string name="LikeRatetitle">Like / Rate</string>
+    <string name="Replytext">Reply</string>
+    <string name="charactersremainig">Caractere rămase</string>
+
+    <string name="hateIt">Urăsc</string>
+    <string name="dislikeIt">Nu-mi place</string>
+    <string name="itsok">Este ok</string>
+    <string name="likeIt">Îmi place</string>
+    <string name="loveIt">Iubesc</string>
+
+    <string name="uploadingData">Încarc date.Te rog asteaptă...</string>
+    <string name="Discussiontitle">Discuții</string>
+    <string name="subDiscussionstitle">Discuții</string>
+    <string name="likeaction">Like</string>
+
+    <string name="shortReview">Scrie un mic comentariu</string>
+
+    <string name="loginusername">Numele userului sau email ID</string>
+    <string name="logincompanyname">Numele companiei(Company.kangle.me)</string>
+    <string name="loginpassword">Parolă</string>
+    <string name="forgotpassword">Am uitat parola</string>
+
+
+    <string name="loginbutton">Login</string>
+
+    <string name="postingcoments">Postări de comentarii</string>
+    <string name="likeratingsuccess">Mulțumesc pentru Like/Rate</string>
+
+    <string name="remainigchartext">100 caractere rămase</string>
+
+    <string name="welcome">Bine ai venit</string>
+    <string name="logoutmessage">Ești logged out cu succes</string>
+    <string name="Reviews">Recenzii</string>
+    <string name="Related">Conexe</string>
+
+    <string name="noassetsfound">Nu s-au găsit atribuiri.</string>
+    <string name="logoufailed">Te rog conectează-te la internet pentru logout din aplicație.</string>
+
+    //newstrings
+    <string name="Help">Ajutor</string>
+    <string name="helpMessage">Pentru ajutor te rog contacteză-ne la support@swaas.net</string>
+    <string name="sendemail">Trimite email</string>
+    <string name="cancel">Cancel</string>
+    <string name="go">Go</string>
+    <string name="validText">Te rog introdu text valid.</string>
+    <string name="loadingpleasewait">Descărcare te rog așteaptă...</string>
+
+    <string name="confirmLogOut">Această acțiune vă va deloga din aplicație.Esti sigur că vrei să te deloghezi.</string>
+    <string name="ok">OK</string>
+
+    <string name="oldpass">Parola veche</string>
+    <string name="newpass">Parolă Nouă</string>
+    <string name="confirmpass">confirma parola</string>
+
+    <string name="emptyDashboard">Oops! Cursul încă nu ți-a fost atribuit.Te rog contactează departamentul de training pentru mai multe informații</string>
+    <string name="latest_course">Ultimele cursuri</string>
+    <string name="complet_course">Cursuri finalizate</string>
+    <string name="total_course">Toate cursurile</string>
+    <string name="completed_course">terminat</string>
+    <string name="assigned_course">atribuit</string>
+    <string name="yet_to_start">Gata de start</string>
+    <string name="in_progress">Progres</string>
+    <string name="Overdue_course">întârziat</string>
+    <string name="search_courses">Cursuri de căutare</string>
+
+    <string name="support">A sustine</string>
+    <string name="close">Închis</string>
+    <string name="status">stare :</string>
+
+    <string name="app_version">Actualizați</string>
+    <string name="newversion">Există o nouă versiune disponibilă în magazin. Dați clic pe OK pentru a actualiza.Vă mulțumim.</string>
+
+
+    <string name="singlepage">Pagina singura</string>
+    <string name="continuespage">Pagina continuă</string>
+    <string name="brightnessalert">Bună Kangle vrea să ajusteze luminozitatea sistemului. Doriți să permiteți</string>
+    <string name="firstpagealert">Sunteți la început</string>
+    <string name="lastpagealert">Sunteți în sfârșit.</string>
+    <string name="please_wait_progress">Descărcare te rog așteaptă....</string>
+    <string name="willingtonextasset">Doriți să mergeți pe următoarea</string>
+    <string name="error_network_alert">Internetul nu este disponibil. Pentru a continua alegeți o opțiune</string>
+
+    <string name="coursestatus">Starea cursului</string>
+
+    <string name="take_test">Ia testul</string>
+    <string name="max_attempts_reached_shortened">Numărul maxim de încercari atins</string>
+    <string name="expired_shortened">Curs expirat.</string>
+
+    <string name="no_of_contents">Număr de conținut :</string>
+    <string name="complete_percent">% Complet</string>
+    <string name="apply">aplica</string>
+    <string name="clearfilter">clar</string>
+
+    <string name="question_interception_text">Sigur doriți să renunțați la test</string>
+    <string name="cleared">trece</string>
+    <string name="not_cleared">eșua</string>
+
+    <string name="course_name">Numele cursului :</string>
+    <string name="section_name">Numele secțiunii :</string>
+    <string name="attempt_date_title">Data încercării</string>
+
+    <string name="result_title">Rezultat</string>
+    <string name="no_result">Nici un rezultat gasit</string>
+    <string name="total_negativeMarks">Toalul semnelor negative</string>
+    <string name="correct_answer_questions">Totalul răspunsurilor corecte</string>
+    <string name="no_of_questions_attended">Fără întrebări în așteptare</string>
+    <string name="no_of_questions">Fără întrebări</string>
+    <string name="Score">Scor</string>
+
+    <string name="partialy_shortened">Finalizat parțial</string>
+    <string name="Report">Raport</string>
+    <string name="content">Conţinut</string>
+    <string name="watch_for">Urmăriți timp de </string>
+    <string name="view">Vedere </string>
+    <string name="no_of_contents_hint">Conceput pentru a vă ajuta să practicați și să aplicați abilitățile pe care le învățați</string>
+    <string name="last_date_text">Ultima dată pentru finalizarea acestei secțiuni</string>
+    <string name="prerequsitebefore">Completați </string>
+    <string name="prerequsiteafter">înainte de a selecta acest curs</string>
+
+    <string name="view_report">vedeti raport</string>
+    <string name="validation_msg_question">Vă rugăm să alegeți răspunsul pentru a continua.</string>
+    <string name="time_Out">Ai terminat de timp!</string>
+    <string name="Congrats">felicitări</string>
+    <string name="warning">Avertizare</string>
+
+    <string name="min">Minute</string>
+    <string name="sec">Secunde</string>
+    <string name="attended_on">Data de încercare -</string>
+    <string name="due_on">Datorat pe -</string>
+    <string name="clickonchart"> *Faceți clic pe grafic pentru a vizualiza raportul.</string>
+    <string name="sectionmandatealert"> Completați secțiunea anterioară pentru a activa această secțiune.</string>
+    <string name="testsavedoffline">A apărut o eroare de test. Încercați mai târziu.</string>
+    <string name="noQuestions">În prezent nu există întrebări disponibile</string>
+    <string name="finished">Testarea a fost terminată cu succes.</string>
+    <string name="Attempt">încercare</string>
+
+    <string name="Contents_to_read">Conținutul de citit</string>
+    <string name="Attempts">Încercările : </string>
+    <string name="Attempts_taken">Încercările făcute : </string>
+
+    <string name="start">START : </string>
+    <string name="finish">FINALIZAREA :</string>
+    <string name="file_size">MĂRIME FIȘIER :</string>
+    <string name="upload_date">DATA DE INCARCARE :</string>
+    <string name="progress">PROGRESS</string>
+    <string name="Begin">ÎNCEPE</string>
+    <string name="resume_course">Continua</string>
+    <string name="no_tags_available">Nu există etichete</string>
+
+    <string name="please_enter_username">Introduceți numele de utilizator</string>
+    <string name="please_enter_companyname">Introduceți numele companiei</string>
+    <string name="please_enter_password">Te rog introdu parola</string>
+    <string name="open">Deschis</string>
+
+    //Checklist Strings
+
+    <string name="checklisttitle">Listă de verificare</string>
+    <string name="mine">A mea</string>
+    <string name="my_Store">Magazinul meu</string>
+    <string name="Onetime">O data</string>
+    <string name="daily">Zilnic</string>
+    <string name="weekly">Săptămânal</string>
+    <string name="monthly">Lunar</string>
+    <string name="no_checklist">În prezent, nu există nici o listă disponibilă pentru tine</string>
+    <string name="section_title">Secțiunea :</string>
+    <string name="of">din</string>
+    <string name="more">más</string>
+    <string name="less">Menos</string>
+    <string name="acknowledgement">Confirmare</string>
+    <string name="I">eu</string>
+    <string name="onbehalfof_text">În numele</string>
+    <string name="ackText">Recunoașteți răspunsurile pentru lista de verificare.</string>
+    <string name="kindlyack">Vă rugăm să Recunoașteți lista de verificare Înainte Submit.</string>
+
+    <string name="mandatoryMessage">Întrebările care sunt marcate * trebuie să se răspundă.  Vă rugăm să răspundeți la aceste întrebări și încercați din nou.</string>
+    <string name="enter_remarks">Introduceți comentariile aici</string>
+
+    <string name="completed_by">Trimis de :</string>
+    <string name="onbehalfof">În numele :</string>
+    <string name="submitted_date">Data trimiterii :</string>
+
+    <string name="question_no">Întrebarea #</string>
+    <string name="question">Întrebare</string>
+    <string name="response">Raspuns</string>
+    <string name="remarks">Observaciones</string>
+
+    <string name="take_photo">Tomar foto</string>
+    <string name="choose_from_gallery">Elegir de la galería</string>
+    <string name="document">Elija el archivo</string>
+
+    <string name="errorsubmitingchecklist">Lista de comprobación de fout al enviar. Inténtelo de nuevo más tarde.</string>
+    <string name="imgupload">Subir. Por favor espera ...</string>
+    <string name="Answertext">Antwoorder :</string>
+    <string name="erroruploadingImage">Fijación Error al subir. Inténtalo de nuevo</string>
+    <string name="answeratleastone">La amabilidad de responder een una sola pregunta en la lista de verificacion een presentar.</string>
+
+    <string name="confirmsubmitchecklist">¿Seguro een presentar la lista de verificacion?</string>
+    <string name="ConfirmSubmit">confirmar</string>
+    <string name="yestext">da</string>
+    <string name="ChecklistSubmittedSuccess">Lista de verificacion ha sido Enviado.</string>
+
+    <string name="view_remarks">Ver comentarios</string>
+    <string name="view_attachment">Vea el archivo adjunto</string>
+    <string name="new_tag_text">NOU</string>
+    <string name="insert_name">inserați numele</string>
+    <string name="insert_trainee_name">inserați numele stagiar</string>
+    <string name="take_assignment">Ia Assignment</string>
+    <string name="attempt_expires_at">Încercare Expiră</string>
+    <string name="expires_on">Expira la</string>
+    <string name="comment">cometariu</string>
+    <string name="retake_assignment">Refaceți Atribuire</string>
+    <string name="comment_here">Adauga comentariul tau aici ..</string>
+    <string name="asset_analytics_text">Analytics pentru</string>
+    <string name="related_assets_text">Active conexe</string>
+    <string name="course_checklist">Lista de verificare a cursului</string>
+    <string name="yet_to_evaluate">Cu toate acestea, pentru a evalua</string>
+    <string name="try_again">Încearcă din nou</string>
+    <string name="select_user">Selectați utilizator</string>
+    <string name="all">Toate</string>
+    <string name="selected_user">utilizator selectat</string>
+    <string name="totl_users">Număr total de utilizatori</string>
+    <string name="evaluate_user">evaluează utilizator</string>
+    <string name="draft">Salveaza schita</string>
+    <string name="confirmdraftchecklist">Sunteți sigur să elaboreze lista de verificare?</string>
+    <string name="pending_for_evaluation">În așteptarea evaluării</string>
+    <string name="reassigned_by">Realocate de către supraveghetor</string>
+    <string name="ChecklistdraftededSuccess">Lista de verificare elaborat.</string>
+    <string name="acquired_course">Acquired</string>
+    <string name="evaluation_report">Raport de evaluare</string>
+    <string name="view_all_replies">Vezi toate răspunsurile</string>
+    <string name="no_checklist_found">Lista de verificare nr avilable</string>
+    <string name="related_tags_text">Etichete asemanatoare</string>
+    <string name="assigned_task">Sarcina atribuită</string>
+    <string name="completed_task">Sarcină Finalizat</string>
+    <string name="in_progress_task">Inprogress Sarcina</string>
+    <string name="review_task">Revizuirea Sarcină</string>
+    <string name="total_assets">total active</string>
+    <string name="read_assets">Citește Active</string>
+    <string name="unread_assets">Active necitite</string>
+    <string name="liked_assets">Active apreciate</string>
+    <string name="total_checklist">Lista de verificare totală</string>
+    <string name="completed_checklist">terminat</string>
+    <string name="yettostart_checklist">Cu toate acestea, pentru a începe</string>
+    <string name="expired_checklist">Expirat</string>
+    <string name="moremenulabel">Mai Mult</string>
+    <string name="profile">Profil</string>
+    <string name="my_Team">Echipa mea</string>
+    <string name="Task">Sarcină</string>
+    <string name="notification_title">Notificare</string>
+    <string name="my_team">Echipa mea</string>
+    <string name="view_Task_title">Vizualizarea sarcinilor</string>
+    <string name="checklist_name">Nume Lista de verificare:</string>
+    <string name="question_name">Întrebare Nume:</string>
+    <string name="viewTasak_list">Vezi tasklist</string>
+
+    <string-array name="priority_arrays">
+        <item>Scăzut</item>
+        <item>Mediu</item>
+        <item>Înalt</item>
+    </string-array>
+    <string name="choose_category">Alege categoria</string>
+    <string name="Self">De sine</string>
+    <string name="Notify">Notify:</string>
+    <string name="Attachments">Fișiere atașate:</string>
+    <string name="Assigned">atribuit:</string>
+    <string name="Priority">Prioritate:</string>
+    <string name="Task_Due_Day">Ziua Due Sarcina (e):</string>
+    <string name="Task_Description">Descrierea sarcinii :</string>
+    <string name="Task_Title">Sarcina Titlu:</string>
+    <string name="Remarks">Comentarii:</string>
+    <string name="Employee">Angajat</string>
+    <string name="Trainee">Trainee</string>
+    <string name="Manager">Administrator</string>
+    <string name="task_title_val">Vă rugăm să introduceți titlul sarcină</string>
+    <string name="task_description_val">Vă rugăm să introduceți descrierea sarcinii</string>
+    <string name="task_due_val">Vă rugăm să introduceți sarcina din cauza zile</string>
+    <string name="task_assignee_val">Vă rugăm să selectați tipul de cesionar</string>
+    <string name="task_user_val">Vă rugăm să selectați atleast utilizator unul</string>
+    <string name="task_remarks_val">Vă rugăm introduceți comentariile</string>
+    <string name="task_success_msg">Sarcina Introdus succes</string>
+    <string name="task_failure_msg">Eroare la trimiterea de sarcini</string>
+    <string name="task_no_user_val">Niciun utilizator selectat</string>
+    <string name="users_selected_msg">Utilizatori selectați</string>
+    <string name="no_user_msg">Nici un utilizator găsit</string>
+    <string name="file_exceeding_msg">Dimensiunea fișierului depășește 20Mb</string>
+    <string name="not_supported_msg">Fișiere nu este acceptat</string>
+    <string name="file_exceeding_10mb">Dimensiunea fișierului depășește 10Mb</string>
+    <string name="error_file_msg">fișier de selectare eroare</string>
+    <string name="show_users_msg">Afișare Utilizatori</string>
+    <string name="Duration">Durată</string>
+    <string name="drafted">redactat</string>
+    <string-array name="category">
+        <item>General</item>
+    </string-array>
+    <string name="employee_name">numele angajatului</string>
+    <string name="employee_designation">Desemnare</string>
+    <string name="employee_region_name">Numele regiunii</string>
+    <string name="employee_DOB">Data de nastere</string>
+    <string name="assignedby">Alocat de</string>
+    <string name="assignedto">Atribuit</string>
+    <string name="section">Secțiune</string>
+    <string name="expires_today">expiră astăzi</string>
+    <string name="expires_tomo">expiră mâine</string>
+    <string name="expires_in">Expira in</string>
+    <string name="days">zi</string>
+    <string name="section_s">Secțiune</string>
+    <string name="asset_s">activ</string>
+    <string name="question_s">Întrebare</string>
+    <string name="checklist_s">Listă de verificare</string>
+    <string name="thankyou">Vă mulțumim pentru alții</string>
+    <string name="assets">activ</string>
+    <string name="clear_all">Curata tot</string>
+    <string name="reset">restabili</string>
+    <string name="filter">Filtru</string>
+    <string name="status_history">Istoricul de stare</string>
+    <string name="acknowledge">recunoaște</string>
+    <string name="course_report">Raport Curs</string>
+    <string name="Asset_report">Raport despre</string>
+    <string name="checklist_report">Listă de verificare Raport</string>
+    <string name="task_report">Raportul Grupului de</string>
+    <string name="create_task">Creați o sarcină</string>
+    <string name="low">Scăzut</string>
+    <string name="medium">Mediu</string>
+    <string name="high">Înalt</string>
+    <string name="are_you_sure_download">Sunteți sigur că doriți să descărcați</string>
+    <string name="filename">Nume de fișier:</string>
+    <string name="newpasswordcannot">Parola nouă nu poate fi aceeași ca și parola veche.</string>
+    <string name="passworddoesnot">Parola nouă și Confirmare parolă nu se potrivește.</string>
+    <string name="library">Bibliotecă</string>
+    <string name="last1week">Acum 1 săptămâni</string>
+    <string name="last1month">Acum o luna</string>
+    <string name="last3month">Ultimele 3 luni</string>
+    <string name="Yesterday">Ieri</string>
+    <string name="email_hint">Introdu ID-ul de e-mail inregistrat</string>
+    <string name="allfieldsare">Toate campurile sunt necesare</string>
+    <string name="view_history">Vezi istoricul</string>
+    <string name="history">Istorie</string>
+    <string name="no_history_available">Nu există niciun istoric disponibil</string>
+    <string name="filtered_by">Filtrate de</string>
+    <string name="edit">EDITAȚI | ×</string>
+    <string name="attachment">Atașament</string>
+    <string name="submit_result">Trimite Rezultat</string>
+    <string name="tsk_mark_for_review">Sarcina Mark pentru Reviewed cu succes</string>
+    <string name="waiting_for_review">In asteptarea revizuirii</string>
+    <string name="tsk_acknowledged_succ">Sarcina Confirmat cu succes</string>
+    <string name="revieweed">Reviewed</string>
+    <string name="tsk_completed_succesfully">Sarcina finalizat cu succes</string>
+    <string name="extend_course">Doriți să extindă acest curs</string>
+    <string name="alert">Alerta</string>
+    <string name="extend_attempt">Extinderea Încercare</string>
+    <string name="oops_no_result">Hopa !! Nu există rezultate disponibile ..</string>
+    <string name="enable_network">Vă rugăm să activați Rețeaua dvs.</string>
+    <string name="clear">clar</string>
+    <string name="no_attachment_found">Nu a găsit atașament</string>
+    <string name="evaluate">A evalua</string>
+    <string name="mark_complete">terminat</string>
+    <string name="chat">Chat</string>
+    <string name="Chat">Chat</string>
+    <string name="update_alert">A new version of Swaas LMS available for download. This update will not affect your app settings.</string>
+    <string name="defaulttext">Type your essay here</string>
+    <string name="Marksheet">Marksheet</string>
+    <string name="course_completed">Course Assignment attempted successfully !</string>
+    <string name="Are_you_sure_back">Are you sure you want to cancel taking the Assesment</string>
+    <string name="your_application_will_force_close_reopen_to_use_application">Your Application will force close.Reopen to use Application.</string>
+
+</resources>
